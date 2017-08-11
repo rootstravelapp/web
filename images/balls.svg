@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1637px" height="628px" viewBox="0 0 1637 628" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00D2CE" offset="0%"></stop>
+            <stop stop-color="#6F43C6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="60.31543%" y1="100%" x2="15.9085471%" y2="-111.300507%" id="linearGradient-2">
+            <stop stop-color="#FFC630" offset="0%"></stop>
+            <stop stop-color="#2591ED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#B0A1E3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B0A1E3" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#B0A1E3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#A1B7E3" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#C772FF" offset="0%"></stop>
+            <stop stop-color="#6A32CA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-38.0035878%" y1="21.1081946%" x2="146.779534%" y2="80.6613126%" id="linearGradient-6">
+            <stop stop-color="#FFCB72" offset="0%"></stop>
+            <stop stop-color="#CA4732" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.511%" y1="12.659%" x2="152.489296%" y2="154.204605%" id="linearGradient-7">
+            <stop stop-color="#2591EC" offset="0%"></stop>
+            <stop stop-color="#063866" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-67.000000, -39.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(207.500000, 199.000000) rotate(30.000000) translate(-207.500000, -199.000000) translate(47.000000, 62.000000)">
+                <g id="Group" transform="translate(157.566671, 132.919709) rotate(-58.000000) translate(-157.566671, -132.919709) translate(88.566671, 63.919709)">
+                    <g id="a-link" fill="#D8D8D8">
+                        <circle id="a" cx="69" cy="69" r="80"></circle>
+                    </g>
+                    <g id="a-link" fill="url(#linearGradient-3)">
+                        <circle id="a" cx="69" cy="69" r="80"></circle>
+                    </g>
+                </g>
+              
+            </g>
+            <g id="Group" transform="translate(1204.000000, 25.000000)">
+                <g transform="translate(56.317140, 46.451253) rotate(30.000000) translate(-56.317140, -46.451253) translate(31.817140, 21.951253)" id="e-link">
+                    <g fill="#D8D8D8">
+                        <ellipse id="e" cx="24.826" cy="24.247" rx="24.064" ry="24.195"></ellipse>
+                    </g>
+                    <g fill="url(#linearGradient-5)">
+                        <ellipse id="e" cx="24.826" cy="24.247" rx="24.064" ry="24.195"></ellipse>
+                    </g>
+                </g>
+             
+            </g>
+            <circle id="Oval" fill="url(#linearGradient-7)" cx="1534" cy="497" r="170"></circle>
+        </g>
+    </g>
+</svg>

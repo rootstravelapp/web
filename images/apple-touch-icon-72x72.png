@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#2d3137">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#020125">    <link rel='stylesheet' href='/css/base.css' />
+    <script>
+    	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    	ga('create', 'UA-84485840-1', 'auto');
+    	ga('send', 'pageview');
+    </script>  </head>
+  <body>
+  	<nav>
+			<div class="nav-wrapper">
+			<div class="menu">
+				<img src="/svg/ic-menu-hamburger.svg" alt="" class="__menu-hamburger dont-lazyload">
+				<img src="/svg/ic-menu-close.svg" alt="" class="__menu-close dont-lazyload">
+			</div>
+				<a href="/">
+					<svg class="__indiez-logo"width="120" height="24" viewBox="0 0 120 24" xmlns="http://www.w3.org/2000/svg"><path d="M100.423 0h19.056l-8.947 17.699h8.445l.021 6.295h-20.46l8.947-17.699h-7.096L100.423 0zM80.075 0h15.04v6.295h-6.827v2.662h6.827v5.972h-6.827v2.77h6.827v6.295h-15.04V0zM40.569 23.994V0h7.135c2.416 0 4.57.252 6.459.755 1.89.504 3.484 1.26 4.782 2.267a9.852 9.852 0 0 1 2.97 3.76c.68 1.498 1.021 3.231 1.021 5.197 0 1.967-.34 3.7-1.022 5.198a9.845 9.845 0 0 1-2.969 3.76c-1.298 1.007-2.892 1.769-4.782 2.284-1.89.516-4.043.773-6.46.773H40.57zM14.224 0l13.844 9.245V0h8.06v23.994l-13.844-9.209v9.21h-8.06V0zM4.891 12.557a8.998 8.998 0 0 0 4.358-1.12v12.557H.534V11.437a8.998 8.998 0 0 0 4.357 1.12zm66.258-1.12a8.998 8.998 0 0 0-4.357 1.12V0h8.715v12.557a8.998 8.998 0 0 0-4.358-1.12zM4.891 0c2.702 0 4.892 2.161 4.892 4.827S7.593 9.654 4.89 9.654C2.19 9.654 0 7.493 0 4.827S2.19 0 4.891 0zM71.15 23.994c-2.701 0-4.891-2.16-4.891-4.827 0-2.665 2.19-4.827 4.891-4.827 2.702 0 4.892 2.162 4.892 4.827 0 2.666-2.19 4.827-4.892 4.827zM48.783 17.16c1.929 0 3.42-.426 4.474-1.278 1.054-.85 1.58-2.152 1.58-3.903 0-1.75-.526-3.045-1.58-3.885-1.055-.84-2.545-1.26-4.474-1.26V17.16z" fill-rule="evenodd"/></svg>
+				</a>
+				<div class="nav-ctas-wrapper">
+					<a id="nav_start_project" href="#leadflow">Start Project</a>
+				<a href="http://apply.indiez.io/" target="_blank" id="nav_join_us">Join our community</a>
+				</div>
+			</div>
+		</nav>
+		<div class="nav-menu">
+			<ul class="nav-links-wrapper">
+				<li>
+					<a href="/#talent">
+						<img src="/img/nav-img-talent.png" srcset="/img/nav-img-talent@2x.png 2x, img/nav-img-talent@3x.png 3x" >
+						<span>Talent</span>
+					</a>
+				</li>
+				<li>
+					<a href="/#case_studies">
+						<img src="/img/nav-img-casestudies.png" srcset="/img/nav-img-casestudies@2x.png 2x, img/nav-img-casestudies@3x.png 3x">
+						<span>Case <br/>Studies</span>
+					</a>
+				</li>
+				<li>
+					<a href="/#about_us">
+						<img src="/img/nav-img-about.png" srcset="/img/nav-img-about@2x.png 2x, img/nav-img-about@3x.png 3x">
+						<span>About Us</span>
+					</a>
+				</li>
+				<li>
+					<a href="/en/faq" target="_blank">
+						<img src="/img/nav-img-faq.png" srcset="/img/nav-img-faq@2x.png 2x, img/nav-img-faq@3x.png 3x">
+						<span>FAQS</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<section class="_404">
+			<div class="_404-wrapper">
+				<img class="__community-elements" src="/img/404-community-elements.png" srcset="/img/404-community-elements@2x.png 2x, img/404-community-elements@3x.png 3x">
+				<h1>404</h1>
+				<p>Looks like you got lost</p>
+			</div>
+		</section>
+  	<footer>
+  			<ul class="links-wrapper">
+  				<li><a class="ga-start-project ga-footer" href="#leadflow">Start Project</a></li>
+  				<li><a class="ga-join-community" data-ga="footer" href="http://apply.indiez.io/" target="_blank" >Join our community</a></li>
+  				<li><a href="/#talent">Talent</a></li>
+  				<li><a href="/#case_studies">Case Studies </a></li>
+  				<li><a href="/en/faq" target="_blank">FAQs</a></li>
+  				<li><a href="//blog.indiez.io/" target="_blank">Blog</a></li>
+  			</ul>
+  			<div class="indiez-logo-footer-wrapper">
+  				<svg class="__indiez-logo"width="120" height="24" viewBox="0 0 120 24" xmlns="http://www.w3.org/2000/svg"><path d="M100.423 0h19.056l-8.947 17.699h8.445l.021 6.295h-20.46l8.947-17.699h-7.096L100.423 0zM80.075 0h15.04v6.295h-6.827v2.662h6.827v5.972h-6.827v2.77h6.827v6.295h-15.04V0zM40.569 23.994V0h7.135c2.416 0 4.57.252 6.459.755 1.89.504 3.484 1.26 4.782 2.267a9.852 9.852 0 0 1 2.97 3.76c.68 1.498 1.021 3.231 1.021 5.197 0 1.967-.34 3.7-1.022 5.198a9.845 9.845 0 0 1-2.969 3.76c-1.298 1.007-2.892 1.769-4.782 2.284-1.89.516-4.043.773-6.46.773H40.57zM14.224 0l13.844 9.245V0h8.06v23.994l-13.844-9.209v9.21h-8.06V0zM4.891 12.557a8.998 8.998 0 0 0 4.358-1.12v12.557H.534V11.437a8.998 8.998 0 0 0 4.357 1.12zm66.258-1.12a8.998 8.998 0 0 0-4.357 1.12V0h8.715v12.557a8.998 8.998 0 0 0-4.358-1.12zM4.891 0c2.702 0 4.892 2.161 4.892 4.827S7.593 9.654 4.89 9.654C2.19 9.654 0 7.493 0 4.827S2.19 0 4.891 0zM71.15 23.994c-2.701 0-4.891-2.16-4.891-4.827 0-2.665 2.19-4.827 4.891-4.827 2.702 0 4.892 2.162 4.892 4.827 0 2.666-2.19 4.827-4.892 4.827zM48.783 17.16c1.929 0 3.42-.426 4.474-1.278 1.054-.85 1.58-2.152 1.58-3.903 0-1.75-.526-3.045-1.58-3.885-1.055-.84-2.545-1.26-4.474-1.26V17.16z" fill-rule="evenodd"/></svg>
+  			</div>
+  			<div class="footer-links">
+  				<div class="footer-links-wrapper">
+  					<ul>
+  						<li><a href="/en/terms">Terms of Use</a></li>
+  						<li><a href="/en/privacy">Privacy Policy</a></li>
+  						<li class="_copyright">&copy; 2017 Futureofwork INC. All rights reserved.</li>
+  					</ul>
+  				</div>
+  			</div>
+  		</footer>  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  	<script>
+  		$('.menu').click(function() {
+		    $nav = $('nav');
+		    if($nav.hasClass('_hide-bg')) {
+		      setTimeout(function(){
+		        $nav.removeClass('_hide-bg');
+		        $nav.removeClass('_dropdown-logo-color')
+		      }, 280);
+		    } else {
+		      $nav.addClass('_hide-bg')
+		      setTimeout(function(){
+		        $nav.addClass('_dropdown-logo-color')
+		      }, 100);
+		    }
+		    $('.nav-menu').toggleClass('_active');
+		  });
+  	</script>
+  	<!-- Start of Async Drift Code -->
+  	<script>
+  		!function() {
+  		  var t;
+  		  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  		  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  		  t.factory = function(e) {
+  		    return function() {
+  		      var n;
+  		      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+  		    };
+  		  }, t.methods.forEach(function(e) {
+  		    t[e] = t.factory(e);
+  		  }), t.load = function(t) {
+  		    var e, n, o, i;
+  		    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+  		    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+  		    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  		  });
+  		}();
+  		drift.SNIPPET_VERSION = '0.3.1';
+  		drift.load('pxn5i2rati2c');
+  	</script>
+  	<!-- End of Async Drift Code -->  </body>
+</html>
