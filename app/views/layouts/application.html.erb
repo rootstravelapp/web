@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Web</title>
-    <%= csrf_meta_tags %>
+	<head>
+		<meta charset="utf-8">
+		<title>Roots.ai | Real Experiences. Real People. Real Memories.</title>
+		<%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-  <body>
-    <%= yield %>
-  </body>
+		<!--
+			We're hiring
+
+			Learn more:
+			http://roots.ai/careers
+
+		-->
+		
+
+		<meta name="description" content="Real Experiences. Real People. Real Memories.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="canonical" href="https://roots.ai">
+
+		<meta name="cloudinary_cloud_name" content="roots">
+		<!--[if IE]>
+				<link rel="stylesheet" href="/css/ie.css"/>
+		<![endif]-->
+
+		<!-- App Install Banners -->
+
+
+		<!-- Twitter Cards and OpenGraph -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@Roots">
+		<meta name="twitter:description" content="Real Experiences. Real People. Real Memories.">
+
+		<meta property="og:image" content="">
+		<meta property="og:image:secure_url" content="">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:title" content="Roots.ai | Real Experiences. Real People. Real Memories.">
+		<meta property="og:url" content="https://roots.ai">
+		<meta property="og:site_name" content="Roots">
+		<meta property="og:description" content="Roots.ai | Real Experiences. Real People. Real Memories.">
+
+		
+		<meta name="fragment" content="!">
+
+		<!-- Facebook Pixel Code -->
+		
+		<!-- DO NOT MODIFY -->
+		<!-- End Facebook Pixel Code -->
+	</head>
+
+	<body>
+		<%= yield %>
+	</body>
 </html>
