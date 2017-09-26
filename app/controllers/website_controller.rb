@@ -5,5 +5,6 @@ class WebsiteController < ApplicationController
 	end
 
 	def career
+		
 	end
 end
