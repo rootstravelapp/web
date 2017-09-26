@@ -1,4 +1,4 @@
-class CareerSubdomain
+class Subdomain
     def self.matches? request
         case request.subdomain
         when 'career'
