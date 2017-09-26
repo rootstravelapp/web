@@ -84,6 +84,10 @@
     transition: 125ms linear color;
 }
 
+.homepage .below-the-fold #home-nav .nav-group ul li a:hover {
+    color: #E91E63 !important;
+}
+
 .homepage .home-content .download-container {
     margin: 5vh 0;
 }
