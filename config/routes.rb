@@ -1,9 +1,7 @@
-require 'subdomain'
+require 'Subdomain'
 
 Rails.application.routes.draw do
 	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-	root "website#index"
-	constraints(Subdomain) do
-		match "/"          			=> "website#career",                :via => [:get]
-	end
+	root "website#index", :constraints => Subdomain
+	get "/" => "website#career", :constraints => Subdomain
 end

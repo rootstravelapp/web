@@ -7,5 +7,5 @@ class Subdomain
         else
             false
         end
-    end   
+    end
 end
