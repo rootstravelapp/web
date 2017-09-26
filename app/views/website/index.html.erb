@@ -1,16 +1,15 @@
 <div class="homepage">
 	<div class="home-content m-text-center">
-		<img class="home-logo" src="/assets/logo.svg" 
-			alt="Roots.ai. Real Experiences. Real People. Real Memories.">
+		<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots.ai. Real Experiences. Real People. Real Memories."%>
 		<div class="download-container">
 			<div class="home-download-app" translate="home.orDownloadNow">Roots.ai is coming soon</div>
 			<download-buttons>
 				<div class="download-buttons">
 					<a href=""class="download-button">
-						<img src="/assets/appStore.svg" alt="Apple App Store">
+						<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
 					</a>
 					<a href="" class="download-button">
-						<img src="/assets/playStore.svg" alt="Google Play Store">
+						<%= image_tag "playStore.svg", :alt => "Google Play Store"%>
 					</a>
 
 				</div>      
@@ -22,7 +21,9 @@
 		</div>
 		<div class="nav-opener-container">
 			<div class="nav-arrow">
-				<a href="#home-nav"><img src="/assets/downArrow.svg"></a>
+				<a href="#home-nav">
+					<%= image_tag "downArrow.svg" %>
+				</a>
 			</div>
 		</div>
 	</div>
