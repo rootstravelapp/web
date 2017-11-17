@@ -1,0 +1,51 @@
+<%= stylesheet_link_tag "menu" %>
+
+<div class="menu-card-wrapper">
+	<div class="menu-card-header-wrapper">
+		<div class="restaurant-name">
+			<img src="/assets/svg/001-dish.svg" class="brand-icon"/>
+			AMRUT'S FARM HOUSE
+		</div>
+		<div class="restaurant-tagline">
+			Kudle Beach Road, Gokarna
+		</div>
+		
+	</div>
+	<div class="menu-content">
+		<div class="menu-panel">
+			<% @menu.each do |key, value|%>
+				<h1><%= key.upcase %></h1>
+				<div class="category-wrapper">
+					<% value.each do |k2, v2|%>
+						<h2><%= k2.upcase %></h2>
+						<% v2.each do |k3, v3|%>
+							<% if k3 == :items %>
+								<%= render partial: "website/partials/menu_items", locals: {items: v3} %>
+							<% else %>
+								<% if k3 == :icon %>
+									<!-- <img src="/assets/svg/<%= v3 %>" class="food-icon"/> -->
+								<% elsif v3.class == Array %>
+									<h3><%= k3 %></h3>
+									<%= render partial: "website/partials/menu_items", locals: {items: v3} %>
+								<% elsif v3.class == Hash %>
+									<div class="header-with-icon">
+										<img src="/assets/svg/<%= v3[:icon] %>" class="food-icon"/>
+										<h3><%= k3 %></h3>
+									</div>
+									<%= render partial: "website/partials/menu_items", locals: {items: v3[:items]} %>
+								<% end %>
+							<% end %>
+						<% end %>
+					<% end %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+
+	<div class="menu-card-footer">
+		<div class="restaurant-tagline">Please allow us 20mins to prepare food.</div>
+		<div class="restaurant-tagline">Let us know if you have any suggestions. </div>
+		<div class="restaurant-tagline">Hope to serve you again! </div>
+	</div>
+</div>
+

@@ -13,4 +13,5 @@ Rails.application.routes.draw do
 	get "/safety" => "website#safety"
 	get '/community-guidelines' => 'website#guidelines'
 	get '/businesses' => 'website#businesses'
+	get '/menu' => 'website#menu'
 end
