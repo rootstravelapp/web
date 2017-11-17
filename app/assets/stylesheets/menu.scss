@@ -1,6 +1,8 @@
 
 
 .menu-card-wrapper{
+	overflow-y: -webkit-paged-x;
+
 	width: 100%;
 	padding: 10px;
 
@@ -16,6 +18,33 @@
 	.menu-card-footer{
 		margin-top: 100px;
 		text-align:center;
+	}
+
+	div {
+		letter-spacing: 2px;
+		font-weight: 250;
+	}
+
+	h1{
+		padding-left: 10px;
+		font-size: 1.5rem;
+	    letter-spacing: 2px;
+	}
+
+	h2{
+		font-size: 1.5rem;
+	    font-weight: 400;
+	}
+
+	h3{
+		font-size: 1.2rem;
+		font-weight: 350;
+		margin-left: 10px;
+	}
+
+	h4{
+		font-size: 1rem;
+		font-weight: 200;
 	}
 
 	.menu-content{
@@ -78,32 +107,7 @@
 	}
 }
 
-div {
-	letter-spacing: 2px;
-	font-weight: 250;
-}
 
-h1{
-	padding-left: 10px;
-	font-size: 1.5rem;
-    letter-spacing: 2px;
-}
-
-h2{
-	font-size: 1.5rem;
-    font-weight: 400;
-}
-
-h3{
-	font-size: 1.2rem;
-	font-weight: 350;
-	margin-left: 10px;
-}
-
-h4{
-	font-size: 1rem;
-	font-weight: 200;
-}
 
 .brand-icon{
 	width: 80px;
@@ -128,8 +132,4 @@ h4{
 .restaurant-tagline{
 	font-weight: 400;
     letter-spacing: 2px;
-}
-
-body{
-	overflow-y: -webkit-paged-x;
 }
