@@ -1,10 +1,81 @@
-<header class="main-header post-head">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/logo.svg" alt="Roots.ai Careers"></a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">CAREERS</h1>
+<div class="roots-nav ng-scope" ng-include="&#39;templates/nav.html&#39;" style="">
+    <div class="nav-cont">
+        
+        <a href="/">
+        	<%= image_tag ("logo.png")%>
+        </a>
+        <a id="downloadBtn" href="https://play.google.com/store/apps/details?id=ai.roots">
+        	<button>
+        	<span translate="home.Login" class="ng-scope">Download</span>
+        	</button>
+        </a>
+    </div>
+</div>
+<div class="page-wrap ng-scope">
+    <!-- uiView:  -->
+    <div ui-view="" class="content-wrap ng-scope">
+        <div class="m-page m-jobs departments-stretch ng-scope">
+            <div>
+                <!-- ngInclude: 'templates/jobs_nav.html' -->
+                <div ng-include="&#39;templates/jobs_nav.html&#39;" class="ng-scope" style="">
+                    <div class="jobs-nav ng-scope">
+                        <section class="jobs-nav-section">
+                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;^\/jobs$&#39;)}" href="https://www.gotinder.com/jobs" class="j-active">Welcome</a>
+                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;\/jobs\/departments$&#39;)}" href="https://www.gotinder.com/jobs/departments">Teams</a>
+                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;\/tindership-and-university-grads\/?.*&#39;)}" href="https://www.gotinder.com/jobs/departments/tindership-and-university-grads">University</a>
+                        </section>
+                    </div>
+                </div>
+                <!-- ngIf: jobs.isVideoPlaying -->
+                <div class="wide-page">
+                    <div style="background-image: url(&#39;images/departments/tinder_clip_screenshot.png&#39;); background-repeat: no-repeat; background-size: cover; background-position: 10% 10%; cursor: pointer;" ng-click="jobs.toggleShowVideo()" id="hero-top" class="hero-img">
+                        <section>
+                            <img src="./t_files/playBtn.svg" class="departments-playbtn">
+                        </section>
+                    </div>
+                    <div id="headline-bottom">
+                        <section>
+                            <div id="one-spark">
+                                <h3>One spark can change the world</h3>
+                                <img src="./t_files/fire_emoji.png" class="fire-emoji">
+                            </div>
+                            <p id="one-spark-description">
+                                With more than 20 billion matches to date and millions of new connections made daily, the opportunities to solve real problems when you work at Tinder are tremendous. Swipe on over.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                <div id="footer-apply">
+                    <section>
+                        <div id="company-info">
+                            <div class="info-box">
+                                We have passion.
+                                <p>
+                                    Everyone at Tinder is on a mission. Whether you work in product, marketing or tech, innovation is the name of the game.
+                                </p>
+                            </div>
+                            <div class="info-box">
+                                We have purpose.
+                                <p>
+                                    We’re not just strategic; we’re tactical. We’re driven by results and hold each other accountable—so come with the skills to get the job done.
+                                </p>
+                            </div>
+                            <div class="info-box">
+                                We have something to prove.
+                                <p>
+                                    Tinder makes a promise to bring people together—anywhere in the world, in real time. Every member of our team has a duty to deliver on that promise.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="apply-section">
+                            <a class="apply-button" href="https://www.gotinder.com/jobs/departments">
+                            Join our Team
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
-</header>
+    <%= render partial: "website/partials/footer"%>
+</div>

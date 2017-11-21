@@ -1,7 +1,7 @@
 
 
 .menu-card-wrapper{
-	overflow-y: -webkit-paged-x;
+	
 
 	width: 100%;
 	padding: 10px;
@@ -13,6 +13,18 @@
 		padding: 20px;
 	    padding-top: 50px;
     	padding-bottom: 50px;
+    	position: relative;
+    	background-color: rgba(255, 255, 255, 0.84);
+
+    	.cover-image-wrapper{
+    		position: absolute;
+		    background-image: url(http://www.herbaveda.co/wp-content/uploads/2016/05/529457_9mitkeupyojysjkiz7jmvroeg.jpg);
+		    left: 0;
+		    right: 0;
+		    top: 0;
+		    height: 250px;
+		    z-index: -1;
+    	}
 	}
 
 	.menu-card-footer{
@@ -27,7 +39,7 @@
 
 	h1{
 		padding-left: 10px;
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	    letter-spacing: 2px;
 	}
 
@@ -61,12 +73,14 @@
 		    -webkit-column-count: 5; /* Chrome, Safari, Opera */
 		    -moz-column-count: 5; /* Firefox */
 		    column-count: 5;
+	        padding-top: 20px;
+    		padding-bottom: 30px;
 
 		    .category-wrapper{
-		    	border: 1px solid;
-		    	border-radius: 5px;
-		    	border-color: #EAEAEA;
-		    	padding: 10px;
+		    	border: 5px dotted;
+			    border-radius: 5px;
+			    border-color: #c1c1c1;
+			    padding: 10px;
 
 				table{
 					width: 100%;
@@ -97,6 +111,7 @@
 						.description{
 							font-size: 0.8em;
 							letter-spacing: 1px;
+							font-style: oblique;
 						}
 					}
 				}
@@ -132,4 +147,71 @@
 .restaurant-tagline{
 	font-weight: 400;
     letter-spacing: 2px;
+}
+
+.brand-tagline{
+	font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+body{
+	overflow-y: -webkit-paged-x;
+}
+
+.brand-asset{
+	background-color: #8BC34A;
+    padding: 20px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 50px;
+}
+
+.top-brand-asset{
+	background-color: #8BC34A;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bus{
+	width: 150px;
+}
+
+.logo{
+	width: 60px;
+}
+
+.brand-message{
+	text-transform: uppercase;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+.brand-tagline{
+	font-weight: "bold" !important;
+	letter-spacing: 1px !important;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+.brand-name{
+	font-size: 2rem;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.padder{
+	padding: 30px;
+}
+
+.centered{
+	tect-align: center;
 }

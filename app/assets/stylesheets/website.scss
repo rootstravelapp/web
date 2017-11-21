@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-.homepage .below-the-fold #home-nav {
+.below-the-fold #home-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -55,36 +55,36 @@
     padding: 20px 0;
 }
 
-.homepage .below-the-fold #home-nav .nav-group {
+.below-the-fold #home-nav .nav-group {
     margin-bottom: 10px;
     -ms-flex-preferred-size: 15%;
     flex-basis: 15%;
 }
 
-.homepage .below-the-fold #home-nav .nav-group .nav-group-header {
+.below-the-fold #home-nav .nav-group .nav-group-header {
     margin: 10px 0 10px 0;
     text-transform: uppercase;
     text-align: center;
     color: #48def1;
 }
 
-.homepage .below-the-fold #home-nav .nav-group ul {
+.below-the-fold #home-nav .nav-group ul {
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
 }
 
-.homepage .below-the-fold #home-nav .nav-group ul li {
+.below-the-fold #home-nav .nav-group ul li {
     text-align: center;
 }
 
-.homepage .below-the-fold #home-nav .nav-group ul li a {
+.below-the-fold #home-nav .nav-group ul li a {
     text-decoration: none;
     color: #565151;
     transition: 125ms linear color;
 }
 
-.homepage .below-the-fold #home-nav .nav-group ul li a:hover {
+.below-the-fold #home-nav .nav-group ul li a:hover {
     color: #48def1 !important;
 }
 
@@ -205,7 +205,7 @@
 
 
 @media only screen and (max-width: 800px){
-	.homepage .below-the-fold #home-nav .nav-group {
+	.below-the-fold #home-nav .nav-group {
 	    -ms-flex-preferred-size: 100%;
 	    flex-basis: 100%;
 	}

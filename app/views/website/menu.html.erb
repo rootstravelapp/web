@@ -2,6 +2,7 @@
 
 <div class="menu-card-wrapper">
 	<div class="menu-card-header-wrapper">
+		<div class="cover-image-wrapper"></div>
 		<div class="restaurant-name">
 			<img src="/assets/svg/001-dish.svg" class="brand-icon"/>
 			AMRUT'S FARM HOUSE
@@ -9,13 +10,17 @@
 		<div class="restaurant-tagline">
 			Kudle Beach Road, Gokarna
 		</div>
+		<div class="brand-tagline">
+			Powered By Roots.ai for the Modern Day Hippie Traveller
+		</div>
 		
 	</div>
 	<div class="menu-content">
 		<div class="menu-panel">
-			<% @menu.each do |key, value|%>
+			<% @menu.each_with_index do |(key, value), index|%>
 				<h1><%= key.upcase %></h1>
 				<div class="category-wrapper">
+					<div class="top-brand-asset" style="background-color:<%= WebsiteHelper.getColor(index)%>"></div>
 					<% value.each do |k2, v2|%>
 						<h2><%= k2.upcase %></h2>
 						<% v2.each do |k3, v3|%>
@@ -37,6 +42,15 @@
 							<% end %>
 						<% end %>
 					<% end %>
+					<div class="brand-asset" style="background-color:<%= WebsiteHelper.getColor(index)%>">
+						<div>
+							<%= image_tag ("http://www.roots.ai/assets/logo-01c037ec0d49e2da9c55fe6800485fd7cd0e4f656fe034bb6c7d93418125807a.svg"), :class => "logo" %>
+						</div>
+						
+						<div class="brand-name">Roots</div>
+						<div class="brand-tagline">For the Modern Day hippie Traveller</div>
+						<div class="brand-message"><%= WebsiteHelper.getText(index)%></div>
+					</div>
 				</div>
 			<% end %>
 		</div>
@@ -46,6 +60,10 @@
 		<div class="restaurant-tagline">Please allow us 20mins to prepare food.</div>
 		<div class="restaurant-tagline">Let us know if you have any suggestions. </div>
 		<div class="restaurant-tagline">Hope to serve you again! </div>
+		<div class="padder"></div>
+		<div class="brand-name">Roots, GOKARNA TRAVELLER'S APP</div>
+		<div class="brand-tagline">For the Modern Day hippie Traveller</div>
+		
 	</div>
 </div>
 
