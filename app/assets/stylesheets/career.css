@@ -1531,7 +1531,7 @@ h5 {
 
 #departments-page-container {
     font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
-    background: #F6F6F6
+    background: #FFFFFF
 }
 
 #departments-page-container h1,
@@ -1554,7 +1554,7 @@ h5 {
 }
 
 #departments-description {
-    background-color: #F6F6F6;
+    background-color: #FFFFFF;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -1586,7 +1586,7 @@ h5 {
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background-color: #F6F6F6;
+    background-color: #FFFFFF;
     padding-bottom: 50px
 }
 
@@ -1638,7 +1638,8 @@ h5 {
     border-radius: 5px;
     box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.03);
     cursor: pointer;
-    transition: 0.35s all
+    transition: 0.35s all;
+    text-align: center;
 }
 
 #departments .department-box:hover {
@@ -2970,7 +2971,7 @@ body.s-navless .m-header {
 }
 
 .m-jobs #footer-apply {
-    background: #F6F6F6;
+    background: #FFFFFF;
     height: auto;
     padding-bottom: 30px
 }
@@ -3033,7 +3034,7 @@ body.s-navless .m-header {
 .m-jobs #footer-apply #company-info .info-box p {
     margin-top: 15px;
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     font-weight: 400
 }
 
