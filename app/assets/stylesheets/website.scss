@@ -6,7 +6,7 @@
 	position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(216deg, #48def1, #80cc24);
+    background: linear-gradient(216deg, #007382, #86f501);
     padding: 55px 5% 5% 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -102,6 +102,33 @@
     -ms-flex: 0 1 12%;
     flex: 0 1 12%;
     position: relative;
+}
+
+.homepage .careers-container{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.homepage .careers-wrapper{
+    position: relative;
+}
+
+.homepage .careers{
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.homepage .careers-label{
+    font-size: 10px;
+    text-align: center;
+    color: #E91E63;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    right: -30px;
 }
 
 .homepage .home-content .download-container .download-buttons {
@@ -205,6 +232,10 @@
 
 
 @media only screen and (max-width: 800px){
+    .homepage .careers-container{
+        display: none;
+    }
+
 	.below-the-fold #home-nav .nav-group {
 	    -ms-flex-preferred-size: 100%;
 	    flex-basis: 100%;

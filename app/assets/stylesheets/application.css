@@ -30,12 +30,12 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #E91E63;
+    color: #48def1;
     font-weight: 400;
 }
 
 a:hover {
-	color: #E91E63;
+	color: #3eb3c1;
 }
 
 img {

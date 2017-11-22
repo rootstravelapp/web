@@ -226,7 +226,7 @@ th {
 }
 
 .about-us .bullets {
-    font-weight: 300;
+    font-weight: 400;
     max-width: 960px;
     font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
 }
@@ -256,7 +256,7 @@ th {
 
 .about-us .bullets ul li h4 {
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 10px;
     color: #343434;
     font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
@@ -551,6 +551,9 @@ th {
     .hero {
         padding: 20px 0px
     }
+}
+.hero-text img{
+    width: 100px;
 }
 
 .hero .hero-text {
@@ -1020,7 +1023,7 @@ ol.arbitration_list {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #80cc24
+    color: #62b301
 }
 
 img {
@@ -1141,7 +1144,7 @@ h5 {
 }
 
 .m-text-red {
-    color: #80cc24
+    color: #62b301
 }
 
 .m-header-light {
@@ -1188,14 +1191,14 @@ h5 {
     line-height: 1.2em;
     font-weight: normal;
     margin: 3em 0 .3em;
-    color: #80cc24;
+    color: #62b301;
     text-transform: none;
     letter-spacing: 0 !important
 }
 
 .ti-blog h3.post-title:hover {
     text-decoration: none !important;
-    color: #fc1e3c
+    color: #6ba920
 }
 
 .ti-blog h3.post-title:first-child {
@@ -1221,7 +1224,7 @@ h5 {
 }
 
 .m-button {
-    background-color: #80cc24;
+    background-color: #62b301;
     color: white;
     border: none;
     padding: 20px 40px 18px 40px;
@@ -1236,8 +1239,8 @@ h5 {
 .m-button:hover {
     text-decoration: none !important;
     color: white;
-    background: #fc1e3c;
-    transition: all .2s ease
+    background: #6ba920;
+    transition: all .2s ease;
 }
 
 .m-button[disabled],
@@ -1258,7 +1261,7 @@ h5 {
 .m-link-button {
     font-family: 'proxima-nova-soft';
     font-size: 18px;
-    color: #80cc24
+    color: #62b301
 }
 
 .plus-red {
@@ -1331,7 +1334,7 @@ h5 {
 }
 
 #community_guidelines p {
-    font-weight: 300;
+    font-weight: 400;
     color: #767676;
     font-size: 18px;
     margin-top: 6px
@@ -1501,10 +1504,10 @@ h5 {
 
 .red-headline {
     font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
-    color: #80cc24;
+    color: #616161;
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.08rem
+    letter-spacing: 0.08rem;
+    font-size: 2rem;
 }
 
 .departments-subheadline {
@@ -1512,7 +1515,7 @@ h5 {
     margin: 15px 0;
     font-size: 1rem;
     line-height: 1.9rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.01em;
     color: #6C6C6C
 }
@@ -1552,11 +1555,13 @@ h5 {
 
 #departments-description {
     background-color: #F6F6F6;
-    text-align: center
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #departments-description h4 {
-    color: #80cc24
+    color: #62b301
 }
 
 #departments-description h3 {
@@ -1782,7 +1787,7 @@ h5 {
     color: #B3B3B3;
     font-size: 1rem;
     line-height: 1.9rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.01em;
     margin: 0
 }
@@ -1851,7 +1856,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job:hover {
-    border: 1px solid #80cc24;
+    border: 1px solid #62b301;
     transition: all 0.25s ease-in-out
 }
 
@@ -1874,7 +1879,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job h4 {
-    color: #80cc24;
+    color: #62b301;
     font-weight: 500;
     margin: 0;
     font-size: 1rem
@@ -1982,14 +1987,14 @@ h5 {
 
 #listings-department #categories-department .active-pod {
     color: #FFF;
-    background-color: #80cc24;
-    border: 1px solid #80cc24;
+    background-color: #62b301;
+    border: 1px solid #62b301;
     transition: all 0.25s ease-in-out
 }
 
 .m-page .downtime-message {
     width: 100%;
-    background-color: #80cc24;
+    background-color: #62b301;
     padding: 10px 0;
     text-align: center;
     color: white;
@@ -2074,7 +2079,7 @@ h5 {
 }
 
 .m-page .m-faq h3 {
-    color: #80cc24;
+    color: #62b301;
     font-weight: 400;
     font-size: 20px;
     text-transform: none;
@@ -2209,7 +2214,7 @@ h5 {
 }
 
 .feature-carousel .carousel-control {
-    color: #80cc24;
+    color: #62b301;
     font-size: 2rem;
     cursor: pointer;
     margin: 0 30px;
@@ -2260,13 +2265,13 @@ h5 {
 
 .feature-carousel .slide-position-indicator {
     font-size: 0.6rem;
-    color: #80cc24;
+    color: #62b301;
     margin: 0 5px
 }
 
 .feature-carousel .slide-position-indicator.active {
     color: white;
-    text-shadow: 0 0 1px #80cc24
+    text-shadow: 0 0 1px #62b301
 }
 
 .fullscreen-bg #bg-poster-initial {
@@ -2570,8 +2575,8 @@ h5 {
 }
 
 .page-halloween .btn-halloween.btn-light {
-    color: #80cc24;
-    border: 1px solid #80cc24
+    color: #62b301;
+    border: 1px solid #62b301
 }
 
 .m-header {
@@ -2622,11 +2627,11 @@ h5 {
 }
 
 .m-header.s-stuck a:hover {
-    color: #80cc24
+    color: #62b301
 }
 
 .m-header.s-stuck .s-active a {
-    color: #80cc24
+    color: #62b301
 }
 
 @media only screen and (min-width: 769px) {
@@ -2684,7 +2689,7 @@ h5 {
 }
 
 .m-header.s-stuck a:hover {
-    color: #80cc24
+    color: #62b301
 }
 
 .m-header.s-stuck .logo {
@@ -2704,7 +2709,7 @@ h5 {
 }
 
 .t-basic .m-header a:hover {
-    color: #80cc24
+    color: #62b301
 }
 
 .t-basic .m-header .logo {
@@ -2752,6 +2757,8 @@ body.s-navless .m-header {
     #stats {
         margin-top: -100px
     }
+
+    
 }
 
 @media only screen and (max-width: 800px) {
@@ -2770,6 +2777,8 @@ body.s-navless .m-header {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
+  
 }
 
 .departments-greenhouse {
@@ -2830,7 +2839,7 @@ body.s-navless .m-header {
     font-weight: 500;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    background-color: #80cc24;
+    background-color: #62b301;
     padding: 10px 25px;
     border: none;
     border-radius: 25px;
@@ -2856,6 +2865,24 @@ body.s-navless .m-header {
     border-top: 0
 }
 
+
+.m-jobs .wide-page .text,
+#hero-top .text{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    font-family: helvetica;
+    line-height: 55px;
+}
+
+#hero-top .description{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    font-family: helvetica;
+    line-height: 40px;
+}
+
 .m-jobs .wide-page h1,
 .m-jobs .wide-page h3,
 .m-jobs .wide-page p {
@@ -2870,7 +2897,7 @@ body.s-navless .m-header {
 }
 
 .m-jobs .wide-page strong {
-    color: #80cc24
+    color: #62b301
 }
 
 .m-jobs #headline-top {
@@ -2920,9 +2947,6 @@ body.s-navless .m-header {
     .m-jobs #one-spark {
         padding-bottom: 20px
     }
-    .m-jobs #one-spark h3 {
-        text-align: left
-    }
 }
 
 .m-jobs #one-spark .fire-emoji {
@@ -2932,7 +2956,7 @@ body.s-navless .m-header {
 
 .m-jobs #one-spark-description {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.9rem;
     padding-bottom: 20px;
     text-align: center
@@ -3010,12 +3034,13 @@ body.s-navless .m-header {
     margin-top: 15px;
     font-size: 1rem;
     text-align: left;
-    font-weight: 300
+    font-weight: 400
 }
 
 .m-jobs #footer-apply #apply-section {
     margin-top: 60px;
     text-align: center
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -3035,7 +3060,7 @@ body.s-navless .m-header {
 .jobs-nav {
     width: 100%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: right;
     z-index: 1;
     left: 0
@@ -3048,19 +3073,20 @@ body.s-navless .m-header {
 }
 
 .jobs-nav a {
-    color: #FFF;
     font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     font-size: 1rem;
     letter-spacing: 0.07rem;
     margin: 0 1.5%;
     text-transform: uppercase;
-    border-bottom: 1px solid transparent
+    border-bottom: 1px solid transparent;
+    color: #616161 !important;
 }
 
 .jobs-nav a:hover {
     border-bottom: 1px solid;
     transition: 0.35s border;
-    text-decoration: none !important
+    text-decoration: none !important;
+    color: #616161 !important;
 }
 
 @media only screen and (max-width: 800px) {
@@ -3109,7 +3135,7 @@ body.s-navless .m-header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #666;
+    background-color: white;
     line-height: 40px;
     flex-direction: column
 }
@@ -3182,7 +3208,7 @@ body.s-navless .m-header {
 }
 
 .dropdown-item:hover {
-    color: #80cc24
+    color: #62b301
 }
 
 .dropdown-item {
@@ -3255,14 +3281,43 @@ body.redesign .ti-content {
     width: 100%;
     z-index: 3;
     background: #FFF;
-    border-bottom: 1px solid #f2f2f2;
-    height: 66px
+    height: 66px;
+    padding: 10px;
+
+    text-align: justify !important;
+    -ms-text-justify: distribute-all-lines !important;
+    text-justify: distribute-all-lines !important;
 }
 
-.nav-cont img{
-    width: 50px;
-    margin-left: 50px;
+.nav-cont .block{
+    vertical-align: top;
+    display: inline-block !important;
+    *display: inline;
+    width: 33%;
+    text-align: center;
+    color: #616161;
+    font-family: helvetica;
+    font-weight: bold;
 }
+
+
+.nav-cont .logo{
+    font-family: helvetica;
+    color: #616161;
+    display: inline;
+    font-weight: 800;
+}
+
+.nav-cont .logo img{
+    width: 30px;
+    display: inline;
+}
+
+.nav-cont .logo .text{
+    display: inline;
+}
+
+
 
 @media only screen and (min-width: 769px) {
     .nav-cont {
@@ -3274,6 +3329,8 @@ body.redesign .ti-content {
         align-items: center;
         height: 96px
     }
+
+
 }
 
 .roots-nav {
@@ -3306,11 +3363,11 @@ body.redesign .ti-content {
 }
 
 .roots-nav .dropdown-header:hover {
-    color: #fc3078
+    color: #6ba920
 }
 
 .roots-nav .dropdown-header:hover .arrowUp {
-    border-bottom: 5px solid #fc3078
+    border-bottom: 5px solid #6ba920
 }
 
 .roots-nav #tinderDesktopLogo {
@@ -3351,7 +3408,7 @@ body.redesign .ti-content {
     height: 0;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-top: 5px solid #fc3078
+    border-top: 5px solid #6ba920
 }
 
 .roots-nav .arrowUp,
@@ -3419,7 +3476,7 @@ body.redesign .ti-content {
 }
 
 .roots-nav #downloadBtn button {
-    background: #80cc24;
+    background: #62b301;
     transition-property: background;
     transition-duration: .2s;
     outline: 0;
@@ -3437,7 +3494,7 @@ body.redesign .ti-content {
 }
 
 .roots-nav #downloadBtn button:hover {
-    background: #e6485e
+    background: #6ba920;
 }
 
 @media only screen and (min-width: 769px) {
@@ -3524,7 +3581,7 @@ body.redesign .ti-content {
 
 .roots-nav .expandedMenu__linksWrapper ul li a {
     padding: 4px 0px;
-    font-weight: 300;
+    font-weight: 400;
     color: #424242;
     text-transform: none;
     font-size: 14px
@@ -3537,7 +3594,7 @@ body.redesign .ti-content {
 }
 
 .roots-nav .expandedMenu__linksWrapper ul li a:hover {
-    color: #fc3078
+    color: #6ba920
 }
 
 .roots-nav .expandedMenu__menuLinksSection {
@@ -3761,7 +3818,7 @@ body.redesign .ti-content {
 }
 
 #tinder-online-banner .tinder-banner-body {
-    background: #80cc24;
+    background: #62b301;
     color: #fff;
     padding: 16px 0;
     display: -webkit-box;
@@ -3829,7 +3886,7 @@ body.redesign .ti-content {
         border-radius: 0 0 5px 0;
         -webkit-transform: rotate(-135deg);
         transform: rotate(-135deg);
-        background: linear-gradient(-45deg, #80cc24 50%, transparent 50%)
+        background: linear-gradient(-45deg, #62b301 50%, transparent 50%)
     }
 }
 
@@ -4388,7 +4445,8 @@ body.redesign .ti-content {
 }
 
 .job-page .stat {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
+    font-weight: 400;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
 }
 
 @media only screen and (min-width: 769px) {
@@ -4439,7 +4497,7 @@ body.redesign .ti-content {
 }
 
 .job-page .stat .stat-val {
-    color: #80cc24;
+    color: #701622;
     font-size: 2rem;
     line-height: 1em
 }
@@ -4486,12 +4544,27 @@ body.redesign .ti-content {
     .pi-full {
         height: initial
     }
+
+    .cover-background{
+        padding: 10px !important;
+    }
+
+    #hero-top .description{
+        font-size: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 800px) and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
     .pi-initial,
     .pi-full {
         height: 30vh
+    }
+    .cover-background{
+        padding: 10px !important;
+    }
+
+    #hero-top .description{
+        font-size: 20px !important;
     }
 }
 
@@ -4500,9 +4573,25 @@ body.redesign .ti-content {
     .pi-full {
         height: 30vh
     }
+
+    .cover-background{
+        padding: 10px !important;
+    }
+
+    #hero-top .description{
+        font-size: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
+    .cover-background{
+        padding: 10px !important;
+    }
+
+    #hero-top .description{
+        font-size: 20px !important;
+    }
+
     .roots-nav .m-sidemenu {
         -webkit-backface-visibility: hidden;
         top: 0;
@@ -4579,240 +4668,6 @@ body.redesign .ti-content {
     }
 }
 
-.uber-brazil {
-    box-sizing: border-box;
-    position: relative;
-    height: 100vh;
-    max-height: 100%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.uber-brazil .header-image {
-    min-width: 100%;
-    height: 400px;
-    min-height: 150px;
-    max-height: 30vh
-}
-
-.uber-brazil .header-image.img-entry {
-    background: url("/images/uber-brazil/uberbrazil_copycode.png") 50% center no-repeat;
-    background-size: cover
-}
-
-.uber-brazil .header-image.img-success {
-    background: url("/images/uber-brazil/uberbrazil_copiedcode.png") 50% center no-repeat;
-    background-size: cover
-}
-
-.uber-brazil .header-image.img-oops {
-    background: url("/images/uber-brazil/uberbrazil_nomorecodes.png") 50% center no-repeat;
-    background-size: cover
-}
-
-.uber-brazil .instructions {
-    margin: 0 auto 30px auto;
-    min-height: 5rem
-}
-
-@media (max-height: 550px) {
-    .uber-brazil .instructions {
-        margin-bottom: 10px
-    }
-}
-
-.uber-brazil .instructions .instructions-header {
-    padding: 5px;
-    font-size: 0.8rem;
-    line-height: 1.6rem;
-    font-weight: bold;
-    text-align: center
-}
-
-@media (max-height: 550px) {
-    .uber-brazil .instructions .instructions-header {
-        font-size: 0.5rem
-    }
-}
-
-.uber-brazil .instructions .instructions-header h1,
-.uber-brazil .instructions .instructions-header h2 {
-    margin: 5px
-}
-
-.uber-brazil .code-body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100px
-}
-
-.uber-brazil .code-body .code-box {
-    height: 70px;
-    width: 80%;
-    max-width: 400px;
-    background: #efefef;
-    border: 2px solid #cacaca;
-    border-radius: 4px;
-    text-align: center
-}
-
-.uber-brazil .code-body .code-box .code-text {
-    color: #595656;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px
-}
-
-.uber-brazil .code-body p {
-    margin: 5px 0 0 0;
-    text-align: center;
-    font-size: 1rem
-}
-
-.uber-brazil .copy-code {
-    width: 100%;
-    min-height: 58px;
-    margin: 20px auto 5px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-@media (max-height: 550px) {
-    .uber-brazil .copy-code {
-        margin-top: 10px
-    }
-}
-
-.uber-brazil .copy-code .button {
-    height: 58px;
-    width: 70%;
-    max-width: 350px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: 0;
-    border-radius: 30px;
-    background: #80cc24;
-    color: white;
-    transition: all 300ms ease-out;
-    cursor: pointer
-}
-
-.uber-brazil .copy-code .button:focus {
-    outline: none
-}
-
-.uber-brazil .copy-code .button.success {
-    background: #64DD9A
-}
-
-.uber-brazil .copy-code .button.loading {
-    width: 58px
-}
-
-.uber-brazil .copy-code .button i {
-    font-size: 2rem
-}
-
-.uber-brazil .copy-code .button .fa-spinner {
-    -webkit-animation: spin 1s alternate infinite;
-    animation: spin 1s alternate infinite
-}
-
-.uber-brazil .copy-code .button .fa-spinner.ng-animate {
-    -webkit-animation: none;
-    animation: none
-}
-
-.uber-brazil .footer {
-    width: 100%;
-    height: 60px;
-    min-height: 60px;
-    padding: 10px 0
-}
-
-.uber-brazil .footer img {
-    max-width: 350px;
-    height: 40px;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
-
-.uber-brazil .conditions {
-    width: 100%;
-    min-height: 6rem;
-    padding: 10px;
-    font-size: .7rem;
-    line-height: .9rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 10px
-}
-
-.uber-brazil .conditions .learn-more {
-    font-size: 0.9rem;
-    text-align: center;
-    width: 100%
-}
-
-.uber-brazil .conditions ul {
-    margin-top: 10px
-}
-
 .full-video-mobile {
     display: none
 }
@@ -4853,6 +4708,14 @@ body.redesign .ti-content {
     will-change: transfrom;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1)
+}
+
+.limitless{
+    width: 100px;
+}
+
+.hero-icon{
+    width: 50px;
 }
 
 .full-video-modal.ng-hide .backdrop {
@@ -4898,4 +4761,52 @@ body.redesign .ti-content {
 
 .m-header {
     z-index: 4
+}
+
+.logo-text{
+    max-width: 90%;
+    width: 500px;
+}
+
+.cover-background{
+    background-position: 0% 0%; 
+    background-repeat: no-repeat !important; 
+    background-size: cover !important;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+h2{
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    font-family: helvetica !important;
+}
+
+.about-me-wrapper{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    display: -webkit-inline-box;
+}
+
+.about-me{
+    width: 200px;
+}
+
+.people{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-cont .hide-block{
+        display: none !important;
+    }
+
+    .nav-cont .block{
+        width: 100% !important;
+    }
 }

@@ -1,81 +1,127 @@
-<div class="roots-nav ng-scope" ng-include="&#39;templates/nav.html&#39;" style="">
-    <div class="nav-cont">
-        
-        <a href="/">
-        	<%= image_tag ("logo.png")%>
-        </a>
-        <a id="downloadBtn" href="https://play.google.com/store/apps/details?id=ai.roots">
-        	<button>
-        	<span translate="home.Login" class="ng-scope">Download</span>
-        	</button>
-        </a>
-    </div>
-</div>
-<div class="page-wrap ng-scope">
-    <!-- uiView:  -->
-    <div ui-view="" class="content-wrap ng-scope">
-        <div class="m-page m-jobs departments-stretch ng-scope">
+<div class="page-wrap">
+   <div class="content-wrap " >
+      <div class="m-page">
+         
+         <div id="departments-page-container" class="departments-stretch">
             <div>
-                <!-- ngInclude: 'templates/jobs_nav.html' -->
-                <div ng-include="&#39;templates/jobs_nav.html&#39;" class="ng-scope" style="">
-                    <div class="jobs-nav ng-scope">
-                        <section class="jobs-nav-section">
-                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;^\/jobs$&#39;)}" href="https://www.gotinder.com/jobs" class="j-active">Welcome</a>
-                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;\/jobs\/departments$&#39;)}" href="https://www.gotinder.com/jobs/departments">Teams</a>
-                            <a ng-class="{&#39;j-active&#39;: isActive(&#39;\/tindership-and-university-grads\/?.*&#39;)}" href="https://www.gotinder.com/jobs/departments/tindership-and-university-grads">University</a>
-                        </section>
-                    </div>
-                </div>
-                <!-- ngIf: jobs.isVideoPlaying -->
-                <div class="wide-page">
-                    <div style="background-image: url(&#39;images/departments/tinder_clip_screenshot.png&#39;); background-repeat: no-repeat; background-size: cover; background-position: 10% 10%; cursor: pointer;" ng-click="jobs.toggleShowVideo()" id="hero-top" class="hero-img">
+               <div>
+                  <div id="hero-top" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url('/assets/careers.png'); background-position: 35% 35%; background-repeat: no-repeat; background-size: cover">
+                     <section class="hero-text">
+                        <div class="text">The Hippiedom of Travellers</div>
+                        <h2>Since Oct, 2017</h2>
+                     </section>
+                  </div>
+                  <div id="stats" class="job-page">
+                     <div id="job-page-stats-container">
                         <section>
-                            <img src="./t_files/playBtn.svg" class="departments-playbtn">
+                           <div class="press-stats clearfix">
+                              <div class="stat">
+                                 <div class="stat-val">1</div>
+                                 <div class="stat-caption ">MISSION</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">1</div>
+                                 <div class="stat-caption ">CITY</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">100+</div>
+                                 <div class="stat-caption ">HIPPIES</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">500+</div>
+                                 <div class="stat-caption ">EXPERIENCES</div>
+                              </div>
+                             
+                           </div>
                         </section>
-                    </div>
-                    <div id="headline-bottom">
-                        <section>
-                            <div id="one-spark">
-                                <h3>One spark can change the world</h3>
-                                <img src="./t_files/fire_emoji.png" class="fire-emoji">
-                            </div>
-                            <p id="one-spark-description">
-                                With more than 20 billion matches to date and millions of new connections made daily, the opportunities to solve real problems when you work at Tinder are tremendous. Swipe on over.
-                            </p>
-                        </section>
-                    </div>
-                </div>
-                <div id="footer-apply">
-                    <section>
-                        <div id="company-info">
-                            <div class="info-box">
-                                We have passion.
-                                <p>
-                                    Everyone at Tinder is on a mission. Whether you work in product, marketing or tech, innovation is the name of the game.
-                                </p>
-                            </div>
-                            <div class="info-box">
-                                We have purpose.
-                                <p>
-                                    We’re not just strategic; we’re tactical. We’re driven by results and hold each other accountable—so come with the skills to get the job done.
-                                </p>
-                            </div>
-                            <div class="info-box">
-                                We have something to prove.
-                                <p>
-                                    Tinder makes a promise to bring people together—anywhere in the world, in real time. Every member of our team has a duty to deliver on that promise.
-                                </p>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div id="headline-bottom">
+                     <section>
+                        <div id="departments-description">
+                           <span class="red-headline">
+                           Building something bigger than ourselves.
+                           </span>
+                           <span class="departments-subheadline">
+                          Dude, it was so cool back in the 60s, the heyday of hippiedom. Hitchhiking solo across continents, the love for different cultures, mind-altering excursions, and the free travel! Being a hippie was far out. Cut to the 21st century [sound of a needle scratching across a record]. "You want to be a what?" OK, you're no square, so let's see if <b>Roots</b> can help, 'cause that's our bag!
+                           </span>
+                           <br/>
                         </div>
+                     </section>
+                  </div>
+                  <section>
+                     <div id="headline-bottom">
+                        <section>
+                           <div id="departments-description">
+                              <span class="red-headline">
+                              The <b>Modern Day Hippie Travellers</b>
+                              </span>
+                           </div>
+                        </section>
+                     </div>
+                     <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url('http://www.247travelinsurance.co.uk/wp-content/uploads/2014/02/backpacker.jpg');">
+                        <section class="hero-text">
+                           <div class="description">These are the <b>millions</b> of travellers who travel each year in desire to explore and travel freely in the <b>unknown</b> lands and seas.</div>
+                        </section>
+                     </div>
+                  </section>
+                  <section>
+                     
+                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url('/assets/backpacker2.jpg');">
+                        <section class="hero-text">
+                           <div class="description">They all face multiple problems ranging from being fooled by <b>local guides</b> with incomplete information to wasting life in finding the <b>best nearby experiences</b> to live by.</div>
+                        </section>
+                     </div>
+                  </section>
+                  <section>
+                     <div id="headline-bottom">
+                        <section>
+                           <div id="departments-description">
+                              <span class="red-headline">
+                              <b>Roots, Hippie's Travel App: Explore Gokarna</b>
+                              </span>
+                           </div>
+                        </section>
+                     </div>
+                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url('/assets/clutter.jpg');">
+                        <section class="hero-text">
+                           <div class="description">Roots for <b>Gokarna</b> is our first attempt to encourage millions of modern day travellers to travel like Hippie's by simplifying and clearing out the clutter of information in the <b>unknown nearby's.</b></div>
+                        </section>
+                     </div>
+                  </section>
+                  <div id="headline-bottom">
+                     <section>
+                        <div id="departments-description">
+                           <div>
+                              <span class="red-headline">
+                              For <b>Local Businesses</b>
+                              </span>
+                              
+                           </div>
+                           <br/>
+                           <%= image_tag ("business.png") %>
+                           <span class="departments-subheadline">
+                          We connect local businesses with the travellers. More coming soon.
+                           </span>
+                           <br/>
+                        </div>
+
+                     </section>
+                     <div id="footer-apply">
                         <div id="apply-section">
-                            <a class="apply-button" href="https://www.gotinder.com/jobs/departments">
-                            Join our Team
-                            </a>
-                        </div>
-                    </section>
-                </div>
+                           <a class="apply-button" href="/careers/teams">
+                           Join our Team
+                           </a>
+                       </div>
+                       </div>
+                  </div>
+
+               </div>
             </div>
-        </div>
-    </div>
-    <%= render partial: "website/partials/footer"%>
+            
+         </div>
+      </div>
+   </div>
+   
 </div>
