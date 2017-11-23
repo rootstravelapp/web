@@ -1,0 +1,65 @@
+<div class="wide-page">
+    <div style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'careers2.jpg' %>); background-position: 70% 70%; background-repeat: no-repeat; background-size: cover" id="hero-top" class="hero-img">
+        <div class="text"><%= @internship_name %></div>
+        <h2>Starting Dec 4, 2017</h2>
+    </div>
+    <div id="headline-bottom">
+        <section>
+            <p id="one-spark-description">Roots for Gokarna is our first attempt to encourage millions of modern day travellers to travel like a Hippie by simplifying and clearing out the clutter of information in the unknown nearby. Your work here can change how people travel. Roots is led by a single Founder and is at a every nascent stage, but is growing fast and steady. If you are sincere, passionate, curious, ambitious and ready to make your learnings grow exponentially, then lets get started with the onboarding process.
+            </p>
+        </section>
+    </div>
+</div>
+<div>
+    <br/>
+    <br/>
+    <h3 style="text-align: center; padding: 20px;">Only those candidates can apply who</h3>
+    <section>
+        <li>can preferably <b>start</b> the internship from <b>4 Dec'17 or 11th Dec'17</b>.</li>
+        <li>are preferably available for duration of <b>atleast 1 month</b>.</li>
+        <li>have relevant skills and interests.</li>
+        <li>have already graduated or are currently in any year of study.</li>
+        <li>Women willing to start/restart their career can also apply.</li>
+        <% unless @who_can_apply_notes.nil? %><% @who_can_apply_notes.each do |who_can_apply_note| %><li><%= who_can_apply_note.html_safe %></li><% end %><% end %>
+    </section>
+</div>
+<div>
+    <br/>
+    <br/>
+    <h3 style="text-align: center; padding: 20px;">Day to Day Responsibilities</h3>
+    <section>
+        <% unless @looking_for_points.nil? %><% @looking_for_points.each do |looking_for_point| %><li><%= looking_for_point.html_safe %></li><% end %><% end %>
+    </section>
+</div>
+
+<div>
+    <br/>
+    <br/>
+    <h3 style="text-align: center; padding: 20px;">Bonus points if you</h3>
+    <section>
+        <ul>
+          <li>Have prior startup experience is fantastic (but not necessary); being scrappy will help you hit the ground running.</li>
+          <li>Know Kannada or/and any foreign languages.</li>
+          <li>Love to travel, and have travelled to Gokarna before.</li>
+          <li>Plan to startup in the near future.</li>
+          <% unless @bonus_points.nil? %><% @bonus_points.each do |bonus_point| %><li><%= bonus_point.html_safe %></li><% end %><% end %>
+          
+        </ul>
+    </section>
+</div>
+<div>
+    <br/>
+    <br/>
+    <h3 style="text-align: center; padding: 20px;">As part of our team, you’ll enjoy</h3>
+    <section>
+        <ul>
+          <li>The hustle of a startup with the impact on the Toursim Industry.</li>
+          <li>2 Day Beach Vacation Every Week.</li>
+          <li>Unless and until your weekly targets are been met we don't mind if you want to work from the Beach.</li>
+          <li>Tremendous opportunity to solve some of the industry’s most exciting problems.</li>
+          <li>Get away from the hassle of daily life and work amidst nature and peace.</li>
+          <li>Certificate, Letter of recommendation, Informal dress code, 5 days a week.</li>
+
+        </ul>
+    </section>
+</div>

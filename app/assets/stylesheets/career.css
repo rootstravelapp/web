@@ -215,35 +215,6 @@ th {
     padding: 0
 }
 
-.about-us {
-    transition: all 10s ease-in-out;
-    overflow-y: hidden
-}
-
-.about-us.expanded {
-    max-height: auto;
-    overflow-y: auto
-}
-
-.about-us .bullets {
-    font-weight: 400;
-    max-width: 960px;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
-}
-
-.about-us .bullets ul {
-    list-style: none;
-    padding-left: 0
-}
-
-.about-us .bullets ul li {
-    background-size: 86px 76px;
-    background-repeat: no-repeat;
-    background-position: 0;
-    padding-left: 116px;
-    min-height: 76px;
-    margin-top: 30px
-}
 
 @media only screen and (max-width: 800px) {
     .about-us .bullets ul li {
@@ -268,32 +239,6 @@ th {
     }
 }
 
-.about-us .bullets ul li.bullet1 {
-    background-image: url("/images/icons/bullet1@2x.png")
-}
-
-.about-us .bullets ul li.bullet2 {
-    background-image: url("/images/icons/bullet2@2x.png")
-}
-
-.about-us .bullets ul li.bullet3 {
-    background-image: url("/images/icons/bullet3@2x.png")
-}
-
-.about-us .bullets ul li p {
-    margin: 0;
-    font-size: 18px;
-    color: #343434;
-    line-height: 1.4em
-}
-
-.about-us .bullets h4 {
-    color: gray;
-    font-size: 30px;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
-    margin-bottom: 0;
-    font-weight: 100
-}
 
 .m-homepage {
     text-align: left;
@@ -659,20 +604,6 @@ th {
     }
 }
 
-.apple-tv .home-content img.home-logo.micro {
-    width: 200px;
-    height: auto;
-    max-width: 35%
-}
-
-.apple-tv .home-content .home-tagline-appletv {
-    font-size: 4.0rem;
-    color: white;
-    font-weight: 500;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, san-serif;
-    height: 100px;
-    top: 35%
-}
 
 @media only screen and (max-width: 800px) {
     .apple-tv .home-content .home-tagline-appletv {
@@ -1054,7 +985,6 @@ div[ng-view] {
 }
 
 body {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     font-weight: 100;
     color: #343434;
     font-size: 20px;
@@ -4810,4 +4740,15 @@ h2{
     .nav-cont .block{
         width: 100% !important;
     }
+}
+
+h4{
+    margin-bottom: 0px;
+}
+
+h6{
+    margin-top: 0px;
+    color: #616161;
+    font-weight: 200;
+    letter-spacing: 4px;
 }

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	get "/careers" => "career#index"
 	get "/careers/teams" => "career#teams"
 	get "/careers/teams/internships" => "career#internships"
+	get "/careers/teams/internships/:internship_id/:internship_name" => "career#internship"
 
 	get "/blog" => "website#blog"
 	get "/privacy" => "website#privacy"

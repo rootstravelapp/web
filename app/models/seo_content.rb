@@ -19,6 +19,7 @@ class SeoContent
 		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller"
 		Teams = "Roots Team | Driven by passionate Tech and Product Evangelists"
 		Internships = "Open Internships in Gokarna at Roots, App for the Modern Day Hippie Traveller"
+		Internship = " Internship in Gokarna at Roots, App for the Modern Day Hippie Traveller"
 	end
 
 	module Description
@@ -42,6 +43,7 @@ class SeoContent
 		Teams = "Be Limitless. On our journey to create the world’s fastest growing app for the Modern Day Hippie Traveller.
                 We research, refactor, analyse and solve the toughest of problems."
 		Internships = "Exciting internship opportunities available for university grads and students who want to grow with us in the challenge of bringing the entire globe on the Roots map."
+		Internship = " Exciting internship opportunities available for university grads and students who want to grow with us at Roots."
 	end
 
 	module Image
@@ -57,5 +59,6 @@ class SeoContent
 		Businesses = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Teams = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
 		Internships = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
+		Internship = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
 	end
 end
