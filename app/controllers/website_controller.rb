@@ -3,46 +3,55 @@ class WebsiteController < ApplicationController
 	def index
 		@title = SeoContent::Title::Brand
 		@description = SeoContent::Description::Brand
+		@image_url = SeoContent::Image::Brand
 	end
 
 	def blog
 		@title = SeoContent::Title::Blog
 		@description = SeoContent::Description::Blog
+		@image_url = SeoContent::Image::Blog
 	end
 
 	def privacy
 		@title = SeoContent::Title::Privacy
 		@description = SeoContent::Description::Privacy
+		@image_url = SeoContent::Image::Privacy
 	end
 
 	def terms
 		@title = SeoContent::Title::Terms
 		@description = SeoContent::Description::Terms
+		@image_url = SeoContent::Image::Terms
 	end
 
 	def contact
 		@title = SeoContent::Title::Contact
 		@description = SeoContent::Description::Contact
+		@image_url = SeoContent::Image::Contact
 	end
 
 	def about
 		@title = SeoContent::Title::About
 		@description = SeoContent::Description::About
+		@image_url = SeoContent::Image::About
 	end
 
 	def tech
 		@title = SeoContent::Title::Tech
 		@description = SeoContent::Description::Tech
+		@image_url = SeoContent::Image::Tech
 	end
 
 	def press
 		@title = SeoContent::Title::Press
 		@description = SeoContent::Description::Press
+		@image_url = SeoContent::Image::Press
 	end
 
 	def businesses
 		@title = SeoContent::Title::Businesses
 		@description = SeoContent::Description::Businesses
+		@image_url = SeoContent::Image::Businesses
 	end
 
 	def menu

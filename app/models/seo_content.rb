@@ -43,4 +43,19 @@ class SeoContent
                 We research, refactor, analyse and solve the toughest of problems."
 		Internships = "Exciting internship opportunities available for university grads and students who want to grow with us in the challenge of bringing the entire globe on the Roots map."
 	end
+
+	module Image
+		Brand = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Careers = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
+		Blog = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Privacy = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Terms = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Contact = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		About = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Tech = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Press = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Businesses = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Teams = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
+		Internships = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
+	end
 end
