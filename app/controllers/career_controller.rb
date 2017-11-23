@@ -27,7 +27,7 @@ class CareerController < ApplicationController
 		remote_internships_ids = ["2","4","5","6"]
 		is_remote = remote_internships_ids.include? @internship_id
 		unless is_remote
-			@who_can_apply_notes =  ["are available <b>full time in Gokarna</b> for the duration of internship.", "can handle the expenses of your <b>lodging and food yourself</b>."]
+			@who_can_apply_notes =  ["are available <b>full time in Gokarna</b> for the duration of internship.", "can handle the expenses of their <b>lodging and food themselves</b>."]
 		end
 
 		
