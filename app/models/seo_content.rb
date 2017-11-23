@@ -31,7 +31,7 @@ class SeoContent
 		# It should contain the focus keyword.
 		# The meta description should be unique.
 		Brand = "Download the Hippie's Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
-		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in the challenge of bringing the entire globe on the Roots map."
+		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
 		Blog = "Official Blog of Roots | App for the Modern Day Hippie Traveller."
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller."
 		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller."
@@ -42,7 +42,7 @@ class SeoContent
 		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller."
 		Teams = "Be Limitless. On our journey to create the world’s fastest growing app for the Modern Day Hippie Traveller.
                 We research, refactor, analyse and solve the toughest of problems."
-		Internships = "Exciting internship opportunities available for university grads and students who want to grow with us in the challenge of bringing the entire globe on the Roots map."
+		Internships = "Exciting internship opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
 		Internship = " Exciting internship opportunities available for university grads and students who want to grow with us at Roots."
 	end
 
