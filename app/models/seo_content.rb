@@ -7,18 +7,18 @@ class SeoContent
 		# If your company name is not part of the important (keyword) phrases, put it at the end of the title tag; if it is part of your important words, put it as the first words in the title tag. Some SEOs will tell you to leave it out. You can leave it in for branding purposes – so people will see the brand and click. This isn’t valid for all sites.
 		# They must be written differently for every page. Don’t mass replicate your title tags.
 		# Title tags must be written to be descriptive of the content on the page. (e.g., the About Page would be:
-		Brand = "Roots | App for the Modern Day Hippie Traveller."
-		Careers = "Roots Careers | Open Internships in Gokarna"
-		Blog = "Official Blog of Roots | App for the Modern Day Hippie Traveller."
-		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller."
-		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller."
-		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller."
-		About = "Roots About | App for the Modern Day Hippie Traveller."
-		Tech = "Roots Tech Blog | App for the Modern Day Hippie Traveller."
-		Press = "Roots Latest Press Release | App for the Modern Day Hippie Traveller."
-		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller."
-		Teams = "Roots Team | App for the Modern Day Hippie Traveller."
-		Internships = "Internships at Roots | App for the Modern Day Hippie Traveller."
+		Brand = "Travel App | For the Modern Day Hippie Traveller | Explore Gokarna | Roots"
+		Careers = "Open Internships in Gokarna | Roots Careers"
+		Blog = "Official Blog of Roots, App for the Modern Day Hippie Traveller"
+		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller"
+		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller"
+		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller"
+		About = "Roots About | App for the Modern Day Hippie Traveller"
+		Tech = "Roots Tech Blog | App for the Modern Day Hippie Traveller"
+		Press = "Roots Latest Press Release | App for the Modern Day Hippie Traveller"
+		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller"
+		Teams = "Roots Team | Driven by passionate Tech and Product Evangelists"
+		Internships = "Open Internships in Gokarna at Roots, App for the Modern Day Hippie Traveller"
 	end
 
 	module Description
