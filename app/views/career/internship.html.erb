@@ -19,7 +19,6 @@
         <li>are preferably available for duration of <b>atleast 1 month</b>.</li>
         <li>have relevant skills and interests.</li>
         <li>have already graduated or are currently in any year of study.</li>
-        <li>Women willing to start/restart their career can also apply.</li>
         <% unless @who_can_apply_notes.nil? %><% @who_can_apply_notes.each do |who_can_apply_note| %><li><%= who_can_apply_note.html_safe %></li><% end %><% end %>
     </section>
 </div>
