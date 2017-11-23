@@ -8,7 +8,7 @@ class SeoContent
 		# They must be written differently for every page. Don’t mass replicate your title tags.
 		# Title tags must be written to be descriptive of the content on the page. (e.g., the About Page would be:
 		Brand = "Travel App | For the Modern Day Hippie Traveller | Explore Gokarna | Roots"
-		Careers = "Open Internships in Gokarna | Roots Careers"
+		Careers = "Roots Beach Internship Program | Roots Careers"
 		Blog = "Official Blog of Roots, App for the Modern Day Hippie Traveller"
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller"
 		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller"
@@ -18,7 +18,7 @@ class SeoContent
 		Press = "Roots Latest Press Release | App for the Modern Day Hippie Traveller"
 		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller"
 		Teams = "Roots Team | Driven by passionate Tech and Product Evangelists"
-		Internships = "Open Internships in Gokarna at Roots, App for the Modern Day Hippie Traveller"
+		Internships = "Roots Beach Internship Program | Roots, App for the Modern Day Hippie Traveller"
 		Internship = " Internship in Gokarna at Roots, App for the Modern Day Hippie Traveller"
 	end
 
