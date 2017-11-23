@@ -45,16 +45,16 @@ class SeoContent
 	end
 
 	module Image
-		Brand = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Brand = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Careers = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
-		Blog = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Privacy = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Terms = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Contact = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		About = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Tech = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Press = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
-		Businesses = "https://scontent.fdel1-2.fna.fbcdn.net/v/t31.0-8/22904642_514454105588761_1418532882347757605_o.jpg?oh=ada1f06139dd7c9035ca678dc73d8be3&oe=5A976BD8"
+		Blog = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Privacy = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Terms = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Contact = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		About = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Tech = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Press = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
+		Businesses = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Teams = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
 		Internships = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
 	end
