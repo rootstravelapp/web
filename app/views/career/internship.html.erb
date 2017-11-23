@@ -15,8 +15,8 @@
     <br/>
     <h3 style="text-align: center; padding: 20px;">Only those candidates can apply who</h3>
     <section>
-        <li>can preferably <b>start</b> the internship from <b>4 Dec'17 or 11th Dec'17</b>.</li>
-        <li>are preferably available for the duration of <b>atleast 1 month</b>.</li>
+        <li>can preferably start the internship from 4 Dec'17 or 11th Dec'17.</li>
+        <li>are preferably available for the duration of atleast 1 month.</li>
         <li>have relevant skills and interests.</li>
         <li>have already graduated or are currently in any year of study.</li>
         <% unless @who_can_apply_notes.nil? %><% @who_can_apply_notes.each do |who_can_apply_note| %><li><%= who_can_apply_note.html_safe %></li><% end %><% end %>
@@ -38,7 +38,7 @@
     <section>
         <ul>
           <li>Have prior startup experience (but not necessary); being scrappy will help you hit the ground running.</li>
-          <li>Know Kannada or/and any foreign languages.</li>
+          <li>Multilingual ability to read, write and speak Kannada or in any of the foreign languages.</li>
           <li>Love to travel, and have travelled to Gokarna before.</li>
           <li>Plan to startup in the near future.</li>
           <% unless @bonus_points.nil? %><% @bonus_points.each do |bonus_point| %><li><%= bonus_point.html_safe %></li><% end %><% end %>
