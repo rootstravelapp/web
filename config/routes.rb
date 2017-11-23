@@ -3,7 +3,6 @@ Rails.application.routes.draw do
 	root "website#index"
 
 	get "/careers" => "career#index"
-	get "/story" => "career#index"
 	get "/careers/teams" => "career#teams"
 	get "/careers/teams/internships" => "career#internships"
 
