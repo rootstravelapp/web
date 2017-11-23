@@ -1,44 +1,48 @@
 class WebsiteController < ApplicationController
 
 	def index
-
-	end
-
-	def careers
-		
+		@title = SeoContent::Title::Brand
+		@description = SeoContent::Description::Brand
 	end
 
 	def blog
+		@title = SeoContent::Title::Blog
+		@description = SeoContent::Description::Blog
 	end
 
 	def privacy
+		@title = SeoContent::Title::Privacy
+		@description = SeoContent::Description::Privacy
 	end
 
 	def terms
+		@title = SeoContent::Title::Terms
+		@description = SeoContent::Description::Terms
 	end
 
 	def contact
+		@title = SeoContent::Title::Contact
+		@description = SeoContent::Description::Contact
 	end
 
 	def about
+		@title = SeoContent::Title::About
+		@description = SeoContent::Description::About
 	end
 
 	def tech
+		@title = SeoContent::Title::Tech
+		@description = SeoContent::Description::Tech
 	end
 
 	def press
-	end
-
-	def guidelines
-	end
-
-	def safety
-	end
-
-	def faq
+		@title = SeoContent::Title::Press
+		@description = SeoContent::Description::Press
 	end
 
 	def businesses
+		@title = SeoContent::Title::Businesses
+		@description = SeoContent::Description::Businesses
 	end
 
 	def menu

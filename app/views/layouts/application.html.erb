@@ -1,68 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35051501-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-35051501-2');
-		</script>
-
-		<meta charset="utf-8">
-		<title>Roots.ai | App for the Modern Day Hippie Traveller.</title>
-		<%= csrf_meta_tags %>
-
-		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-		<!--
-			We're hiring
-
-			Learn more:
-			http://roots.ai/careers
-
-		-->
-		<%= favicon_link_tag 'logo.ico' %>
-
-		
-
-		<meta name="description" content="App for the Modern Day Hippie Traveller.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<link rel="canonical" href="https://roots.ai">
-
-		<meta name="cloudinary_cloud_name" content="roots">
-		<!--[if IE]>
-				<link rel="stylesheet" href="/css/ie.css"/>
-		<![endif]-->
-
-		<!-- App Install Banners -->
-
-
-		<!-- Twitter Cards and OpenGraph -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@Roots">
-		<meta name="twitter:description" content="App for the Modern Day Hippie Traveller.">
-
-		<meta property="og:image" content="">
-		<meta property="og:image:secure_url" content="">
-		<meta property="og:image:type" content="image/png">
-		<meta property="og:title" content="Roots.ai | App for the Modern Day Hippie Traveller">
-		<meta property="og:url" content="https://roots.ai">
-		<meta property="og:site_name" content="Roots">
-		<meta property="og:description" content="Roots.ai | App for the Modern Day Hippie Traveller">
-
-		<meta name="google-site-verification" content="8OP2oT2pUtgYX8tQfbOmZGk0d7NzhAs7PSxP5GT4Xkk" />
-		<meta name="fragment" content="!">
-
-		<!-- Facebook Pixel Code -->
-		
-		<!-- DO NOT MODIFY -->
-		<!-- End Facebook Pixel Code -->
-	</head>
+	<%= render partial: "layouts/partials/head", locals: {title: @title, description: @description} %>
 
 	<body>
 		<%= yield %>
