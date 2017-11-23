@@ -58,7 +58,7 @@ class SeoContent
 		Press = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Businesses = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Teams = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
-		Internships = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
-		Internship = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
+		Internships = "http://www.roots.ai/assets/careers-fce7851282bfc9309815394d6f2a0cc0549af56f834a47eb4f57fb679b51aab8.jpg"
+		Internship = "http://www.roots.ai/assets/careers-fce7851282bfc9309815394d6f2a0cc0549af56f834a47eb4f57fb679b51aab8.jpg"
 	end
 end
