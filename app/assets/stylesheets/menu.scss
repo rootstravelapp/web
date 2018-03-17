@@ -8,21 +8,20 @@
 
 	.menu-card-header-wrapper{
 		text-align: -webkit-center;
-		border-bottom: 1px solid;
 		border-color: #EAEAEA;
 		padding: 20px;
 	    padding-top: 50px;
     	padding-bottom: 50px;
     	position: relative;
-    	background-color: rgba(255, 255, 255, 0.84);
+    	color: white;
 
     	.cover-image-wrapper{
     		position: absolute;
-		    background-image: url(http://www.herbaveda.co/wp-content/uploads/2016/05/529457_9mitkeupyojysjkiz7jmvroeg.jpg);
+		    background-image: url(http://pngimg.com/uploads/wedding/wedding_PNG19490.png);
 		    left: 0;
 		    right: 0;
 		    top: 0;
-		    height: 250px;
+		    height: 158px;
 		    z-index: -1;
     	}
 	}
@@ -39,8 +38,12 @@
 
 	h1{
 		padding-left: 10px;
-		font-size: 2.5rem;
+		font-size: 3rem;
 	    letter-spacing: 2px;
+	    font-family: 'Alegreya Sans', sans-serif;
+	    line-height: 4rem;
+	    margin-bottom: 0px;
+	    color: white;
 	}
 
 	h2{
@@ -61,8 +64,7 @@
 
 	.menu-content{
 
-		display: flex;
-	    float: left;
+		
 	    width: 100%;
 	    padding: 10px;
 
@@ -70,23 +72,22 @@
 			width: 100vw;
 			padding-left: 40px;
 			padding-right: 40px;
-		    -webkit-column-count: 5; /* Chrome, Safari, Opera */
-		    -moz-column-count: 5; /* Firefox */
-		    column-count: 5;
+		    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+		    -moz-column-count: 3; /* Firefox */
+		    column-count: 3;
 	        padding-top: 20px;
     		padding-bottom: 30px;
 
 		    .category-wrapper{
-		    	border: 5px dotted;
 			    border-radius: 5px;
-			    border-color: #c1c1c1;
 			    padding: 10px;
 
 				table{
 					width: 100%;
+					margin-bottom: 15px;
 
 					.price-wrapper{
-						border-bottom: 1px solid;
+						border-bottom: 1px solid #EAEAEA;
 
 						.veg-non-veg{
 							width: 10px;
@@ -95,16 +96,18 @@
 						}
 
 						.dish{
-							font-size: 14px;
+							font-size: 20px;
 							letter-spacing: 1px;
 							font-weight: 500;
-							font-family: "Helvetica";
+							font-family: 'Alegreya Sans', sans-serif;
+							padding-bottom: 3px;
+							text-transform: uppercase;
 						}
 
 						.price{
 							float: right;
-							font-size: 14px;
-							font-family: "Helvetica";
+							font-size: 25px;
+							font-family: 'Roboto Slab', serif;
 							font-weight: 600;
 						}
 
@@ -139,7 +142,7 @@
 
 .restaurant-name{
 	font-weight: 800;
-	font-size: 3rem;
+	font-size: 7rem;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -156,7 +159,8 @@
 }
 
 body{
-	overflow-y: -webkit-paged-x;
+	background-color: #333;
+	color: white;
 }
 
 .brand-asset{
@@ -198,7 +202,7 @@ body{
 	font-weight: "bold" !important;
 	letter-spacing: 1px !important;
     font-size: 9px;
-    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
 }
 
 .brand-name{

@@ -1,4 +1,6 @@
+<script src="../particles.js"></script>
 <div class="homepage">
+	<div id="particles-js"></div>
 	<div class="home-content m-text-center">
 		<div class="careers-container">
 			<div class="careers-wrapper">
@@ -6,10 +8,10 @@
 				<a class="careers-label">NEW</a>
 			</div>
 		</div>
-		<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots.ai | App for the Modern Day Hippie Traveller."%>
+		<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots | App for the Modern Day Hippie Traveller."%>
 		<div class="download-container">
 			<div class="home-download-app" translate="home.orDownloadNow">
-				<div><b>Roots.ai</b></div>
+				<div class="brand-tagline">DAO   for  the  Travel  Industry</div>
 				<div>Proud to release Beta on the Android.</div>
 				<div>iOS coming soon.</div>
 			</div>
@@ -34,5 +36,15 @@
 			</div>
 		</div>
 	</div>
+	
 	<%= render partial: "website/partials/footer"%>
 </div>
+
+
+
+
+<script>
+	particlesJS.load('particles-js', 'assets/particles.json', function() {
+	  console.log('callback - particles.js config loaded');
+	});
+</script>

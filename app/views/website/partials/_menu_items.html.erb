@@ -2,18 +2,14 @@
 	<table>
 		<tr class="price-wrapper">
 			<td class="dish">
-				<% if item[:veg] == 1 %>
-					<img class="veg-non-veg" src="/assets/veg.png"/>
-				<% else %>
-					<img class="veg-non-veg" src="/assets/non-veg.png"/>
-				<% end %>
-				<%= item[:name].upcase %>
+				
+				<%= item["name"] %>
 				<div class="description">
-					<%= item[:description] %>
+					<%= item["description"] %>
 				</div>
 			</td>
 			<td class="price">
-				<%= item[:price] %>
+				<%= item["price"] %>
 			</td>
 		</tr>
 	</table>
