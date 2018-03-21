@@ -5,31 +5,29 @@
 
 
 <div class="homepage">
-	<div id="particles-js"></div>
-	<div class="home-content m-text-center">
-		<div id="globe">
+	
+	<div class="blocks-wrapper" style="position: absolute;">
+		<div id="globe" class="blocks">
 			<%= render partial: "website/partials/globe"%>
 		</div>
+		<div class="blocks">
+			<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
+			<div class="download-container">
+				<div class="home-download-app" translate="home.orDownloadNow">
+					<div class="brand-tagline">ROOTS NETWORK ICO</div>
+					<div>Proud to release Beta on the Android.</div>
+					<div>iOS coming soon.</div>
+				</div>
+				<div class="download-buttons">
+					<a href=""class="download-button">
+						<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
+						<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
+					</a>
 
-		<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
-		<div class="download-container">
-			<div class="home-download-app" translate="home.orDownloadNow">
-				<div class="brand-tagline">ROOTS NETWORK ICO</div>
-				<div>Proud to release Beta on the Android.</div>
-				<div>iOS coming soon.</div>
+				</div>
 			</div>
-			<div class="download-buttons">
-				<a href=""class="download-button">
-					<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
-				</a>
-				<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
-					<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
-				</a>
-
-			</div>
-		</div>
-		<div class="home-footer">
-			<div class="home-tagline" translate="home.onlineComingSoon"></div>
 		</div>
 	</div>
 </div>
@@ -61,8 +59,8 @@
                   </div>
                   <div id="hero-top" style="background: linear-gradient(216deg, #222222, #222222);">
                      <section class="hero-text">
-                        <div class="text">The Hippiedom of Travellers</div>
-                        <h2>Since Oct, 2017</h2>
+                        <div class="text">ROOTS NETWORK</div>
+                        <h2>Its time to buy Roots</h2>
                      </section>
                   </div>
                   <div id="stats" class="job-page">
@@ -70,12 +68,14 @@
                         <section>
                            <div class="press-stats clearfix">
                               <div class="stat">
-                                 <div class="stat-val">1</div>
-                                 <div class="stat-caption ">MISSION</div>
+                                 <div class="stat-val">2.3</div>
+                                 <div class="stat-caption ">TRILLION $</div>
+                                 <div class="stat-caption ">INDUSTRY</div>
                               </div>
                               <div class="stat">
-                                 <div class="stat-val">1</div>
-                                 <div class="stat-caption ">CITY</div>
+                                 <div class="stat-val">TWO</div>
+                                 <div class="stat-caption ">BILLION</div>
+                                 <div class="stat-caption ">TRIPS / YEAR</div>
                               </div>
                               <div class="stat">
                                  <div class="stat-val">1000+</div>
@@ -96,7 +96,7 @@
                         <section>
                            <div id="departments-description">
                               <span class="red-headline">
-                              The <b>Modern Day Hippie Travellers</b>
+                              <b>BUSINESSES <> TRAVELLERS</b>
                               </span>
                            </div>
                         </section>
@@ -120,7 +120,7 @@
                         <section>
                            <div id="departments-description">
                               <span class="red-headline">
-                              <b>Roots, Hippie's Travel App: Explore Gokarna</b>
+                              <b>FOR BUSINESSES</b>
                               </span>
                            </div>
                         </section>
@@ -136,7 +136,7 @@
                         <div id="departments-description">
                            <div>
                               <span class="red-headline">
-                              For <b>Local Businesses</b>
+                              <b>FOR TRAVELLERS</b>
                               </span>
                               
                            </div>
@@ -167,13 +167,11 @@
 	    <div id="headline-bottom">
 	        <section>
 	            <div id="one-spark">
-	                <h3>Our Philosophy: Be Limitless</h3>
+	                <h3>ECOSYSTEM</h3>
 	            </div>
 	            
 	            <p id="one-spark-description">
-	                We are on our journey to create the world’s fastest growing app for the <b>Modern Day Hippie Traveller</b>.<br/>
-	                We research, refactor, analyse and solve the toughest of problems by getting clarity and tickling our creativity.
-
+	               Enterprise Collaboration.
 	            </p>
 	            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
 	        </section>
@@ -184,14 +182,10 @@
 	    <section>
 	        <div id="company-info">
 	            <div class="info-box">
-	                We are the most passionate earthlings.
-	                <p>
-	                    Everyone at Roots is dedicated towards breathing life to the product by innovating and challenging the current norms.
-	                </p>
-	                
+	                Credit Funding, Suppliers, Partners and Investment Opportunities	                
 	            </div>
 	            <div class="info-box">
-	                We perceive clarity before acting.
+	                Travel Insurance.
 	                <p>
 	                    We plan to the tiniest of details by making everything as simple as possible but not simpler.
 	                </p>
@@ -207,6 +201,30 @@
 	        </div>
 	    </section>
 	</div>
+	<div id="footer-apply">
+	    <section>
+	        <div id="company-info">
+	            <div class="info-box">
+	                Credit Funding, Suppliers, Partners and Investment Opportunities	                
+	            </div>
+	            <div class="info-box">
+	                Travel Insurance.
+	                <p>
+	                    We plan to the tiniest of details by making everything as simple as possible but not simpler.
+	                </p>
+	                
+	            </div>
+	            <div class="info-box">
+	                <div>We have something to prove to ourselves.</div>
+	                <p>
+	                    We plan to bring the entire globe on the Roots map and make it discoverable by a Hippie.
+	                </p>
+	                
+	            </div>
+	        </div>
+	    </section>
+	</div>
+	
 	<div>
 	   <div class="people">
 	     <h1>FOUNDER</h1>

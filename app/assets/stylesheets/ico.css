@@ -2,29 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.home-content{
+.blocks-wrapper{
 	position: absolute;
-    width: 100%;
-    height: 140%;
-    background: transparent;
-    padding: 55px 5% 5% 5%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    letter-spacing: 2px;
-    font-weight: 200;
+    background: linear-gradient(216deg, #3949AB, #8E24AA) !important;
 }
 
 .homepage {
@@ -33,6 +13,7 @@
     height: 140vh;
     font-family: "helvetica";
     -webkit-tap-highlight-color: transparent;
+    background: linear-gradient(216deg, #3949AB, #8E24AA) !important;
 }
 
 .below-the-fold #home-nav {
@@ -85,15 +66,15 @@
     color: #48def1 !important;
 }
 
-.homepage .home-content .download-container {
+.homepage .blocks-wrapper .download-container {
     margin: 5vh 0;
 }
 
-.homepage .home-content .home-footer {
+.homepage .blocks-wrapper .home-footer {
     width: 100%;
 }
 
-.homepage .home-content .nav-opener-container {
+.homepage .blocks-wrapper .nav-opener-container {
     width: 100%;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 12%;
@@ -128,7 +109,7 @@
     right: -30px;
 }
 
-.homepage .home-content .download-container .download-buttons {
+.homepage .blocks-wrapper .download-container .download-buttons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -145,19 +126,19 @@
     height: auto;
 }
 
-.homepage .home-content .download-container .download-buttons .download-button {
+.homepage .blocks-wrapper .download-container .download-buttons .download-button {
     border-radius: 10px;
     margin: 0 10px;
     cursor: pointer;
 }
 
-.homepage .home-content .download-container .download-buttons .download-button img {
+.homepage .blocks-wrapper .download-container .download-buttons .download-button img {
     width: 145px;
     height: auto;
     border-radius: 11px;
 }
 
-.homepage .home-content .home-footer .home-tagline {
+.homepage .blocks-wrapper .home-footer .home-tagline {
     font-size: 0.9rem;
     line-height: initial;
     font-weight: 100;
@@ -168,7 +149,7 @@
     padding-bottom: 10px;
 }
 
-.homepage .home-content .home-footer .home-learn-more {
+.homepage .blocks-wrapper .home-footer .home-learn-more {
     color: white;
     text-decoration: underline;
     font-size: 0.9rem;
@@ -178,7 +159,7 @@
     padding-bottom: 25px;
 }
 
-.homepage .home-content .nav-opener-container .nav-arrow.bounce {
+.homepage .blocks-wrapper .nav-opener-container .nav-arrow.bounce {
     -webkit-animation-name: bounce;
     animation-name: bounce;
     -webkit-transform-origin: center bottom;
@@ -193,7 +174,7 @@
     animation-fill-mode: both;
 }
 
-.homepage .home-content .nav-opener-container .nav-arrow {
+.homepage .blocks-wrapper .nav-opener-container .nav-arrow {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -205,17 +186,17 @@
     transform: translateZ(0);
 }
 
-.homepage .home-content img.home-logo {
+.homepage .blocks-wrapper img.home-logo {
     height: 127px;
     width: auto;
 }
 
-.homepage .home-content .nav-opener-container .nav-arrow img {
+.homepage .blocks-wrapper .nav-opener-container .nav-arrow img {
     cursor: pointer;
     width: 15px;
 }
 
-.homepage .home-content .download-container .home-download-app {
+.homepage .blocks-wrapper .download-container .home-download-app {
     font-size: 1rem;
     color: white;
     font-weight: 200;
@@ -238,28 +219,28 @@
 	    flex-basis: 100%;
 	}
 
-	.homepage .home-content .download-container .download-buttons .download-button img {
+	.homepage .blocks-wrapper .download-container .download-buttons .download-button img {
 	    width: 42vw;
 	    margin-bottom: 25px;
 	}
 
-	.homepage .home-content .download-container .home-download-app {
+	.homepage .blocks-wrapper .download-container .home-download-app {
 	    padding: 10px 0;
 	    margin: 15px 0;
 	}
 
-	.homepage .home-content img.home-logo {
+	.homepage .blocks-wrapper img.home-logo {
 	    height: 20vh;
 	}
 
-	.homepage .home-content .home-footer {
+	.homepage .blocks-wrapper .home-footer {
 	    margin: 0 10px;
 	    padding: 10px 0;
 	    border-top: 1px solid rgba(255,255,255,0.5);
 	    border-bottom: 1px solid rgba(255,255,255,0.5);
 	}
 
-	.homepage .home-content .home-footer .home-learn-more {
+	.homepage .blocks-wrapper .home-footer .home-learn-more {
 	    padding-bottom: 0px;
 	    font-size: 0.9rem;
 	}
@@ -297,7 +278,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     position: absolute;
-    background: linear-gradient(216deg, #222222, #222222) !important;
+    background: linear-gradient(216deg, #222222, #000) !important;
 }
 
 .brand-tagline{
@@ -336,7 +317,7 @@ text.subunit-label {
 
 
 .land {
-  fill: white;
+  fill: #388E3C;
   stroke-opacity: 1;
 }
 
@@ -360,14 +341,14 @@ text.subunit-label {
 .point {  opacity:.6; }
 
 .arcs {
-  opacity:.1;
-  stroke: white;
+  opacity: 0.6;
+  stroke: #FFC107;
   stroke-width: 3;
 }
 .flyers {
   stroke-width:1;
   opacity: .6;
-  stroke: white; 
+  stroke: #FFC107; 
 }
 .arc, .flyer {
   stroke-linejoin: round;
@@ -495,9 +476,25 @@ text.subunit-label {
 }
 
 
-#globe{
-    position: absolute;
-    left: 0;
-    top: 50vh;
-    margin-top: -250px;
+.blocks{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    letter-spacing: 2px;
+    font-weight: 200;
 }
