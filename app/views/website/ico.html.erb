@@ -1,39 +1,59 @@
-<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script> 
 
-
-
+<div class="nav-cont">
+    <div class="block hide-block">
+    	<div  class="logo">
+        	<a href="/ico">
+	        	<%= image_tag ("logo.png")%>
+        	</a>
+    	</div>
+   	 	<a href="/ico" class="block">ROOTS NETWORK</a>
+    </div>
+    <div class="block hide-block">
+    </div>
+</div>
 
 <div class="homepage">
 	
-	<div class="blocks-wrapper" style="position: absolute;">
-		<div id="globe" class="blocks">
-			<%= render partial: "website/partials/globe"%>
-		</div>
-		<div class="blocks">
-			<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
-			<div class="download-container">
-				<div class="home-download-app" translate="home.orDownloadNow">
-					<div class="brand-tagline">ROOTS NETWORK ICO</div>
-					<div>Proud to release Beta on the Android.</div>
-					<div>iOS coming soon.</div>
-				</div>
-				<div class="download-buttons">
-					<a href=""class="download-button">
-						<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
-					</a>
-					<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
-						<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
-					</a>
-
+	<div id="particles-js"></div>
+	<div class="blocks-parent-wrapper">
+		<div class="blocks-wrapper">
+			<div class="blocks">
+				<%#= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
+				<div class="download-container">
+					<div class="home-download-app" translate="home.orDownloadNow">
+						<div class="brand-tagline">Decentralised ML driven distributed economic system for Travellers</div>
+						<div>Proud to release Beta on the Android.</div>
+						<div>iOS coming soon.</div>
+					</div>
+					<div class="download-buttons">
+						<a href=""class="download-button">
+							<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
+						</a>
+						<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
+							<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="blocks-footer-wrapper">
+		<%= fa_icon "facebook" %>
+		<%= fa_icon "telegram" %>
+		<%= fa_icon "google-plus" %>
+		<%= fa_icon "twitter" %>
+		<%= fa_icon "youtube" %>
+		<%= fa_icon "medium" %>
+		<%= fa_icon "instagram" %>
+		<%= fa_icon "github" %>
+		<%= fa_icon "linkedin" %>
+	</div>
 </div>
 	
-
-<div id="map">
+<div id="rootsMap">
+	<%= render partial: "website/partials/map"%>
 </div>
 
 <div class="page-wrap">
@@ -57,7 +77,7 @@
                         </div>
                      </section>
                   </div>
-                  <div id="hero-top" style="background: linear-gradient(216deg, #222222, #222222);">
+                  <div id="hero-top" style="background: linear-gradient(216deg, #007382, #86f501);">
                      <section class="hero-text">
                         <div class="text">ROOTS NETWORK</div>
                         <h2>Its time to buy Roots</h2>
@@ -227,7 +247,7 @@
 	
 	<div>
 	   <div class="people">
-	     <h1>FOUNDER</h1>
+	     <b>TEAM</b>
 	     <div class="about-me-wrapper">
 	        <%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
 	     </div>
@@ -323,13 +343,24 @@
 
 </div>
 
+<div id="globe">
+	<%= render partial: "website/partials/globe"%>
+</div>
+
+<div id="chart" class="chart-container"></div>
+	<%= render partial: "website/partials/pie"%>
+</div>
+
 <div id="timeline">
 	<%= render partial: "website/partials/timeline"%>
 </div>
 
 <%= render partial: "website/partials/footer"%>
+
 <script>
 	particlesJS.load('particles-js', 'particles.json', function() {
 
 	});
 </script>
+
+

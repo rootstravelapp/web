@@ -3221,14 +3221,14 @@ body.redesign .ti-content {
 }
 
 .nav-cont .block{
-    vertical-align: top;
+    vertical-align: super;
     display: inline-block !important;
-    *display: inline;
-    width: 33%;
+    display: inline;
     text-align: center;
-    color: #616161;
+    color: #8ac34a;
     font-family: helvetica;
     font-weight: bold;
+    font-size: 30px;
 }
 
 
@@ -3258,7 +3258,7 @@ body.redesign .ti-content {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 96px
+        height: 50px
     }
 
 
@@ -4719,9 +4719,10 @@ h2{
     width: 200px;
     height: 200px;
     overflow: hidden;
-    border-radius: 10px;
     text-align: center;
     display: -webkit-inline-box;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .about-me{

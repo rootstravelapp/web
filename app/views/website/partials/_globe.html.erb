@@ -15,7 +15,7 @@ var sky = d3.geo.orthographic()
     .clipAngle(90)
     .scale(300);
 
-var path = d3.geo.path().projection(proj).pointRadius(2);
+var globePath = d3.geo.path().projection(proj).pointRadius(2);
 
 var swoosh = d3.svg.line()
       .x(function(d) { return d[0] })
@@ -26,7 +26,7 @@ var swoosh = d3.svg.line()
 var links = [],
     arcLines = [];
 
-var svg = d3.select("#globe").append("svg")
+var globeSvg = d3.select("#globe").append("svg")
             .attr("width", width)
             .attr("height", height)
             .on("mousedown", mousedown);
@@ -37,14 +37,14 @@ queue()
     .await(ready);
 
 function ready(error, world, places) {
-  var ocean_fill = svg.append("defs").append("radialGradient")
+  var ocean_fill = globeSvg.append("defs").append("radialGradient")
         .attr("id", "ocean_fill")
         .attr("cx", "75%")
         .attr("cy", "25%");
       ocean_fill.append("stop").attr("offset", "5%").attr("stop-color", "#03A9F4");
       ocean_fill.append("stop").attr("offset", "100%").attr("stop-color", "#1565C0");
 
-  var globe_highlight = svg.append("defs").append("radialGradient")
+  var globe_highlight = globeSvg.append("defs").append("radialGradient")
         .attr("id", "globe_highlight")
         .attr("cx", "75%")
         .attr("cy", "25%");
@@ -55,7 +55,7 @@ function ready(error, world, places) {
         .attr("offset", "100%").attr("stop-color", "#000")
         .attr("stop-opacity","0.2");
 
-  var globe_shading = svg.append("defs").append("radialGradient")
+  var globe_shading = globeSvg.append("defs").append("radialGradient")
         .attr("id", "globe_shading")
         .attr("cx", "55%")
         .attr("cy", "45%");
@@ -68,31 +68,31 @@ function ready(error, world, places) {
 
   
 
-  svg.append("circle")
+  globeSvg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
     .attr("r", proj.scale())
     .attr("class", "noclicks")
     .style("fill", "url(#ocean_fill)");
   
-  svg.append("path")
+  globeSvg.append("path")
     .datum(topojson.feature(world, world.objects.land))
     .attr("class", "land noclicks")
-    .attr("d", path);
+    .attr("d", globePath);
 
 
-  svg.append("circle")
+  globeSvg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
     .attr("r", proj.scale())
     .attr("class","noclicks")
     .style("fill", "url(#globe_highlight)");
 
-  svg.append("circle")
+  globeSvg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
     .attr("r", proj.scale())
     .attr("class","noclicks")
     .style("fill", "url(#globe_shading)");
 
-  svg.append("g").attr("class","points")
+  globeSvg.append("g").attr("class","points")
       .selectAll("text").data(places.features)
     .enter().append("path")
       .attr("class", "point")
@@ -116,14 +116,14 @@ function ready(error, world, places) {
     arcLines.push(feature)
   })
 
-  svg.append("g").attr("class","arcs")
+  globeSvg.append("g").attr("class","arcs")
     .selectAll("path").data(arcLines)
     .enter().append("path")
       .attr("class","arc")
-      .attr("d",path)
+      .attr("d",globePath)
       .attr("fill", "white");
 
-  svg.append("g").attr("class","flyers")
+  globeSvg.append("g").attr("class","flyers")
     .selectAll("path").data(links)
     .enter().append("path")
     .attr("class","flyer")
@@ -146,15 +146,15 @@ function flying_arc(pts) {
 
 
 function refresh() {
-  svg.selectAll(".land").attr("d", path);
-  svg.selectAll(".point").attr("d", path);
+  globeSvg.selectAll(".land").attr("d", globePath);
+  globeSvg.selectAll(".point").attr("d", globePath);
   
-  svg.selectAll(".arc").attr("d", path)
+  globeSvg.selectAll(".arc").attr("d", globePath)
     .attr("opacity", function(d) {
         return fade_at_edge(d)
     })
 
-  svg.selectAll(".flyer")
+  globeSvg.selectAll(".flyer")
     .attr("d", function(d) { return swoosh(flying_arc(d)) })
     .attr("opacity", function(d) {
       return fade_at_edge(d)

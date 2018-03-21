@@ -2,9 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.blocks-wrapper{
-	position: absolute;
-    background: linear-gradient(216deg, #3949AB, #8E24AA) !important;
+body{}
+
+.blocks-footer-wrapper{
+    position: absolute;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    padding-left: 30px;
 }
 
 .homepage {
@@ -13,7 +20,6 @@
     height: 140vh;
     font-family: "helvetica";
     -webkit-tap-highlight-color: transparent;
-    background: linear-gradient(216deg, #3949AB, #8E24AA) !important;
 }
 
 .below-the-fold #home-nav {
@@ -121,7 +127,8 @@
     flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 14px;
     width: 100%;
     height: auto;
 }
@@ -278,11 +285,11 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     position: absolute;
-    background: linear-gradient(216deg, #222222, #000) !important;
+    background: linear-gradient(216deg, #007382, #86f501);
 }
 
 .brand-tagline{
-    font-family: "BEBAS";
+    font-family: "Helvetica";
     font-size: 2em;
     line-height: 1.5em;
 }
@@ -295,7 +302,7 @@
 }
 
 text.subunit-label {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "bebas";
     font-size: 14px;
     font-weight: 300;
     text-anchor: middle;
@@ -317,7 +324,7 @@ text.subunit-label {
 
 
 .land {
-  fill: #388E3C;
+  fill: #1B5E20;
   stroke-opacity: 1;
 }
 
@@ -329,7 +336,7 @@ text.subunit-label {
 }
 
 .labels {
-    font: 8px sans-serif;
+    font: 8px "bebas";
     fill: black;
     opacity: .5;
 
@@ -365,11 +372,12 @@ text.subunit-label {
 }   
 
 
-/* axis */
 
+/*TIMELINE*/
+/* axis */
 .axis { /* axis labels */
     fill: #808080;
-    font-family: sans-serif;
+    font-family: "bebas";
     font-size: 10px;
 }
 
@@ -394,20 +402,20 @@ text.subunit-label {
 /* labels */
 
 .bandLabel {
-    fill: #F0F0F0;
-    font: 10px sans-serif;
+    fill: transparent;
+    font: 10px "bebas";
     font-weight: bold;
 }
 
 .bandMinMaxLabel {
-    fill: blue;
-    font: 10px sans-serif;
+    fill: transparent;
+    font: 10px "bebas";
     font-weight: bold;
 }
 
 .bandMidLabel {
-    fill: red;
-    font: 10px sans-serif;
+    fill: transparent;
+    font: 10px "bebas";
     font-style: italic;
     font-weight: bold;
 }
@@ -416,8 +424,8 @@ text.subunit-label {
 
 .brush .extent {
     stroke: gray;
-    fill: blue;
-    fill-opacity: .1;
+    fill: #8CC353;
+    fill-opacity: .3;
 }
 
 .chart {
@@ -425,28 +433,28 @@ text.subunit-label {
 }
 
 .interval {
-    fill: #AAFFFF;
+    fill: #8CC353;
     stroke-width: 6;
     cursor : default;
     pointer-events: true;
 }
 
 .instant {
-    fill: #FFAAFF;
+    fill: black;
     stroke-width: 6;
     cursor : default;
     /*pointer-events: true;*/
 }
 
 .instantLabel {
-    fill : blue;
-    font: 10px sans-serif;
+    fill : #333;
+    font: 10px "helvetica";
     shape-rendering: crispEdges;
 }
 
 .intervalLabel {
     fill : black;
-    font: 10px sans-serif;
+    font: 10px "helvetica";
     shape-rendering: crispEdges;
 }
 
@@ -457,7 +465,7 @@ text.subunit-label {
 
 .svg {
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: black;
     background-color: #FFFFFF;
 }
@@ -468,10 +476,11 @@ text.subunit-label {
     visibility: hidden;
     color : black;
     cursor:default;
-    background-color: #FFFFEE;
-    border: 1px solid;
+    background-color: #FFF;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.03);
     padding: 4px;
-    shape-rendering: crispEdges;
+    padding: 10px;
+    font-size: 20px;
     pointer-events: none;
 }
 
@@ -489,7 +498,7 @@ text.subunit-label {
     flex-direction: column;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -497,4 +506,27 @@ text.subunit-label {
     overflow: hidden;
     letter-spacing: 2px;
     font-weight: 200;
+}
+
+.blocks-wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.blocks-parent-wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.fa{
+    color: white;
+}
+
+#pieChart{
+    background: linear-gradient(216deg, #007382, #86f501);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-bottom-right-radius: 400px;
 }
