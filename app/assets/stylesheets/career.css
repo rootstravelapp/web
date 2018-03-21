@@ -230,7 +230,7 @@ th {
     font-weight: 400;
     margin-bottom: 10px;
     color: #343434;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
+    font-family: "proxima-nova", lato, sans-serif
 }
 
 @media only screen and (max-width: 800px) {
@@ -1079,7 +1079,7 @@ h5 {
 
 .m-header-light {
     font-weight: 100;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
+    font-family: "proxima-nova", lato, sans-serif
 }
 
 .m-col-50 {
@@ -1103,7 +1103,7 @@ h5 {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 5px;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
+    font-family: "proxima-nova", lato, sans-serif
 }
 
 .ti-blog {
@@ -1433,7 +1433,7 @@ h5 {
 }
 
 .red-headline {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     color: #616161;
     font-weight: 500;
     letter-spacing: 0.08rem;
@@ -1446,6 +1446,7 @@ h5 {
     font-size: 1rem;
     line-height: 1.9rem;
     font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.01em;
     color: #6C6C6C
 }
@@ -1460,7 +1461,7 @@ h5 {
 }
 
 #departments-page-container {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     background: #FFFFFF
 }
 
@@ -1657,7 +1658,7 @@ h5 {
 
 #hero-department h1,
 #hero-department h4 {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     color: #FFF
 }
 
@@ -1714,7 +1715,7 @@ h5 {
 }
 
 .description-department h5 {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     color: #B3B3B3;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -1804,7 +1805,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job a {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     display: block;
     text-decoration: none
 }
@@ -1844,7 +1845,7 @@ h5 {
 }
 
 #listings-department #categories-listings-greenhouse p {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
@@ -1891,7 +1892,7 @@ h5 {
 }
 
 #listings-department #categories-department .category-pods {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     background-color: #FFF;
     color: #B3B3B3;
     border-radius: 8px;
@@ -2802,7 +2803,7 @@ body.s-navless .m-header {
     font-size: 40px;
     font-weight: 800;
     color: white;
-    font-family: helvetica;
+    font-family: lato;
     line-height: 55px;
 }
 
@@ -2810,21 +2811,20 @@ body.s-navless .m-header {
     font-size: 30px;
     font-weight: 300;
     color: white;
-    font-family: helvetica;
+    font-family: lato;
     line-height: 40px;
 }
 
 .m-jobs .wide-page h1,
 .m-jobs .wide-page h3,
 .m-jobs .wide-page p {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     font-weight: 100;
     margin: 0
 }
 
 .m-jobs .wide-page p {
     font-size: 1.1rem;
-    color: #666
 }
 
 .m-jobs .wide-page strong {
@@ -2885,12 +2885,13 @@ body.s-navless .m-header {
     margin-left: 10px
 }
 
-.m-jobs #one-spark-description {
+#headline-bottom p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.9rem;
     padding-bottom: 20px;
-    text-align: center
+    text-align: center;
+    font-family: "Josefin Sans";
 }
 
 .m-jobs #headline-bottom h3,
@@ -2901,7 +2902,6 @@ body.s-navless .m-header {
 }
 
 .m-jobs #footer-apply {
-    background: #FFFFFF;
     height: auto;
     padding-bottom: 30px
 }
@@ -2912,7 +2912,7 @@ body.s-navless .m-header {
     }
 }
 
-.m-jobs #footer-apply #company-info {
+#company-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2920,7 +2920,7 @@ body.s-navless .m-header {
 }
 
 @media only screen and (max-width: 800px) {
-    .m-jobs #footer-apply #company-info {
+    #company-info {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2938,17 +2938,17 @@ body.s-navless .m-header {
     }
 }
 
-.m-jobs #footer-apply #company-info .info-box {
+#company-info .info-box {
     text-align: center;
     background-color: #FFF;
     margin: 0 20px;
     box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 769px) {
-    .m-jobs #footer-apply #company-info .info-box {
+    #company-info .info-box {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1
@@ -2956,12 +2956,12 @@ body.s-navless .m-header {
 }
 
 @media only screen and (max-width: 800px) {
-    .m-jobs #footer-apply #company-info .info-box {
+    #company-info .info-box {
         margin-bottom: 25px
     }
 }
 
-.m-jobs #footer-apply #company-info .info-box p {
+#company-info .info-box p {
     margin-top: 15px;
     font-size: 1rem;
     text-align: center;
@@ -3004,7 +3004,7 @@ body.s-navless .m-header {
 }
 
 .jobs-nav a {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     font-size: 1rem;
     letter-spacing: 0.07rem;
     margin: 0 1.5%;
@@ -3033,14 +3033,14 @@ body.s-navless .m-header {
 
 #hero-top,
 #hero-bottom {
-    height: 350px
+    min-height: 350px
 }
 
 #hero-top h1,
 #hero-top h3,
 #hero-bottom h1,
 #hero-bottom h3 {
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: lato, sans-serif;
     color: #FFF
 }
 
@@ -3066,7 +3066,6 @@ body.s-navless .m-header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: white;
     line-height: 40px;
     flex-direction: column
 }
@@ -3212,8 +3211,9 @@ body.redesign .ti-content {
     width: 100%;
     z-index: 3;
     background: #FFF;
-    height: 66px;
+    
     padding: 10px;
+    box-shadow: 0 10px 20px 0 rgba(149,152,172,.1);
 
     text-align: justify !important;
     -ms-text-justify: distribute-all-lines !important;
@@ -3221,19 +3221,19 @@ body.redesign .ti-content {
 }
 
 .nav-cont .block{
-    vertical-align: top;
+    vertical-align: super;
     display: inline-block !important;
-    *display: inline;
-    width: 33%;
+    display: inline;
     text-align: center;
-    color: #616161;
-    font-family: helvetica;
+    color: #8ac34a;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
 .nav-cont .logo{
-    font-family: helvetica;
+    font-family: lato;
     color: #616161;
     display: inline;
     font-weight: 800;
@@ -3252,13 +3252,10 @@ body.redesign .ti-content {
 
 @media only screen and (min-width: 769px) {
     .nav-cont {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: inline;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 96px
     }
 
 
@@ -3460,7 +3457,7 @@ body.redesign .ti-content {
     font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     text-transform: uppercase
 }
 
@@ -4188,7 +4185,7 @@ body.redesign .ti-content {
 .m-page h1,
 .m-page h2 {
     color: #343434;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
     font-weight: 100;
     font-size: 35px;
     line-height: 35px
@@ -4324,7 +4321,7 @@ body.redesign .ti-content {
     float: left;
     width: 192px;
     color: gray;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
+    font-family: "proxima-nova", lato, sans-serif
 }
 
 @media only screen and (max-width: 800px) {
@@ -4377,7 +4374,7 @@ body.redesign .ti-content {
 
 .job-page .stat {
     font-weight: 400;
-    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-family: "proxima-nova", lato, sans-serif;
 }
 
 @media only screen and (min-width: 769px) {
@@ -4712,20 +4709,20 @@ h2{
     color: white !important;
     font-size: 15px !important;
     font-weight: bold !important;
-    font-family: helvetica !important;
+    font-family: lato !important;
 }
 
 .about-me-wrapper{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 10px;
+    width: 300px;
     text-align: center;
     display: -webkit-inline-box;
+    margin: 20px;
 }
 
 .about-me{
-    width: 200px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 300px;
 }
 
 .people{
