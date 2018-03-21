@@ -2825,7 +2825,6 @@ body.s-navless .m-header {
 
 .m-jobs .wide-page p {
     font-size: 1.1rem;
-    color: #666
 }
 
 .m-jobs .wide-page strong {
@@ -2886,12 +2885,13 @@ body.s-navless .m-header {
     margin-left: 10px
 }
 
-.m-jobs #one-spark-description {
+#headline-bottom p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.9rem;
     padding-bottom: 20px;
-    text-align: center
+    text-align: center;
+    font-family: "Josefin Sans";
 }
 
 .m-jobs #headline-bottom h3,
@@ -2912,7 +2912,7 @@ body.s-navless .m-header {
     }
 }
 
-.m-jobs #footer-apply #company-info {
+#company-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2920,7 +2920,7 @@ body.s-navless .m-header {
 }
 
 @media only screen and (max-width: 800px) {
-    .m-jobs #footer-apply #company-info {
+    #company-info {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2938,17 +2938,17 @@ body.s-navless .m-header {
     }
 }
 
-.m-jobs #footer-apply #company-info .info-box {
+#company-info .info-box {
     text-align: center;
     background-color: #FFF;
     margin: 0 20px;
     box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 769px) {
-    .m-jobs #footer-apply #company-info .info-box {
+    #company-info .info-box {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1
@@ -2956,12 +2956,12 @@ body.s-navless .m-header {
 }
 
 @media only screen and (max-width: 800px) {
-    .m-jobs #footer-apply #company-info .info-box {
+    #company-info .info-box {
         margin-bottom: 25px
     }
 }
 
-.m-jobs #footer-apply #company-info .info-box p {
+#company-info .info-box p {
     margin-top: 15px;
     font-size: 1rem;
     text-align: center;
@@ -3033,14 +3033,14 @@ body.s-navless .m-header {
 
 #hero-top,
 #hero-bottom {
-    height: 350px
+    min-height: 350px
 }
 
 #hero-top h1,
 #hero-top h3,
 #hero-bottom h1,
 #hero-bottom h3 {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: lato, sans-serif;
     color: #FFF
 }
 
@@ -3066,7 +3066,6 @@ body.s-navless .m-header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: white;
     line-height: 40px;
     flex-direction: column
 }

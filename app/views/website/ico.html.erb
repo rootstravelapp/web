@@ -56,15 +56,16 @@
 		</div>
 	</div>
 	<div class="blocks-footer-wrapper">
-		<%= fa_icon "facebook" %>
-		<%= fa_icon "telegram" %>
-		<%= fa_icon "google-plus" %>
-		<%= fa_icon "twitter" %>
-		<%= fa_icon "youtube" %>
-		<%= fa_icon "medium" %>
-		<%= fa_icon "instagram" %>
-		<%= fa_icon "github" %>
-		<%= fa_icon "linkedin" %>
+		<p class="white">Connect with us</p>
+		<%= fa_icon "facebook", :class => "fa-2x social-icon" %>
+		<%= fa_icon "telegram", :class => "fa-2x social-icon" %>
+		<%= fa_icon "google-plus", :class => "fa-2x social-icon" %>
+		<%= fa_icon "twitter", :class => "fa-2x social-icon" %>
+		<%= fa_icon "youtube", :class => "fa-2x social-icon" %>
+		<%= fa_icon "medium", :class => "fa-2x social-icon" %>
+		<%= fa_icon "instagram", :class => "fa-2x social-icon" %>
+		<%= fa_icon "github", :class => "fa-2x social-icon" %>
+		<%= fa_icon "linkedin", :class => "fa-2x social-icon" %>
 	</div>
 </div>
 	
@@ -84,10 +85,17 @@
                      <section>
                         <div id="departments-description">
                            <span class="red-headline">
-			              		<b>ROOTS VISION</b>
+			              		<b>ROOTS GLOBAL VISION</b>
 			              	</span>
+			              	<p>
+				               Need for Roots
+				            </p>
                            <span class="departments-subheadline">
-                          Dude, it was so cool back in the 60s, the heyday of hippiedom. Hitchhiking solo across continents, the love for different cultures, mind-altering excursions, and the free travel! Being a hippie was far out. Cut to the 21st century [sound of a needle scratching across a record]. "You want to travel like a Hippie?" OK, you're no square, so let's see if <b>Roots</b> can help, 'cause that's our bag!
+                         Tourism industry today faces many challenges both at the traveller as well as the business ends. For a traveller, problems at every step of journey like lack of 
+access to information and timely availability of services like cabs/trains while commute, heavily commisioned middlemen and OTAs(think Expedia/TUI) while finding 
+accomodation, no trustworthy source of information on nearby restaurants and local events and of course no rewards for sharing their experiences. 
+Businesses on the other hand, are still spending tons on marketing and advertising, with lots of unoccupied inventory in hotels, restaurants rolling out discounts 
+without proper audiences and almost zero idea of the customer's needs and lack of data to analyze and tailor their business according to the needs of the market.
                            </span>
                            <br/>
                         </div>
@@ -134,20 +142,10 @@
                            </div>
                         </section>
                      </div>
-                     <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'hitchhike.jpg'%>);">
-                        <section class="hero-text">
-                           <div class="description">These are the <b>millions</b> of travellers who travel each year in desire to explore and travel freely in the <b>unknown</b> lands and seas.</div>
-                        </section>
-                     </div>
                   </section>
-                  <section>
-                     
-                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'backpacker2.jpg'%>);">
-                        <section class="hero-text">
-                           <div class="description">They all face multiple problems ranging from being fooled by <b>local guides</b> with incomplete information to wasting life in finding the <b>best nearby experiences</b> to live by.</div>
-                        </section>
-                     </div>
-                  </section>
+                 <div class="cover-background" style="background: linear-gradient(216deg, #007382, #86f501);">
+                 </div>
+                  
                   <section>
                      <div id="headline-bottom">
                         <section>
@@ -158,10 +156,17 @@
                            </div>
                         </section>
                      </div>
-                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'clutter.jpg' %>);">
-                        <section class="hero-text">
-                           <div class="description">Roots for <b>Gokarna</b> is our first attempt to encourage millions of modern day travellers to travel like a Hippie by simplifying and clearing out the clutter of information in the <b>unknown nearby.</b></div>
-                        </section>
+                     <div id="company-info">
+	                     <div class="info-box">
+	                     	<%= image_tag "for_businesses.png"%>
+	                     </div>
+	                     <div class="info-box">
+	                     	<ul>
+		                     	<li>Business Reputation System</li>
+								<li>Metering Economy</li>
+								<li>Inclusion</li>
+	                     	</ul>
+	                     </div>
                      </div>
                   </section>
                   <div id="headline-bottom">
@@ -174,11 +179,20 @@
                               
                            </div>
                            <br/>
-                           <%= image_tag ("business.png") %>
-                           <span class="departments-subheadline">
-                          We connect local businesses with the travellers. More coming soon.
-                           </span>
-                           <br/>
+                           <div id="company-info">
+	                           	<div class="info-box">
+			                     	<ul>
+				                     	<li>Product innovation for destination discovery.</li>
+										<li>Near Field Communication</li>
+										<li>Traveller Reputation System: Civic Engagement etc</li>
+										<li>Peer Producers. New power of the commons. Double Spending Problem resolved.</li>
+										<li>Right Creators: Ideagoras. Feeding the creators of value first.</li>
+			                     	</ul>
+			                     </div>
+                           		<div class="info-box">
+	                           		<%= image_tag "for_travellers.png"%>
+                           		</div>
+                           </div>
                         </div>
 
                      </section>
@@ -254,47 +268,38 @@
 	    </section>
 	</div>
 </div>
-<div class="m-page m-jobs departments-stretch ">
+<div class="m-page m-jobs departments-stretch " style="background: linear-gradient(216deg, #007382, #86f501);">
 	<div class="wide-page">
-	    <div style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'careers.jpg' %>); background-position: 70% 70%; background-repeat: no-repeat; background-size: cover" id="hero-top" class="hero-img">
-	        <div class="text">For Students</div>
-	        <h2>Starting Dec 4, 2017</h2>
-	    </div>
-	    <div id="headline-bottom">
+	    <div id="hero-top" class="hero-img">
+	    	<div id="globe">
+				<%= render partial: "website/partials/globe"%>
+			</div>
+	        <div class="text">ROOTS (RTS)</div>
 	        <section>
-	            <h6>ROOTS BEACH INTERNSHIP PROGRAM</h6>
-	            <p id="one-spark-description">
+	            <h6 class="white">CryptoCurrency for Travelling</h6>
+	            <p id="one-spark-description" class="white">
 	            At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
 	            </p>
 	        </section>
 	    </div>
 	</div>
-	
-
-</div>
-
-
-<div id="globe">
-	<%= render partial: "website/partials/globe"%>
-</div>
-
-<div class="m-page" id="funds">
-	<div id="footer-apply">
-		<div class="wide-page">
-		    <div id="headline-bottom">
-		        <section>
-	  				<span class="red-headline white">
-	  					<b>FUNDS DISTRIBUTION</b>
-	  				</span>
-				</section>
-			</div>
+	<div class="buffer"></div>
+	<div class="wide-page">
+		 <div id="headline-bottom">
+	        <section>
+  				<span class="red-headline white">
+  					<b>FUNDS DISTRIBUTION</b>
+  				</span>
+			</section>
 		</div>
+		<div id="chart" class="chart-container"></div>
+			<%= render partial: "website/partials/pie"%>
+		</div>
+		<div class="buffer"></div>
 	</div>
 
-	<div id="chart" class="chart-container"></div>
-		<%= render partial: "website/partials/pie"%>
-	</div>
 </div>
+
 
 <div class="m-page m-jobs departments-stretch " id="roadmap">
 	<div id="footer-apply">
@@ -324,7 +329,7 @@
 	              	</span>
 		            
 		            <p id="one-spark-description">
-		               Brainds behind
+		               Brains behind
 		            </p>
 		            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
 		        </section>
@@ -344,7 +349,7 @@
 	     		<div>
 			     	<div class="about-me-image-wrapper">
 			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
+			     		<a class="linkedin" href="https://www.linkedin.com/in/yadipadlakha/" target="_blank"><%= fa_icon "linkedin" %></a>
 			     	</div>
 			     	<h3>YADIP ADLAKHA</h3>
 	     		</div>
