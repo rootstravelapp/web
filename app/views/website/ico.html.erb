@@ -1,0 +1,317 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+
+
+
+<div class="homepage">
+	<div id="particles-js"></div>
+	<div class="home-content m-text-center">
+		<div id="globe">
+			<%= render partial: "website/partials/globe"%>
+		</div>
+
+		<%= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
+		<div class="download-container">
+			<div class="home-download-app" translate="home.orDownloadNow">
+				<div class="brand-tagline">ROOTS NETWORK ICO</div>
+				<div>Proud to release Beta on the Android.</div>
+				<div>iOS coming soon.</div>
+			</div>
+			<div class="download-buttons">
+				<a href=""class="download-button">
+					<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
+					<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
+				</a>
+
+			</div>
+		</div>
+		<div class="home-footer">
+			<div class="home-tagline" translate="home.onlineComingSoon"></div>
+		</div>
+	</div>
+</div>
+	
+
+<div id="map">
+</div>
+
+<div class="page-wrap">
+   <div class="content-wrap " >
+      <div class="m-page">
+         
+         <div id="departments-page-container" class="departments-stretch">
+            <div>
+               <div>
+               	 <div class="divider"></div>
+                  <div id="headline-bottom">
+                     <section>
+                        <div id="departments-description">
+                           <span class="red-headline">
+                           Building something bigger than ourselves.
+                           </span>
+                           <span class="departments-subheadline">
+                          Dude, it was so cool back in the 60s, the heyday of hippiedom. Hitchhiking solo across continents, the love for different cultures, mind-altering excursions, and the free travel! Being a hippie was far out. Cut to the 21st century [sound of a needle scratching across a record]. "You want to travel like a Hippie?" OK, you're no square, so let's see if <b>Roots</b> can help, 'cause that's our bag!
+                           </span>
+                           <br/>
+                        </div>
+                     </section>
+                  </div>
+                  <div id="hero-top" style="background: linear-gradient(216deg, #222222, #222222);">
+                     <section class="hero-text">
+                        <div class="text">The Hippiedom of Travellers</div>
+                        <h2>Since Oct, 2017</h2>
+                     </section>
+                  </div>
+                  <div id="stats" class="job-page">
+                     <div id="job-page-stats-container">
+                        <section>
+                           <div class="press-stats clearfix">
+                              <div class="stat">
+                                 <div class="stat-val">1</div>
+                                 <div class="stat-caption ">MISSION</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">1</div>
+                                 <div class="stat-caption ">CITY</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">1000+</div>
+                                 <div class="stat-caption ">HIPPIES</div>
+                              </div>
+                              <div class="stat">
+                                 <div class="stat-val">500+</div>
+                                 <div class="stat-caption ">EXPERIENCES</div>
+                              </div>
+                             
+                           </div>
+                        </section>
+                     </div>
+                  </div>
+                 
+                  <section>
+                     <div id="headline-bottom">
+                        <section>
+                           <div id="departments-description">
+                              <span class="red-headline">
+                              The <b>Modern Day Hippie Travellers</b>
+                              </span>
+                           </div>
+                        </section>
+                     </div>
+                     <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'hitchhike.jpg'%>);">
+                        <section class="hero-text">
+                           <div class="description">These are the <b>millions</b> of travellers who travel each year in desire to explore and travel freely in the <b>unknown</b> lands and seas.</div>
+                        </section>
+                     </div>
+                  </section>
+                  <section>
+                     
+                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'backpacker2.jpg'%>);">
+                        <section class="hero-text">
+                           <div class="description">They all face multiple problems ranging from being fooled by <b>local guides</b> with incomplete information to wasting life in finding the <b>best nearby experiences</b> to live by.</div>
+                        </section>
+                     </div>
+                  </section>
+                  <section>
+                     <div id="headline-bottom">
+                        <section>
+                           <div id="departments-description">
+                              <span class="red-headline">
+                              <b>Roots, Hippie's Travel App: Explore Gokarna</b>
+                              </span>
+                           </div>
+                        </section>
+                     </div>
+                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'clutter.jpg' %>);">
+                        <section class="hero-text">
+                           <div class="description">Roots for <b>Gokarna</b> is our first attempt to encourage millions of modern day travellers to travel like a Hippie by simplifying and clearing out the clutter of information in the <b>unknown nearby.</b></div>
+                        </section>
+                     </div>
+                  </section>
+                  <div id="headline-bottom">
+                     <section>
+                        <div id="departments-description">
+                           <div>
+                              <span class="red-headline">
+                              For <b>Local Businesses</b>
+                              </span>
+                              
+                           </div>
+                           <br/>
+                           <%= image_tag ("business.png") %>
+                           <span class="departments-subheadline">
+                          We connect local businesses with the travellers. More coming soon.
+                           </span>
+                           <br/>
+                        </div>
+
+                     </section>
+                  </div>
+
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   
+</div>
+<div class="m-page m-jobs departments-stretch ">
+	<div class="wide-page">
+	    <div id="hero-top" class="hero-img">
+	        <%= image_tag ("logo_text.png"), :class =>"logo-text" %>
+	    </div>
+	    <div id="headline-bottom">
+	        <section>
+	            <div id="one-spark">
+	                <h3>Our Philosophy: Be Limitless</h3>
+	            </div>
+	            
+	            <p id="one-spark-description">
+	                We are on our journey to create the world’s fastest growing app for the <b>Modern Day Hippie Traveller</b>.<br/>
+	                We research, refactor, analyse and solve the toughest of problems by getting clarity and tickling our creativity.
+
+	            </p>
+	            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
+	        </section>
+	    </div>
+	</div>
+
+	<div id="footer-apply">
+	    <section>
+	        <div id="company-info">
+	            <div class="info-box">
+	                We are the most passionate earthlings.
+	                <p>
+	                    Everyone at Roots is dedicated towards breathing life to the product by innovating and challenging the current norms.
+	                </p>
+	                
+	            </div>
+	            <div class="info-box">
+	                We perceive clarity before acting.
+	                <p>
+	                    We plan to the tiniest of details by making everything as simple as possible but not simpler.
+	                </p>
+	                
+	            </div>
+	            <div class="info-box">
+	                <div>We have something to prove to ourselves.</div>
+	                <p>
+	                    We plan to bring the entire globe on the Roots map and make it discoverable by a Hippie.
+	                </p>
+	                
+	            </div>
+	        </div>
+	    </section>
+	</div>
+	<div>
+	   <div class="people">
+	     <h1>FOUNDER</h1>
+	     <div class="about-me-wrapper">
+	        <%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
+	     </div>
+	     <h3>Bhuwan Arora</h3>
+	     <a href="https://www.linkedin.com/in/bhuwanarora/" target="_blank">LinkedIn</a>
+	  </div>
+	</div>
+</div>
+<div class="m-page m-jobs departments-stretch ">
+	<div class="wide-page">
+	    <div style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'careers.jpg' %>); background-position: 70% 70%; background-repeat: no-repeat; background-size: cover" id="hero-top" class="hero-img">
+	        <div class="text">For Students</div>
+	        <h2>Starting Dec 4, 2017</h2>
+	    </div>
+	    <div id="headline-bottom">
+	        <section>
+	            <h6>ROOTS BEACH INTERNSHIP PROGRAM</h6>
+	            <p id="one-spark-description">
+	            At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
+	            </p>
+	        </section>
+	    </div>
+	</div>
+	<div id="footer-apply">
+	    <br/>
+	    <br/>
+	    <br/>
+	    <h3 style="text-align: center; padding: 20px;">3 Reasons Why You Should Work With Us.</h3>
+	    <section>
+	        <div id="company-info">
+	            <div class="info-box">
+	                Entrepreneurship
+	                <p>
+	                    It's an opportunity to closely see and learn in a startup environment, where <b>things are executed at the speed of thought</b>.
+	                </p>
+	            </div>
+	            <div class="info-box">
+	                Mentorship
+	                <p>
+	                   You would be <b>closely mentored</b> by our Founder who is an IITD grad, a serial entrepreneur and a product & technology evangelist since last 5 years.
+	                </p>
+	            </div>
+	            <div class="info-box">
+	                Beach Life
+	                <p>
+	                  You work on 5 days in a week and on the remaining 2 days, enjoy the beach life!
+	                </p>
+	            </div>
+	        </div>
+	        
+	    </section>
+	</div>
+	<div id="footer-apply">
+	    <br/>
+	    <br/>
+	    <br/>
+	    <h3 style="text-align: center;">Current Openings</h3>
+	    <div id="departments">
+	       <section>
+	          <a href="/careers/teams/internships/1/Business Development">
+	             <div class="department-box">
+	                <%= image_tag ("bd.jpg"), :class => "dept-icon" %>
+	                <h4>Business Development</h4>
+	                <h6>GOKARNA</h6>
+	             </div>
+	          </a>
+	          <a href="/careers/teams/internships/2/Content Research">
+	             <div class="department-box">
+	             
+	                <%= image_tag ("researcher.png"), :class => "dept-icon" %>
+	                <h4>Content Researcher</h4>
+	                <h6>REMOTE</h6>
+	             </div>
+	          </a>
+	          <a href="/careers/teams/internships/3/Offline Marketing">
+	             <div class="department-box">
+	                <%= image_tag ("offline.png"), :class => "dept-icon" %>
+	                <h4>Offline Marketing</h4>
+	                <h6>GOKARNA</h6>
+	             </div>
+	          </a>
+	          <a href="/careers/teams/internships/4/Online Marketing">
+	             <div class="department-box">
+	                <%= image_tag ("online.png"), :class => "dept-icon" %>
+	                <h4>Online Marketing</h4>
+	                <h6>REMOTE</h6>
+	             </div>
+	          </a>
+	         
+	       </section>
+	    </div>
+	</div>
+
+</div>
+
+<div id="timeline">
+	<%= render partial: "website/partials/timeline"%>
+</div>
+
+<%= render partial: "website/partials/footer"%>
+<script>
+	particlesJS.load('particles-js', 'particles.json', function() {
+
+	});
+</script>

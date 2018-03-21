@@ -6,6 +6,12 @@ class WebsiteController < ApplicationController
 		@image_url = SeoContent::Image::Brand
 	end
 
+	def ico
+		@title = SeoContent::Title::Ico
+		@description = SeoContent::Description::Ico
+		@image_url = SeoContent::Image::Ico
+	end
+
 	def blog
 		@title = SeoContent::Title::Blog
 		@description = SeoContent::Description::Blog

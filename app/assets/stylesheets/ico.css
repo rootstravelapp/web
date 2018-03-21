@@ -1,0 +1,503 @@
+// Place all the styles related to the Website controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home-content{
+	position: absolute;
+    width: 100%;
+    height: 140%;
+    background: transparent;
+    padding: 55px 5% 5% 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.homepage {
+    position: relative;
+    width: 100vw;
+    height: 140vh;
+    font-family: "helvetica";
+    -webkit-tap-highlight-color: transparent;
+}
+
+.below-the-fold #home-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background: #fff;
+    font-size: 1rem;
+    padding: 20px 0;
+}
+
+.below-the-fold #home-nav .nav-group {
+    margin-bottom: 10px;
+    -ms-flex-preferred-size: 15%;
+    flex-basis: 15%;
+}
+
+.below-the-fold #home-nav .nav-group .nav-group-header {
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #48def1;
+}
+
+.below-the-fold #home-nav .nav-group ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.below-the-fold #home-nav .nav-group ul li {
+    text-align: center;
+}
+
+.below-the-fold #home-nav .nav-group ul li a {
+    text-decoration: none;
+    color: #565151;
+    transition: 125ms linear color;
+}
+
+.below-the-fold #home-nav .nav-group ul li a:hover {
+    color: #48def1 !important;
+}
+
+.homepage .home-content .download-container {
+    margin: 5vh 0;
+}
+
+.homepage .home-content .home-footer {
+    width: 100%;
+}
+
+.homepage .home-content .nav-opener-container {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 12%;
+    flex: 0 1 12%;
+    position: relative;
+}
+
+.homepage .careers-container{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.homepage .careers-wrapper{
+    position: relative;
+}
+
+.homepage .careers{
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.homepage .careers-label{
+    font-size: 10px;
+    text-align: center;
+    color: #E91E63;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    right: -30px;
+}
+
+.homepage .home-content .download-container .download-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.homepage .home-content .download-container .download-buttons .download-button {
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.homepage .home-content .download-container .download-buttons .download-button img {
+    width: 145px;
+    height: auto;
+    border-radius: 11px;
+}
+
+.homepage .home-content .home-footer .home-tagline {
+    font-size: 0.9rem;
+    line-height: initial;
+    font-weight: 100;
+    color: rgba(255,255,255,0.9);
+    padding: 0 !important;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.homepage .home-content .home-footer .home-learn-more {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    line-height: 1.46;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+
+.homepage .home-content .nav-opener-container .nav-arrow.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.homepage .home-content .nav-opener-container .nav-arrow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FE4170;
+    text-align: center;
+    transition: 300ms linear all;
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.homepage .home-content img.home-logo {
+    height: 127px;
+    width: auto;
+}
+
+.homepage .home-content .nav-opener-container .nav-arrow img {
+    cursor: pointer;
+    width: 15px;
+}
+
+.homepage .home-content .download-container .home-download-app {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    padding: 25px;
+}
+
+.active-app-link{
+    box-shadow: 3px 6px 7px 5px rgba(0,0,0,0.16), 1px 1px 15px 2px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+@media only screen and (max-width: 800px){
+    .homepage .careers-container{
+        display: none;
+    }
+
+	.below-the-fold #home-nav .nav-group {
+	    -ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
+	}
+
+	.homepage .home-content .download-container .download-buttons .download-button img {
+	    width: 42vw;
+	    margin-bottom: 25px;
+	}
+
+	.homepage .home-content .download-container .home-download-app {
+	    padding: 10px 0;
+	    margin: 15px 0;
+	}
+
+	.homepage .home-content img.home-logo {
+	    height: 20vh;
+	}
+
+	.homepage .home-content .home-footer {
+	    margin: 0 10px;
+	    padding: 10px 0;
+	    border-top: 1px solid rgba(255,255,255,0.5);
+	    border-bottom: 1px solid rgba(255,255,255,0.5);
+	}
+
+	.homepage .home-content .home-footer .home-learn-more {
+	    padding-bottom: 0px;
+	    font-size: 0.9rem;
+	}
+
+
+}
+
+.inactive {
+    color: #EAEAEA !important;
+    cursor: text;
+}
+
+.partner_logo {
+    width: 50px;
+    height: 30px;
+}
+
+.left-aligned {
+    text-align: left !important;
+}
+
+#company-description{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #616161;
+    border-top: 1px solid #EAEAEA;
+}
+
+#particles-js{
+    width: 100%;
+    height: 140%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background: linear-gradient(216deg, #222222, #222222) !important;
+}
+
+.brand-tagline{
+    font-family: "BEBAS";
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+
+.subunit {
+    fill: none;
+    stroke: #FFF;
+    stroke-width: 1px;
+}
+
+text.subunit-label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-anchor: middle;
+    fill: #000;
+}
+
+.subunit-label {
+    display: none;
+}
+
+.graticule {
+    fill: none;
+    stroke: #aaa;
+    stroke-opacity: .5;
+    stroke-width: .5px;
+}
+
+
+
+
+.land {
+  fill: white;
+  stroke-opacity: 1;
+}
+
+.graticule {
+  fill: none;
+  stroke: black;
+  stroke-width:.5;
+  opacity:.2;
+}
+
+.labels {
+    font: 8px sans-serif;
+    fill: black;
+    opacity: .5;
+
+    display:none;
+}
+
+.noclicks { pointer-events:none; }
+
+.point {  opacity:.6; }
+
+.arcs {
+  opacity:.1;
+  stroke: white;
+  stroke-width: 3;
+}
+.flyers {
+  stroke-width:1;
+  opacity: .6;
+  stroke: white; 
+}
+.arc, .flyer {
+  stroke-linejoin: round;
+  fill:none;
+}
+.arc { }
+.flyer { }
+.flyer:hover { }
+
+
+.slice text {
+    font-size: 16pt;
+    font-family: Arial;
+}   
+
+
+/* axis */
+
+.axis { /* axis labels */
+    fill: #808080;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.axis line{ /* axis tick marks */
+    stroke-width : 1;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+
+.axis path { /* axis line */
+    stroke-width : 1;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+
+/* timeline band */
+
+.band { /* band background */
+    fill: #FAFAFA;
+}
+
+/* labels */
+
+.bandLabel {
+    fill: #F0F0F0;
+    font: 10px sans-serif;
+    font-weight: bold;
+}
+
+.bandMinMaxLabel {
+    fill: blue;
+    font: 10px sans-serif;
+    font-weight: bold;
+}
+
+.bandMidLabel {
+    fill: red;
+    font: 10px sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* brush */
+
+.brush .extent {
+    stroke: gray;
+    fill: blue;
+    fill-opacity: .1;
+}
+
+.chart {
+    fill: #EEEEEE;
+}
+
+.interval {
+    fill: #AAFFFF;
+    stroke-width: 6;
+    cursor : default;
+    pointer-events: true;
+}
+
+.instant {
+    fill: #FFAAFF;
+    stroke-width: 6;
+    cursor : default;
+    /*pointer-events: true;*/
+}
+
+.instantLabel {
+    fill : blue;
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+}
+
+.intervalLabel {
+    fill : black;
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+}
+
+.item {
+    cursor : default;
+    pointer-events: auto;
+}
+
+.svg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: #FFFFFF;
+}
+
+.tooltip {
+    width: auto;
+    position: absolute;
+    visibility: hidden;
+    color : black;
+    cursor:default;
+    background-color: #FFFFEE;
+    border: 1px solid;
+    padding: 4px;
+    shape-rendering: crispEdges;
+    pointer-events: none;
+}
+
+
+#globe{
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    margin-top: -250px;
+}
