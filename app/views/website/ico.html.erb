@@ -56,15 +56,16 @@
 		</div>
 	</div>
 	<div class="blocks-footer-wrapper">
-		<%= fa_icon "facebook" %>
-		<%= fa_icon "telegram" %>
-		<%= fa_icon "google-plus" %>
-		<%= fa_icon "twitter" %>
-		<%= fa_icon "youtube" %>
-		<%= fa_icon "medium" %>
-		<%= fa_icon "instagram" %>
-		<%= fa_icon "github" %>
-		<%= fa_icon "linkedin" %>
+		  <p class="white">Connect with us</p>
+        	<%= fa_icon "facebook", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "telegram", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "google-plus", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "twitter", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "youtube", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "medium", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "instagram", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "github", :class => "fa-2x social-icon" %>
+        	<%= fa_icon "linkedin", :class => "fa-2x social-icon" %>
 	</div>
 </div>
 	
@@ -84,17 +85,13 @@
                      <section>
                         <div id="departments-description">
                            <span class="red-headline">
-			              		<b>ROOTS VISION</b>
+			              		<b>ROOTS GLOBAL VISION</b>
 			              	</span>
 			              	<p>
 				               Need for Roots
 				            </p>
                            <span class="departments-subheadline">
-                          Using Roots means immediate access to the best tourism services for your tailored needs no matter where you go. 
-Roots provides a unique decentralized and community-driven platform that integrates travellers/tourusts/hobbyists around the world with local businesses 
-like car-rentals/cabs/hotels/cafes/blah blah engineered on blockchain to create a connected economy.
-A revolutionary system for finding peace of mind, taking care of your payments, indentity storage. We are dedeicated to creating the best B2C experience in the
-travel and tourism industry leveraging the power of blockchain and smart contracts.
+                           Tourism industry today faces many challenges both at the traveller as well as the business ends. For a traveller, problems at every step of journey like lack of access to information and timely availability of services like cabs/trains while commute, heavily commisioned middlemen and OTAs(think Expedia/TUI) while finding accomodation, no trustworthy source of information on nearby restaurants and local events and of course no rewards for sharing their experiences. Businesses on the other hand, are still spending tons on marketing and advertising, with lots of unoccupied inventory in hotels, restaurants rolling out discounts without proper audiences and almost zero idea of the customer's needs and lack of data to analyze and tailor their business according to the needs of the market.
                            </span>
                            <br/>
                         </div>
@@ -141,8 +138,7 @@ travel and tourism industry leveraging the power of blockchain and smart contrac
                            </div>
                         </section>
                      </div>
-                     <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent);">
-                     	<div id="hero-top" class="cover-background" style="background: url(<%= asset_path 'travel.png'%>)">
+                     <div id="hero-top" class="cover-background" style="linear-gradient(216deg, #007382, #86f501);">
                      </div>
                   </section>
                   
@@ -156,10 +152,17 @@ travel and tourism industry leveraging the power of blockchain and smart contrac
                            </div>
                         </section>
                      </div>
-                      <div id="hero-top" class="cover-background" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4), transparent), url(<%= asset_path 'clutter.jpg' %>);">
-                        <section class="hero-text">
-                           <div class="description">Roots for <b>Gokarna</b> is our first attempt to encourage millions of modern day travellers to travel like a Hippie by simplifying and clearing out the clutter of information in the <b>unknown nearby.</b></div>
-                        </section>
+                  	<div id="company-info">
+                         <div class="info-box">
+                            <%= image_tag "for_businesses.png"%>
+                         </div>
+	                     <div class="info-box">
+	                        <ul>
+	                            <li>Business Reputation System</li>
+	                            <li>Metering Economy</li>
+	                            <li>Inclusion</li>
+	                        </ul>
+	                     </div>
                      </div>
                   </section>
                   <div id="headline-bottom">
@@ -172,11 +175,21 @@ travel and tourism industry leveraging the power of blockchain and smart contrac
                               
                            </div>
                            <br/>
-                           <%= image_tag ("business.png") %>
-                           <span class="departments-subheadline">
-                          We connect local businesses with the travellers. More coming soon.
-                           </span>
-                           <br/>
+                           <div id="company-info">
+                                <div class="info-box">
+                                    <ul>
+                                        <li>Product innovation for destination discovery.</li>
+                                        <li>Near Field Communication</li>
+                                        <li>Traveller Reputation System: Civic Engagement etc</li>
+                                        <li>Peer Producers. New power of the commons. Double Spending Problem resolved.</li>
+                                        <li>Right Creators: Ideagoras. Feeding the creators of value first.</li>
+                                    </ul>
+                            	</div>
+                                <div class="info-box">
+                                        <%= image_tag "for_travellers.png"%>
+                                </div>
+                        	</div>
+
                         </div>
 
                      </section>
@@ -333,7 +346,7 @@ travel and tourism industry leveraging the power of blockchain and smart contrac
 	     		<div>
 			     	<div class="about-me-image-wrapper">
 			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
+			     		 <a class="linkedin" href="https://www.linkedin.com/in/yadipadlakha/" target="_blank"><%= fa_icon "linkedin" %></a>
 			     	</div>
 			     	<h3>YADIP ADLAKHA</h3>
 	     		</div>
