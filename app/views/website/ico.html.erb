@@ -1,16 +1,32 @@
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:900" rel="stylesheet">
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script> 
 
 <div class="nav-cont">
     <div class="block hide-block">
     	<div  class="logo">
-        	<a href="/ico">
-	        	<%= image_tag ("logo.png")%>
-        	</a>
+        	<span><%= image_tag ("logo.png")%></span>
     	</div>
-   	 	<a href="/ico" class="block">ROOTS NETWORK</a>
+    	<div class="block">
+   	 		<span class="logo-text">ROOTS NETWORK</span>
+    	</div>
     </div>
-    <div class="block hide-block">
+    <div style="float: right;" class="block">
+	    <div class="block">
+	    	<a href="#rootsMap">Vision</a>
+	    </div>
+	    <div class="block">
+	    	<a href="#team">About Us</a>
+	    </div>
+	     <div class="block">
+	    	<a href="#roadmap">Roadmap</a>
+	    </div>
+	     <div class="block">
+	    	<a href="#faqs">FAQs</a>
+	    </div>
+	    <div class="block">
+	    	<a href="">WHITEPAPER</a>
+	    </div>
     </div>
 </div>
 
@@ -68,8 +84,8 @@
                      <section>
                         <div id="departments-description">
                            <span class="red-headline">
-                           Building something bigger than ourselves.
-                           </span>
+			              		<b>ROOTS VISION</b>
+			              	</span>
                            <span class="departments-subheadline">
                           Dude, it was so cool back in the 60s, the heyday of hippiedom. Hitchhiking solo across continents, the love for different cultures, mind-altering excursions, and the free travel! Being a hippie was far out. Cut to the 21st century [sound of a needle scratching across a record]. "You want to travel like a Hippie?" OK, you're no square, so let's see if <b>Roots</b> can help, 'cause that's our bag!
                            </span>
@@ -77,11 +93,8 @@
                         </div>
                      </section>
                   </div>
-                  <div id="hero-top" style="background: linear-gradient(216deg, #007382, #86f501);">
-                     <section class="hero-text">
-                        <div class="text">ROOTS NETWORK</div>
-                        <h2>Its time to buy Roots</h2>
-                     </section>
+                  <div id="hero-top" style="background: url('assets/roots_city.png');background-size: cover;background-position: 18% 35%;">
+                    
                   </div>
                   <div id="stats" class="job-page">
                      <div id="job-page-stats-container">
@@ -116,7 +129,7 @@
                         <section>
                            <div id="departments-description">
                               <span class="red-headline">
-                              <b>BUSINESSES <> TRAVELLERS</b>
+                              	<b>BUSINESSES <> TRAVELLERS</b>
                               </span>
                            </div>
                         </section>
@@ -181,19 +194,15 @@
 </div>
 <div class="m-page m-jobs departments-stretch ">
 	<div class="wide-page">
-	    <div id="hero-top" class="hero-img">
-	        <%= image_tag ("logo_text.png"), :class =>"logo-text" %>
-	    </div>
 	    <div id="headline-bottom">
 	        <section>
-	            <div id="one-spark">
-	                <h3>ECOSYSTEM</h3>
-	            </div>
+	            <span class="red-headline">
+              		<b>ECOSYSTEM</b>
+              	</span>
 	            
 	            <p id="one-spark-description">
 	               Enterprise Collaboration.
 	            </p>
-	            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
 	        </section>
 	    </div>
 	</div>
@@ -243,17 +252,6 @@
 	            </div>
 	        </div>
 	    </section>
-	</div>
-	
-	<div>
-	   <div class="people">
-	     <b>TEAM</b>
-	     <div class="about-me-wrapper">
-	        <%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-	     </div>
-	     <h3>Bhuwan Arora</h3>
-	     <a href="https://www.linkedin.com/in/bhuwanarora/" target="_blank">LinkedIn</a>
-	  </div>
 	</div>
 </div>
 <div class="m-page m-jobs departments-stretch ">
@@ -271,90 +269,117 @@
 	        </section>
 	    </div>
 	</div>
-	<div id="footer-apply">
-	    <br/>
-	    <br/>
-	    <br/>
-	    <h3 style="text-align: center; padding: 20px;">3 Reasons Why You Should Work With Us.</h3>
-	    <section>
-	        <div id="company-info">
-	            <div class="info-box">
-	                Entrepreneurship
-	                <p>
-	                    It's an opportunity to closely see and learn in a startup environment, where <b>things are executed at the speed of thought</b>.
-	                </p>
-	            </div>
-	            <div class="info-box">
-	                Mentorship
-	                <p>
-	                   You would be <b>closely mentored</b> by our Founder who is an IITD grad, a serial entrepreneur and a product & technology evangelist since last 5 years.
-	                </p>
-	            </div>
-	            <div class="info-box">
-	                Beach Life
-	                <p>
-	                  You work on 5 days in a week and on the remaining 2 days, enjoy the beach life!
-	                </p>
-	            </div>
-	        </div>
-	        
-	    </section>
-	</div>
-	<div id="footer-apply">
-	    <br/>
-	    <br/>
-	    <br/>
-	    <h3 style="text-align: center;">Current Openings</h3>
-	    <div id="departments">
-	       <section>
-	          <a href="/careers/teams/internships/1/Business Development">
-	             <div class="department-box">
-	                <%= image_tag ("bd.jpg"), :class => "dept-icon" %>
-	                <h4>Business Development</h4>
-	                <h6>GOKARNA</h6>
-	             </div>
-	          </a>
-	          <a href="/careers/teams/internships/2/Content Research">
-	             <div class="department-box">
-	             
-	                <%= image_tag ("researcher.png"), :class => "dept-icon" %>
-	                <h4>Content Researcher</h4>
-	                <h6>REMOTE</h6>
-	             </div>
-	          </a>
-	          <a href="/careers/teams/internships/3/Offline Marketing">
-	             <div class="department-box">
-	                <%= image_tag ("offline.png"), :class => "dept-icon" %>
-	                <h4>Offline Marketing</h4>
-	                <h6>GOKARNA</h6>
-	             </div>
-	          </a>
-	          <a href="/careers/teams/internships/4/Online Marketing">
-	             <div class="department-box">
-	                <%= image_tag ("online.png"), :class => "dept-icon" %>
-	                <h4>Online Marketing</h4>
-	                <h6>REMOTE</h6>
-	             </div>
-	          </a>
-	         
-	       </section>
-	    </div>
-	</div>
+	
 
 </div>
+
 
 <div id="globe">
 	<%= render partial: "website/partials/globe"%>
 </div>
 
-<div id="chart" class="chart-container"></div>
-	<%= render partial: "website/partials/pie"%>
+<div class="m-page" id="funds">
+	<div id="footer-apply">
+		<div class="wide-page">
+		    <div id="headline-bottom">
+		        <section>
+	  				<span class="red-headline white">
+	  					<b>FUNDS DISTRIBUTION</b>
+	  				</span>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div id="chart" class="chart-container"></div>
+		<%= render partial: "website/partials/pie"%>
+	</div>
 </div>
 
-<div id="timeline">
-	<%= render partial: "website/partials/timeline"%>
+<div class="m-page m-jobs departments-stretch " id="roadmap">
+	<div id="footer-apply">
+		<div class="wide-page">
+		    <div id="headline-bottom">
+		        <section>
+	  				<span class="red-headline">
+	  					<b>ROADMAP</b>
+	  				</span>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div id="timeline">
+		<%= render partial: "website/partials/timeline"%>
+	</div>
 </div>
 
+<div class="m-page m-jobs departments-stretch " id="team">
+	<div id="footer-apply">
+		<div class="wide-page">
+		    <div id="headline-bottom">
+		        <section>
+		            <span class="red-headline">
+	              		<b>TEAM</b>
+	              	</span>
+		            
+		            <p id="one-spark-description">
+		               Brainds behind
+		            </p>
+		            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
+		        </section>
+		    </div>
+		</div>
+	   	<div class="people">
+	     	<div  class="about-me-wrapper">
+	     		<div>
+			     	<div class="about-me-image-wrapper">
+			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
+			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
+			     	</div>
+			     	<h3>BHUWAN ARORA</h3>
+	     		</div>
+	     	</div>
+	     	<div  class="about-me-wrapper">
+	     		<div>
+			     	<div class="about-me-image-wrapper">
+			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
+			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
+			     	</div>
+			     	<h3>YADIP ADLAKHA</h3>
+	     		</div>
+	     	</div>
+	     	<div  class="about-me-wrapper">
+	     		<div>
+			     	<div class="about-me-image-wrapper">
+			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
+			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
+			     	</div>
+			     	<h3>AMIT SHARMA</h3>
+	     		</div>
+	     	</div>
+	  	</div>
+	</div>
+</div>
+
+<div class="m-page m-jobs departments-stretch " id="faqs">
+	<div id="footer-apply">
+		<div class="wide-page">
+		    <div id="headline-bottom">
+		        <section>
+		            <span class="red-headline">
+	              		<b>FAQs</b>
+	              	</span>
+		            
+		            <p id="one-spark-description">
+		               
+		            </p>
+		        </section>
+		    </div>
+		</div>
+	   	
+	</div>
+</div>
 <%= render partial: "website/partials/footer"%>
 
 <script>
