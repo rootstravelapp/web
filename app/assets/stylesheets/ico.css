@@ -18,7 +18,6 @@ body{}
     position: relative;
     width: 100vw;
     height: 140vh;
-    font-family: "lato";
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -285,7 +284,9 @@ body{}
     background-position: 50% 50%;
     background-repeat: no-repeat;
     position: absolute;
-    background: linear-gradient(216deg, #007382, #86f501);
+    background-image: linear-gradient(216deg, #007382, #86f501);
+    transform: skewY(-6deg);
+    transform-origin: top left;
 }
 
 .brand-tagline{
@@ -532,6 +533,7 @@ text.subunit-label {
 }
 
 .linkedin{
+    left: 100px;
     border: 5px solid white;
     background-color: #D81B60;
     padding: 15px;
@@ -543,7 +545,17 @@ text.subunit-label {
 }
 
 .about-me-image-wrapper{
+    -webkit-box-flex: 1;
+    flex: 0.5;
     position: relative;
+}
+
+.about-me-description{
+    background-color: #f9f9f9;
+    padding: 50px;
+    -webkit-box-flex: 1;
+    flex: 0.7;
+    position: relative;   
 }
 
 #funds{
@@ -564,16 +576,102 @@ text.subunit-label {
 }
 
 .nav-cont .block .logo-text{
-    color: #8ac34a;
+    background: linear-gradient(216deg, #007382, #86f501);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 8px 16px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
 }
 
 .buffer{
-    padding: 50px;
+    padding: 30px;
 }
 
 .social-icon{
     margin-right: 10px;
+}
+
+.align-horizontal{
+    vertical-align: super;
+    display: inline-block !important;
+    display: inline;
+}
+
+.points {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.point {
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.clear-padding{
+    padding: 0px !important;
+}
+
+.screenshot{
+    width: 300px;
+    height: 550px;
+}
+
+.mobile-wrapper{
+    display: flex;
+}
+
+.mobile-feature{
+    margin: 100px;
+    background: linear-gradient(216deg, #007382, #86f501);
+    padding: 30px;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.left-bubble{
+    border-bottom-right-radius: 0px;
+}
+
+.right-bubble{
+    border-bottom-left-radius: 0px;
+}
+
+#flat li{
+    max-width: 80vw;
+    width: 400px;
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+}
+
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24)
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 40px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 0.8em;
+    background: #e0e0e0;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-align: left;
 }

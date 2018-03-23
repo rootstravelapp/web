@@ -230,7 +230,7 @@ th {
     font-weight: 400;
     margin-bottom: 10px;
     color: #343434;
-    font-family: "proxima-nova", lato, sans-serif
+    font-family: Heebo
 }
 
 @media only screen and (max-width: 800px) {
@@ -1079,7 +1079,7 @@ h5 {
 
 .m-header-light {
     font-weight: 100;
-    font-family: "proxima-nova", lato, sans-serif
+    font-family: Heebo
 }
 
 .m-col-50 {
@@ -1103,7 +1103,7 @@ h5 {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 5px;
-    font-family: "proxima-nova", lato, sans-serif
+    font-family: Heebo
 }
 
 .ti-blog {
@@ -1433,17 +1433,19 @@ h5 {
 }
 
 .red-headline {
-    font-family: "proxima-nova", lato, sans-serif;
-    color: #616161;
+    font-family: Heebo;
     font-weight: 500;
     letter-spacing: 0.08rem;
     font-size: 2rem;
+    background: linear-gradient(216deg, #007382, #86f501);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .departments-subheadline {
     display: block;
     margin: 15px 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.9rem;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
@@ -1458,11 +1460,6 @@ h5 {
 #department li {
     cursor: pointer;
     list-style: none
-}
-
-#departments-page-container {
-    font-family: "proxima-nova", lato, sans-serif;
-    background: #FFFFFF
 }
 
 #departments-page-container h1,
@@ -1485,7 +1482,6 @@ h5 {
 }
 
 #departments-description {
-    background-color: #FFFFFF;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -1658,7 +1654,7 @@ h5 {
 
 #hero-department h1,
 #hero-department h4 {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     color: #FFF
 }
 
@@ -1715,7 +1711,7 @@ h5 {
 }
 
 .description-department h5 {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     color: #B3B3B3;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -1805,7 +1801,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job a {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     display: block;
     text-decoration: none
 }
@@ -1845,7 +1841,7 @@ h5 {
 }
 
 #listings-department #categories-listings-greenhouse p {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
@@ -1892,7 +1888,7 @@ h5 {
 }
 
 #listings-department #categories-department .category-pods {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     background-color: #FFF;
     color: #B3B3B3;
     border-radius: 8px;
@@ -2818,8 +2814,6 @@ body.s-navless .m-header {
 .m-jobs .wide-page h1,
 .m-jobs .wide-page h3,
 .m-jobs .wide-page p {
-    font-family: "proxima-nova", lato, sans-serif;
-    font-weight: 100;
     margin: 0
 }
 
@@ -2891,14 +2885,18 @@ body.s-navless .m-header {
     line-height: 1.9rem;
     padding-bottom: 20px;
     text-align: center;
-    font-family: "Josefin Sans";
+    font-family: "Montserrat";
 }
 
 .m-jobs #headline-bottom h3,
 .m-jobs #footer-apply h3 {
     text-transform: none;
     letter-spacing: 0px;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    color: #89c449;
+    font-family: lato;
+    margin: 20px;
+
 }
 
 .m-jobs #footer-apply {
@@ -2916,7 +2914,6 @@ body.s-navless .m-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 50px
 }
 
 @media only screen and (max-width: 800px) {
@@ -2957,7 +2954,13 @@ body.s-navless .m-header {
 
 @media only screen and (max-width: 800px) {
     #company-info .info-box {
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .m-page section{
+        padding: 0px;
     }
 }
 
@@ -3004,7 +3007,7 @@ body.s-navless .m-header {
 }
 
 .jobs-nav a {
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     font-size: 1rem;
     letter-spacing: 0.07rem;
     margin: 0 1.5%;
@@ -3209,6 +3212,7 @@ body.redesign .ti-content {
 .nav-cont {
     position: fixed;
     width: 100%;
+    height: 50px;
     z-index: 3;
     background: #FFF;
     
@@ -3457,7 +3461,7 @@ body.redesign .ti-content {
     font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     text-transform: uppercase
 }
 
@@ -4185,7 +4189,7 @@ body.redesign .ti-content {
 .m-page h1,
 .m-page h2 {
     color: #343434;
-    font-family: "proxima-nova", lato, sans-serif;
+    font-family: Heebo;
     font-weight: 100;
     font-size: 35px;
     line-height: 35px
@@ -4288,7 +4292,7 @@ body.redesign .ti-content {
 }
 
 #job-page-stats-container .stat-caption {
-    color: #6C6C6C;
+    color: #8ac34a;
     letter-spacing: 0.02em
 }
 
@@ -4321,7 +4325,6 @@ body.redesign .ti-content {
     float: left;
     width: 192px;
     color: gray;
-    font-family: "proxima-nova", lato, sans-serif
 }
 
 @media only screen and (max-width: 800px) {
@@ -4374,7 +4377,6 @@ body.redesign .ti-content {
 
 .job-page .stat {
     font-weight: 400;
-    font-family: "proxima-nova", lato, sans-serif;
 }
 
 @media only screen and (min-width: 769px) {
@@ -4424,10 +4426,8 @@ body.redesign .ti-content {
     }
 }
 
-.job-page .stat .stat-val {
-    color: #701622;
-    font-size: 2rem;
-    line-height: 1em
+.job-page .stat .stat-val .fa{
+    color: #8ac34a;
 }
 
 @media only screen and (max-width: 800px) {
@@ -4439,12 +4439,12 @@ body.redesign .ti-content {
 .job-page .stat .stat-caption {
     color: #C8C8C8;
     text-transform: uppercase;
-    font-size: 0.8rem
+    font-size: 0.7rem;
 }
 
 @media only screen and (max-width: 800px) {
     .job-page .stat .stat-caption {
-        font-size: 0.9rem
+        font-size: 0.9rem;
     }
 }
 
@@ -4713,30 +4713,43 @@ h2{
 }
 
 .about-me-wrapper{
-    width: 300px;
-    text-align: center;
-    display: -webkit-inline-box;
-    margin: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    display: flex;
 }
 
 .about-me{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    width: 300px;
-}
-
-.people{
-    text-align: center;
+    width: 80vh;
 }
 
 @media only screen and (max-width: 800px) {
-    .nav-cont .hide-block{
+    .nav-cont .hide-block, .hide-block{
         display: none !important;
     }
 
-    .nav-cont .block{
+    .nav-cont .block,
+    .about-me{
         width: 100% !important;
     }
+
+    .about-me-wrapper,
+    .mobile-wrapper{
+        display: block !important;
+    }
+
+    .mobile-feature{
+        margin: 10px !important;
+    }
+
+    .blocks{
+        width: 100% !important;
+        padding: 10px;
+    }
+
+
 }
 
 h4{
