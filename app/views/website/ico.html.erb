@@ -1,34 +1,7 @@
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:900|Heebo:900|Montserrat" rel="stylesheet">
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script> 
-
-<div class="nav-cont">
-    <div class="block hide-block">
-    	<div  class="logo">
-        	<span><%= image_tag ("logo.png")%></span>
-    	</div>
-    	<div class="block">
-   	 		<span class="logo-text">ROOTS NETWORK</span>
-    	</div>
-    </div>
-    <div style="float: right;" class="block">
-	    <div class="block">
-	    	<a href="#rootsMap">Vision</a>
-	    </div>
-	    <div class="block">
-	    	<a href="#team">About Us</a>
-	    </div>
-	     <div class="block">
-	    	<a href="#roadmap">Roadmap</a>
-	    </div>
-	     <div class="block">
-	    	<a href="#faqs">FAQs</a>
-	    </div>
-	    <div class="block">
-	    	<a href="">WHITEPAPER</a>
-	    </div>
-    </div>
-</div>
+<%= render partial: "website/partials/header"%>
 
 <div class="homepage">
 	
@@ -36,16 +9,16 @@
 	<div class="blocks-parent-wrapper">
 		<div class="blocks-wrapper">
 			<div class="blocks">
-				<%#= image_tag "logo.svg", :class => "home-logo", :alt => "Roots Network ICO | Decentralised ML driven distributed economic system for Travellers."%>
 				<div class="download-container">
 					<div class="home-download-app" translate="home.orDownloadNow">
-						<div class="brand-tagline">Decentralised ML driven distributed economic system for Travellers</div>
-						<div>Proud to release Beta on the Android.</div>
+						<div class="brand-tagline">Tokenising the Travel Industry</div>
+						<div>Roots is a new decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers.</div>
+						<div>We're proud to release Beta on the Android.</div>
 						<div>iOS coming soon.</div>
 					</div>
 					<div class="download-buttons">
 						<a href=""class="download-button">
-							<%= image_tag "appStore.svg", :alt => "Apple App Store" %>
+							<%= image_tag "appStore.svg", :alt => "Apple App Store", :class => "hide-block" %>
 						</a>
 						<a href="https://play.google.com/store/apps/details?id=ai.roots" class="download-button" target="_blank">
 							<%= image_tag "playStore.svg", :alt => "Google Play Store", :class=>"active-app-link"%>
@@ -56,16 +29,8 @@
 		</div>
 	</div>
 	<div class="blocks-footer-wrapper">
-		  <p class="white">Connect with us</p>
-        	<%= fa_icon "facebook", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "telegram", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "google-plus", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "twitter", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "youtube", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "medium", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "instagram", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "github", :class => "fa-2x social-icon" %>
-        	<%= fa_icon "linkedin", :class => "fa-2x social-icon" %>
+    <p class="white">Connect with us</p>
+		<%= render partial: "website/partials/social"%>
 	</div>
 </div>
 	
@@ -73,10 +38,9 @@
 	<%= render partial: "website/partials/map"%>
 </div>
 
-<div class="page-wrap">
+<div class="page-wrap" style="margin-top: -210px">
    <div class="content-wrap " >
       <div class="m-page">
-         
          <div id="departments-page-container" class="departments-stretch">
             <div>
                <div>
@@ -91,7 +55,7 @@
 				               Need for Roots
 				            </p>
                            <span class="departments-subheadline">
-                           Tourism industry today faces many challenges both at the traveller as well as the business ends. For a traveller, problems at every step of journey like lack of access to information and timely availability of services like cabs/trains while commute, heavily commisioned middlemen and OTAs(think Expedia/TUI) while finding accomodation, no trustworthy source of information on nearby restaurants and local events and of course no rewards for sharing their experiences. Businesses on the other hand, are still spending tons on marketing and advertising, with lots of unoccupied inventory in hotels, restaurants rolling out discounts without proper audiences and almost zero idea of the customer's needs and lack of data to analyze and tailor their business according to the needs of the market.
+                           Tourism is a <b>7.6 Trillion dollar industry</b>, and today faces many challenges both at the traveller as well as the business ends. For a traveller, problems at every step of journey like lack of access to information and timely availability of services like cabs/trains while commute, heavily commisioned middlemen and OTAs(think Expedia/TUI) while finding accomodation, no trustworthy source of information on nearby restaurants and local events and of course no rewards for sharing their experiences. Businesses on the other hand, are still spending tons on marketing and advertising, with lots of unoccupied inventory in hotels, restaurants rolling out discounts without proper audiences and almost zero idea of the customer's needs and lack of data to analyze and tailor their business according to the needs of the market.
                            </span>
                            <br/>
                         </div>
@@ -105,21 +69,19 @@
                         <section>
                            <div class="press-stats clearfix">
                               <div class="stat">
-                                 <div class="stat-val">2.3</div>
-                                 <div class="stat-caption ">TRILLION $</div>
-                                 <div class="stat-caption ">INDUSTRY</div>
+                                 <div class="stat-val"><%= fa_icon "hotel" %></div>
+                                 <div class="stat-caption ">ACCOMODATION</div>
                               </div>
                               <div class="stat">
-                                 <div class="stat-val">TWO</div>
-                                 <div class="stat-caption ">BILLION</div>
-                                 <div class="stat-caption ">TRIPS / YEAR</div>
+                                 <div class="stat-val"><%= fa_icon "cab" %></div>
+                                 <div class="stat-caption ">COMMUTE</div>
                               </div>
                               <div class="stat">
-                                 <div class="stat-val">1000+</div>
-                                 <div class="stat-caption ">HIPPIES</div>
+                                 <div class="stat-val"><%= fa_icon "fort-awesome" %></div>
+                                 <div class="stat-caption ">OUTDOORS</div>
                               </div>
                               <div class="stat">
-                                 <div class="stat-val">500+</div>
+                                 <div class="stat-val"><%= fa_icon "heart" %></div>
                                  <div class="stat-caption ">EXPERIENCES</div>
                               </div>
                              
@@ -127,155 +89,54 @@
                         </section>
                      </div>
                   </div>
-                 
                   <section>
-                     <div id="headline-bottom">
-                        <section>
-                           <div id="departments-description">
-                              <span class="red-headline">
-                              	<b>BUSINESSES <> TRAVELLERS</b>
-                              </span>
-                           </div>
-                        </section>
-                     </div>
-                     <div id="hero-top" class="cover-background" style="linear-gradient(216deg, #007382, #86f501);">
-                     </div>
+	                  <div id="departments-description">
+	              		<span class="red-headline">
+	              			<b>SEEDS FOR ROOTS</b>
+	              		</span>
+              			<p>
+	               			Our MVP in Gokarna, the coastal town of South India
+	            		</p>
+		            </div>
                   </section>
-                  
-                  <section>
-                     <div id="headline-bottom">
-                        <section>
-                           <div id="departments-description">
-                              <span class="red-headline">
-                              <b>FOR BUSINESSES</b>
-                              </span>
-                           </div>
-                        </section>
-                     </div>
-                  	<div id="company-info">
-                         <div class="info-box">
-                            <%= image_tag "for_businesses.png"%>
-                         </div>
-	                     <div class="info-box">
-	                        <ul>
-	                            <li>Business Reputation System</li>
-	                            <li>Metering Economy</li>
-	                            <li>Inclusion</li>
-	                        </ul>
-	                     </div>
-                     </div>
-                  </section>
-                  <div id="headline-bottom">
-                     <section>
-                        <div id="departments-description">
-                           <div>
-                              <span class="red-headline">
-                              <b>FOR TRAVELLERS</b>
-                              </span>
-                              
-                           </div>
-                           <br/>
-                           <div id="company-info">
-                                <div class="info-box">
-                                    <ul>
-                                        <li>Product innovation for destination discovery.</li>
-                                        <li>Near Field Communication</li>
-                                        <li>Traveller Reputation System: Civic Engagement etc</li>
-                                        <li>Peer Producers. New power of the commons. Double Spending Problem resolved.</li>
-                                        <li>Right Creators: Ideagoras. Feeding the creators of value first.</li>
-                                    </ul>
-                            	</div>
-                                <div class="info-box">
-                                        <%= image_tag "for_travellers.png"%>
-                                </div>
-                        	</div>
-
-                        </div>
-
-                     </section>
-                  </div>
-
+                 <div class="mobile-wrapper" style="background-image: url(<%= asset_path 'mobile.png'%>);">
+                 	<div class="mobile-features">
+                 		<div class="mobile-feature left-bubble">Covers offbeat destinations which are not found on major portals</div>
+                 		<div class="mobile-feature left-bubble">Lets the traveller discover experiences along his route when they head for a local walk or to the hotel.</div>
+                 	</div>
+                 	<div class="mobile-features">
+                 		<div class="mobile-feature right-bubble">Gives interface to connect with businesses directly, instead of going for travel agents</div>
+                 		<div class="mobile-feature right-bubble">Shows peer reviews from independent platform thereby removing the chances of fake reviews and ratings</div>
+                 	</div>
+                 </div>
                </div>
             </div>
             
          </div>
       </div>
    </div>
-   
 </div>
-<div class="m-page m-jobs departments-stretch ">
-	<div class="wide-page">
-	    <div id="headline-bottom">
-	        <section>
-	            <span class="red-headline">
-              		<b>ECOSYSTEM</b>
-              	</span>
-	            
-	            <p id="one-spark-description">
-	               Enterprise Collaboration.
-	            </p>
-	        </section>
-	    </div>
-	</div>
 
-	<div id="footer-apply">
-	    <section>
-	        <div id="company-info">
-	            <div class="info-box">
-	                Credit Funding, Suppliers, Partners and Investment Opportunities	                
-	            </div>
-	            <div class="info-box">
-	                Travel Insurance.
-	                <p>
-	                    We plan to the tiniest of details by making everything as simple as possible but not simpler.
-	                </p>
-	                
-	            </div>
-	            <div class="info-box">
-	                <div>We have something to prove to ourselves.</div>
-	                <p>
-	                    We plan to bring the entire globe on the Roots map and make it discoverable by a Hippie.
-	                </p>
-	                
-	            </div>
-	        </div>
-	    </section>
-	</div>
-	<div id="footer-apply">
-	    <section>
-	        <div id="company-info">
-	            <div class="info-box">
-	                Credit Funding, Suppliers, Partners and Investment Opportunities	                
-	            </div>
-	            <div class="info-box">
-	                Travel Insurance.
-	                <p>
-	                    We plan to the tiniest of details by making everything as simple as possible but not simpler.
-	                </p>
-	                
-	            </div>
-	            <div class="info-box">
-	                <div>We have something to prove to ourselves.</div>
-	                <p>
-	                    We plan to bring the entire globe on the Roots map and make it discoverable by a Hippie.
-	                </p>
-	                
-	            </div>
-	        </div>
-	    </section>
-	</div>
-</div>
-<div class="m-page m-jobs departments-stretch " style="background: linear-gradient(216deg, #007382, #86f501);">
+  
+<%= render partial: "website/partials/ecosystem"%> 
+<%= render partial: "website/partials/businesses"%>
+<%= render partial: "website/partials/travellers"%>
+<%= render partial: "website/partials/developers"%>
+
+<div class="m-page m-jobs departments-stretch " 
+	style="background: linear-gradient(216deg, #007382, #86f501);">
 	<div class="wide-page">
 	    <div id="hero-top" class="hero-img">
 	    	<div id="globe">
 				<%= render partial: "website/partials/globe"%>
 			</div>
-	        <div class="text">ROOTS (RTS)</div>
+            <div id="departments-description">
+		        <div class="text">ROOTS (RTS)</div>
+            	<p class="white">CryptoCurrency for Travelling</p>
+        	</div>
 	        <section>
-	            <h6 class="white">CryptoCurrency for Travelling</h6>
-	            <p id="one-spark-description" class="white">
-	            At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
+	            <p  class="white">
+	            	At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
 	            </p>
 	        </section>
 	    </div>
@@ -284,9 +145,8 @@
 	<div class="wide-page">
 		 <div id="headline-bottom">
 	        <section>
-  				<span class="red-headline white">
-  					<b>FUNDS DISTRIBUTION</b>
-  				</span>
+	        	<div class="text">FUNDS DISTRIBUTION</div>
+				<p class="white">CryptoCurrency for Travelling</p>
 			</section>
 		</div>
 		<div id="chart" class="chart-container"></div>
@@ -298,96 +158,36 @@
 </div>
 
 
-<div class="m-page m-jobs departments-stretch " id="roadmap">
-	<div id="footer-apply">
-		<div class="wide-page">
-		    <div id="headline-bottom">
-		        <section>
-	  				<span class="red-headline">
-	  					<b>ROADMAP</b>
-	  				</span>
-				</section>
-			</div>
-		</div>
-	</div>
-
-	<div id="timeline">
-		<%= render partial: "website/partials/timeline"%>
-	</div>
-</div>
-
-<div class="m-page m-jobs departments-stretch " id="team">
-	<div id="footer-apply">
-		<div class="wide-page">
-		    <div id="headline-bottom">
-		        <section>
-		            <span class="red-headline">
-	              		<b>TEAM</b>
-	              	</span>
-		            
-		            <p id="one-spark-description">
-		               Brains behind
-		            </p>
-		            <%= image_tag ("ironman.jpg"), :class => "limitless" %>
-		        </section>
-		    </div>
-		</div>
-	   	<div class="people">
-	     	<div  class="about-me-wrapper">
-	     		<div>
-			     	<div class="about-me-image-wrapper">
-			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
-			     	</div>
-			     	<h3>BHUWAN ARORA</h3>
-	     		</div>
-	     	</div>
-	     	<div  class="about-me-wrapper">
-	     		<div>
-			     	<div class="about-me-image-wrapper">
-			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-			     		 <a class="linkedin" href="https://www.linkedin.com/in/yadipadlakha/" target="_blank"><%= fa_icon "linkedin" %></a>
-			     	</div>
-			     	<h3>YADIP ADLAKHA</h3>
-	     		</div>
-	     	</div>
-	     	<div  class="about-me-wrapper">
-	     		<div>
-			     	<div class="about-me-image-wrapper">
-			        	<%= image_tag ("bhuwan.jpg"), :class => "about-me" %>
-			     		<a class="linkedin" href="https://www.linkedin.com/in/bhuwanarora/" target="_blank"><%= fa_icon "linkedin" %></a>
-			     	</div>
-			     	<h3>AMIT SHARMA</h3>
-	     		</div>
-	     	</div>
-	  	</div>
-	</div>
-</div>
-
-<div class="m-page m-jobs departments-stretch " id="faqs">
-	<div id="footer-apply">
-		<div class="wide-page">
-		    <div id="headline-bottom">
-		        <section>
-		            <span class="red-headline">
-	              		<b>FAQs</b>
-	              	</span>
-		            
-		            <p id="one-spark-description">
-		               
-		            </p>
-		        </section>
-		    </div>
-		</div>
-	   	
-	</div>
-</div>
-<%= render partial: "website/partials/footer"%>
+<%= render partial: "website/partials/timeline"%>
+<%= render partial: "website/partials/team"%>
+<%= render partial: "website/partials/faqs"%>
+<%= render partial: "website/partials/new_footer"%>
 
 <script>
 	particlesJS.load('particles-js', 'particles.json', function() {
 
 	});
+	$("#flat").flipster({
+		style: 'flat',
+	    buttons: true,
+	});
+
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
 </script>
-
-
