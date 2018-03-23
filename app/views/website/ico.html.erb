@@ -29,16 +29,8 @@
 		</div>
 	</div>
 	<div class="blocks-footer-wrapper">
-		  <p class="white">Connect with us</p>
-        	<a href="https://www.facebook.com/gorootsai/" target="_blank"><%= fa_icon "facebook", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.facebook.com/gorootsai/" target="_blank"><%= fa_icon "telegram", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.facebook.com/gorootsai/" target="_blank"><%= fa_icon "google-plus", :class => "fa-2x social-icon" %></a>
-        	<a href="https://twitter.com/gorootsai" target="_blank"><%= fa_icon "twitter", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.youtube.com/channel/UCurqAGOFTn2to-UV42adJQA?view_as=subscriber" target="_blank"><%= fa_icon "youtube", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.facebook.com/gorootsai/" target="_blank"><%= fa_icon "medium", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.instagram.com/gorootsai/" target="_blank"><%= fa_icon "instagram", :class => "fa-2x social-icon" %></a>
-        	<a href="https://github.com/roots-ai" target="_blank"><%= fa_icon "github", :class => "fa-2x social-icon" %></a>
-        	<a href="https://www.linkedin.com/company/roots-ai/" target="_blank"><%= fa_icon "linkedin", :class => "fa-2x social-icon" %></a>
+    <p class="white">Connect with us</p>
+		<%= render partial: "website/partials/social"%>
 	</div>
 </div>
 	
@@ -138,11 +130,13 @@
 	    	<div id="globe">
 				<%= render partial: "website/partials/globe"%>
 			</div>
-	        <div class="text">ROOTS (RTS)</div>
-            <h6 class="white">CryptoCurrency for Travelling</h6>
+            <div id="departments-description">
+		        <div class="text">ROOTS (RTS)</div>
+            	<p class="white">CryptoCurrency for Travelling</p>
+        	</div>
 	        <section>
-	            <p id="one-spark-description" class="white">
-	            At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
+	            <p  class="white">
+	            	At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the <b>entire globe on the Roots map</b>. We move fast and bold. We believe in reaching to the depths of whatever we do, and executing things from the heart.
 	            </p>
 	        </section>
 	    </div>
@@ -152,10 +146,7 @@
 		 <div id="headline-bottom">
 	        <section>
 	        	<div class="text">FUNDS DISTRIBUTION</div>
-  				<span class="red-headline white">
-  					<b></b>
-  				</span>
-				<h6 class="white">CryptoCurrency for Travelling</h6>
+				<p class="white">CryptoCurrency for Travelling</p>
 			</section>
 		</div>
 		<div id="chart" class="chart-container"></div>
@@ -170,6 +161,7 @@
 <%= render partial: "website/partials/timeline"%>
 <%= render partial: "website/partials/team"%>
 <%= render partial: "website/partials/faqs"%>
+<%= render partial: "website/partials/new_footer"%>
 
 <script>
 	particlesJS.load('particles-js', 'particles.json', function() {
@@ -199,6 +191,3 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 </script>
-
-
-
