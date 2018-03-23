@@ -346,7 +346,6 @@ text.subunit-label {
 
 .noclicks { pointer-events:none; }
 
-.point {  opacity:.6; }
 
 .arcs {
   opacity: 0.6;
@@ -601,13 +600,15 @@ text.subunit-label {
 .points {
     margin: 0px;
     list-style: none;
-    padding: 0px;
+    padding: 10px 0px;
     text-align: left;
 }
 
-.point {
+.points .point {
     padding: 10px 20px 10px 20px;
     border-bottom: 1px solid #E0E0E0;
+    background: white;
+    margin: 10px;
 }
 
 .clear-padding{
@@ -621,6 +622,9 @@ text.subunit-label {
 
 .mobile-wrapper{
     display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .mobile-feature{
@@ -674,4 +678,8 @@ text.subunit-label {
     margin-right: 4px;
     margin-left: 4px;
     text-align: left;
+}
+
+.clear-shadow{
+    box-shadow: none !important;
 }
