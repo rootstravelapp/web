@@ -686,3 +686,8 @@ text.subunit-label {
 .below-the-fold .fa{
     color: #007382;
 }
+
+.job-title{
+    margin-left: 20px;
+    margin-top: -15px;
+}

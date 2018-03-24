@@ -16,5 +16,5 @@ Rails.application.routes.draw do
 	get "/press" => "website#press"
 	get '/businesses' => 'website#businesses'
 	get '/menu' => 'website#menu'
-	get '/hidden' => 'website#ico'
+	get '/dream' => 'website#ico'
 end
