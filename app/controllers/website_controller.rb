@@ -1,5 +1,11 @@
 class WebsiteController < ApplicationController
 
+	def coming_soon
+		@title = SeoContent::Title::Brand
+		@description = SeoContent::Description::Brand
+		@image_url = SeoContent::Image::Brand
+	end
+
 	def index
 		@title = SeoContent::Title::Brand
 		@description = SeoContent::Description::Brand

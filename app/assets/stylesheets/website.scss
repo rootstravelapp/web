@@ -308,3 +308,16 @@
     font-size: 2em;
     line-height: 1.5em;
 }
+
+.coming_soon_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -10px;
+    color: #333;
+    font-family: lato;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #757575;
+}
