@@ -1448,7 +1448,6 @@ h5 {
     font-size: 1.2rem;
     line-height: 1.9rem;
     font-weight: 400;
-    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.01em;
     color: #6C6C6C
 }
@@ -2943,7 +2942,6 @@ body.s-navless .m-header {
     margin: auto 20px;
     box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
-    font-weight: bold;
 }
 
 @media only screen and (min-width: 769px) {
@@ -4290,7 +4288,8 @@ body.redesign .ti-content {
 }
 
 #job-page-stats-container .stat-caption {
-    color: #03A9F4;
+    color: #673AB7;
+    font-weight: bold;
     letter-spacing: 0.02em
 }
 
@@ -4425,7 +4424,7 @@ body.redesign .ti-content {
 }
 
 .job-page .stat .stat-val .fa{
-    color: #03A9F4;
+    color: #673AB7;
 }
 
 @media only screen and (max-width: 800px) {
@@ -4435,7 +4434,7 @@ body.redesign .ti-content {
 }
 
 .job-page .stat .stat-caption {
-    color: #C8C8C8;
+    color: #673AB7;
     text-transform: uppercase;
     font-size: 0.7rem;
 }

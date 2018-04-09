@@ -203,7 +203,6 @@ body{overflow-x: hidden;}
 }
 
 .homepage .blocks-wrapper .download-container .home-download-app {
-    font-size: 1rem;
     color: white;
     font-weight: 200;
     padding: 25px;
@@ -504,8 +503,8 @@ text.subunit-label {
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
-    letter-spacing: 2px;
     font-weight: 200;
+    font-size: 1.2rem;
 }
 
 .blocks-wrapper{
