@@ -25,7 +25,8 @@
         var arc=d3.svg.arc()
           .outerRadius(outerRadius)
           .innerRadius(innerRadius);
-         
+         d3.select(".funds svg").remove();
+
         var pieSvg=d3.select(".funds")
           .append("svg")
           .attr({

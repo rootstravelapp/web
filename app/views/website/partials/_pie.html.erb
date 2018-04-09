@@ -29,6 +29,8 @@
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
          
+        d3.select(".token svg").remove();
+
         var pieSvg=d3.select(".token")
             .append("svg")
             .attr({
