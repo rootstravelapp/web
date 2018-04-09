@@ -19,13 +19,14 @@
           .padAngle(.03);
          
         var w=400,h=800;
+        var innerRadius=100;
         if(document.body.clientWidth < 400){
             w=document.body.clientWidth - 50;
             h=2*w;
+            innerRadius=w/2-80;
          }
          
         var outerRadius=w/2;
-        var innerRadius=100;
          
         var color = d3.scale.category10();
          
