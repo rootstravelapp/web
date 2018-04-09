@@ -19,6 +19,10 @@
           .padAngle(.03);
          
         var w=400,h=800;
+        if(document.body.clientWidth < 400){
+            w=document.body.clientWidth;
+            h=2*w;
+         }
          
         var outerRadius=w/2;
         var innerRadius=100;
