@@ -2939,7 +2939,6 @@ body.s-navless .m-header {
     text-align: center;
     background-color: #FFF;
     margin: 0 20px;
-    margin: auto 20px;
     box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
 }
@@ -4719,8 +4718,7 @@ h2{
 .about-me{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    width: 80vh;
-    padding: 40px;
+    width: 300px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -4759,4 +4757,10 @@ h6{
     color: #616161;
     font-weight: 200;
     letter-spacing: 4px;
+}
+
+#company-info h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
 }
