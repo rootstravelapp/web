@@ -15,7 +15,7 @@
           .sort(null)
           .padAngle(.03);
          
-        var w=400,h=400;
+        var w=400,h=800;
          
         var outerRadius=w/2;
         var innerRadius=150;
@@ -27,7 +27,7 @@
           .innerRadius(innerRadius);
          d3.select(".funds svg").remove();
 
-        var pieSvg=d3.select(".funds")
+        var fundsSvg=d3.select(".funds")
           .append("svg")
           .attr({
               width:w,
@@ -35,9 +35,9 @@
               class:'shadow'
           }).append('g')
           .attr({
-              transform:'translate('+w/2+','+h/2+')'
+              transform:'translate('+w/2+','+h/4+')'
           });
-        var path=pieSvg.selectAll('path')
+        var path=fundsSvg.selectAll('path')
           .data(pie(dataset))
           .enter()
           .append('path')
@@ -56,7 +56,7 @@
                   return arc(interpolate(t));
               };
           });
-        var text=pieSvg.selectAll('text')
+        var text=fundsSvg.selectAll('text')
             .data(pie(dataset))
             .enter()
             .append("text")
@@ -74,6 +74,44 @@
                 fill:'#fff',
                 'font-size':'10px'
             });
+
+         var legendRectSize=20;
+        var legendSpacing=7;
+        var legendHeight=legendRectSize+legendSpacing;
+        var legend=fundsSvg.selectAll('.fundsLegend')
+            .data(color.domain())
+            .enter()
+            .append('g')
+            .attr({
+                class:'fundsLegend',
+                transform:function(d,i){
+                    //Just a calculation for x & y position
+                    return 'translate(-135,' + ((i*legendHeight)+220) + ')';
+                }
+            });
+            legend.append('rect')
+            .attr({
+                width:legendRectSize,
+                height:legendRectSize,
+                rx:0,
+                ry:0
+            })
+            .style({
+                fill:color,
+                stroke:color
+            });
+
+        legend.append('text')
+            .attr({
+                x:30,
+                y:15
+            })
+            .text(function(d){
+                return d;
+            }).style({
+                fill:'#FFF',
+                'font-size':'14px'
+        });
      
     };
     setTimeout(fundAllocation,1000);
