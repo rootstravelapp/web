@@ -534,7 +534,7 @@ text.subunit-label {
 .linkedin{
     right: 10px;
     border: 5px solid white;
-    background-color: #D81B60;
+    background-color: #673AB7;
     padding: 15px;
     position: absolute;
     top: 20px;
@@ -599,7 +599,7 @@ text.subunit-label {
 .points {
     margin: 0px;
     list-style: none;
-    padding: 10px 0px;
+    padding: 20px;
     text-align: left;
 }
 
