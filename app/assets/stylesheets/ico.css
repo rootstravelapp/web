@@ -600,6 +600,7 @@ text.subunit-label {
     margin: 0px;
     list-style: none;
     padding: 20px;
+    border-radius: 10px;
     text-align: left;
 }
 
@@ -672,7 +673,7 @@ text.subunit-label {
     display: none;
     overflow: hidden;
     font-size: 0.8em;
-    background: #e0e0e0;
+    background: #f2f2f2;
     margin-right: 4px;
     margin-left: 4px;
     text-align: left;
