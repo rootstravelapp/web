@@ -1437,7 +1437,7 @@ h5 {
     font-weight: 500;
     letter-spacing: 0.08rem;
     font-size: 2rem;
-    background: linear-gradient(216deg, #007382, #86f501);
+    background: linear-gradient(216deg, #000, #673AB7, #03A9F4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2894,7 +2894,7 @@ body.s-navless .m-header {
     text-transform: none;
     letter-spacing: 0px;
     font-size: 1.5rem;
-    color: #89c449;
+    color: #000;
     font-family: lato;
     margin: 20px;
 
@@ -4290,7 +4290,7 @@ body.redesign .ti-content {
 }
 
 #job-page-stats-container .stat-caption {
-    color: #8ac34a;
+    color: #03A9F4;
     letter-spacing: 0.02em
 }
 
@@ -4425,7 +4425,7 @@ body.redesign .ti-content {
 }
 
 .job-page .stat .stat-val .fa{
-    color: #8ac34a;
+    color: #03A9F4;
 }
 
 @media only screen and (max-width: 800px) {

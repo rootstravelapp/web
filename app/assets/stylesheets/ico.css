@@ -575,7 +575,7 @@ text.subunit-label {
 }
 
 .nav-cont .block .logo-text{
-    background: linear-gradient(216deg, #007382, #86f501);
+    background: linear-gradient(216deg, #000, #673AB7, #03A9F4, #007382, #86f501);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Lato', sans-serif;
@@ -605,7 +605,7 @@ text.subunit-label {
 
 .points .point {
     padding: 10px 20px 10px 20px;
-    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
     background: white;
     margin: 10px;
 }
@@ -628,7 +628,7 @@ text.subunit-label {
 
 .mobile-feature{
     margin: 100px;
-    background: linear-gradient(216deg, #007382, #86f501);
+    background: linear-gradient(216deg, #673AB7, #03A9F4);
     padding: 30px;
     border-radius: 40px;
     color: white;
