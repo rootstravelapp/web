@@ -326,3 +326,26 @@
     margin: 10px;
     display: inline-block;
 }
+
+.email{
+    text-decoration: none;
+    background: #62b301;
+    padding: 10px 50px;
+    color: white;
+    box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
+}
+
+.email:hover{
+    text-decoration: none !important;
+    background: #62b301;
+    padding: 10px 50px;
+    color: white;   
+}
+
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
