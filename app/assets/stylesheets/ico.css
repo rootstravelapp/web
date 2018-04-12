@@ -574,10 +574,10 @@ text.subunit-label {
 }
 
 .nav-cont .block .logo-text{
-    background: linear-gradient(216deg, #000, #673AB7, #03A9F4, #007382, #86f501);
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Lato', sans-serif;
+    font-family: 'ubuntu', 'Lato', sans-serif;
     font-size: 30px;
 }
 
