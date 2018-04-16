@@ -1,7 +1,7 @@
 module WebsiteHelper
 
 	def self.getText index
-		brand_messages = ["Be a Hungry Hippie! Taste all the local cuisines.", "Go with the flow, by exploring the Life as it comes.", "Get to Roll and Dance by finding the mysterious hidden places of Gokarna.", "Travel Smart. Travel Freely. Travel Like a Hippie."]
+		brand_messages = ["Be a Hungry Traveller! Taste all the local cuisines.", "Go with the flow, by exploring the Life as it comes.", "Get to Roll and Dance by finding the mysterious hidden places of Gokarna.", "Travel Smart. Travel Freely. Travel Like a Freebird."]
 		brand_messages[index]
 	end
 

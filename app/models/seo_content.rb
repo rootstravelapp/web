@@ -30,7 +30,7 @@ class SeoContent
 		# It should match the content.
 		# It should contain the focus keyword.
 		# The meta description should be unique.
-		Brand = "Download the Hippie's Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
+		Brand = "Download the Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
 		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
 		Blog = "Official Blog of Roots | Roots Platform | Decentralised App for the Modern Day Traveller."
 		Privacy = "Roots Privacy Policy | Roots Platform | Decentralised App for the Modern Day Traveller."
