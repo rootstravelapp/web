@@ -3212,9 +3212,9 @@ body.redesign .ti-content {
     width: 100%;
     z-index: 3;
     background: #FFF;
-    height: 66px;
+    height: 56px;
     padding: 10px;
-
+    box-shadow: 0 10px 20px 0 rgba(149,152,172,0.1);
     text-align: justify !important;
     -ms-text-justify: distribute-all-lines !important;
     text-justify: distribute-all-lines !important;
@@ -3258,7 +3258,7 @@ body.redesign .ti-content {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 96px
+        height: 56px;
     }
 
 
@@ -3271,7 +3271,7 @@ body.redesign .ti-content {
 
 @media only screen and (min-width: 769px) {
     .roots-nav {
-        height: 96px
+        height: 56px
     }
 }
 
@@ -3361,7 +3361,7 @@ body.redesign .ti-content {
 
 @media only screen and (min-width: 769px) {
     .roots-nav .menu-button-wrapper {
-        height: 96px;
+        height: 56px;
         margin: 0 68px 0 0;
         padding: 30px;
         width: 90px;
@@ -3452,7 +3452,7 @@ body.redesign .ti-content {
         box-shadow: 0 7px 10px 0 rgba(146, 154, 160, 0.12);
         top: inherit;
         bottom: inherit;
-        top: 96px
+        top: 56px
     }
 }
 
