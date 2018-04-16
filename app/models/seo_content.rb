@@ -7,19 +7,19 @@ class SeoContent
 		# If your company name is not part of the important (keyword) phrases, put it at the end of the title tag; if it is part of your important words, put it as the first words in the title tag. Some SEOs will tell you to leave it out. You can leave it in for branding purposes – so people will see the brand and click. This isn’t valid for all sites.
 		# They must be written differently for every page. Don’t mass replicate your title tags.
 		# Title tags must be written to be descriptive of the content on the page. (e.g., the About Page would be:
-		Brand = "Travel App | For the Modern Day Hippie Traveller | Explore Gokarna | Roots"
+		Brand = "Roots Platform | Decentralised App for the Modern Day Traveller"
 		Careers = "Roots Beach Internship Program | Roots Careers"
-		Blog = "Official Blog of Roots, App for the Modern Day Hippie Traveller"
-		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller"
-		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller"
-		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller"
-		About = "Roots About | App for the Modern Day Hippie Traveller"
-		Tech = "Roots Tech Blog | App for the Modern Day Hippie Traveller"
-		Press = "Roots Latest Press Release | App for the Modern Day Hippie Traveller"
-		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller"
+		Blog = "Official Blog of Roots, Roots Platform | Decentralised App for the Modern Day Traveller"
+		Privacy = "Roots Privacy Policy | Roots Platform | Decentralised App for the Modern Day Traveller"
+		Terms = "Roots Terms and Conditions | Roots Platform | Decentralised App for the Modern Day Traveller"
+		Contact = "Roots Contact Info | Roots Platform | Decentralised App for the Modern Day Traveller"
+		About = "Roots About | Roots Platform | Decentralised App for the Modern Day Traveller"
+		Tech = "Roots Tech Blog | Roots Platform | Decentralised App for the Modern Day Traveller"
+		Press = "Roots Latest Press Release | Roots Platform | Decentralised App for the Modern Day Traveller"
+		Businesses = "Roots for Businesses | Roots Platform | Decentralised App for the Modern Day Traveller"
 		Teams = "Roots Team | Driven by passionate Tech and Product Evangelists"
-		Internships = "Roots Beach Internship Program | Roots, App for the Modern Day Hippie Traveller"
-		Internship = " Internship in Gokarna at Roots, App for the Modern Day Hippie Traveller"
+		Internships = "Roots Beach Internship Program | Roots, Roots Platform | Decentralised App for the Modern Day Traveller"
+		Internship = " Internship in Gokarna at Roots, Roots Platform | Decentralised App for the Modern Day Traveller"
 	end
 
 	module Description
@@ -32,15 +32,15 @@ class SeoContent
 		# The meta description should be unique.
 		Brand = "Download the Hippie's Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
 		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
-		Blog = "Official Blog of Roots | App for the Modern Day Hippie Traveller."
-		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller."
-		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller."
-		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller."
-		About = "Roots About | App for the Modern Day Hippie Traveller."
-		Tech = "Roots Tech Blog | App for the Modern Day Hippie Traveller."
-		Press = "Roots Latest Press Release | App for the Modern Day Hippie Traveller."
-		Businesses = "Roots for Businesses | App for the Modern Day Hippie Traveller."
-		Teams = "Be Limitless. On our journey to create the world’s fastest growing app for the Modern Day Hippie Traveller.
+		Blog = "Official Blog of Roots | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Privacy = "Roots Privacy Policy | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Terms = "Roots Terms and Conditions | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Contact = "Roots Contact Info | Roots Platform | Decentralised App for the Modern Day Traveller."
+		About = "Roots About | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Tech = "Roots Tech Blog | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Press = "Roots Latest Press Release | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Businesses = "Roots for Businesses | Roots Platform | Decentralised App for the Modern Day Traveller."
+		Teams = "Be Limitless. On our journey to create the world’s fastest growing Roots Platform | Decentralised App for the Modern Day Traveller.
                 We research, refactor, analyse and solve the toughest of problems."
 		Internships = "Exciting internship opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
 		Internship = " Exciting internship opportunities available for university grads and students who want to grow with us at Roots."
