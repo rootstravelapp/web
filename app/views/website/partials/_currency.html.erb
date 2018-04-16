@@ -5,28 +5,29 @@
             <div id="departments-description">
 		        <div class="text">RTS TOKEN</div>
             	<p class="white">CryptoCurrency for Travelling</p>
-        	</div>
-	        <section>
-	            <p  class="white">
+	            <div class="white">
 					The RTS token facilitates transactions on the RTS Network. RTS is used by travel companies to distribute inventory and make transactions without intermediaries.
-	            </p>
-	        </section>
+	            </div>
+        	</div>
 	    </div>
 	</div>
 	<div class="buffer"></div>
 	<div class="wide-page">
 		<div id="chart" class="chart-container"></div>
-			<div class="token pie-chart">
+			<div class="pie-chart">
 				<div class="text">TOKEN ALLOCATION</div>
 				<p class="white">CryptoCurrency for Travelling</p><br/>
-				<%= render partial: "website/partials/pie"%>
+				<div class="token">
+					<%= render partial: "website/partials/pie"%>
+				</div>
 			</div>
-			<div class="funds pie-chart">
+			<div class="pie-chart">
 				<div class="text">FUNDS DISTRIBUTION</div>
 				<p class="white">How we are going to use funds</p><br/>
-				<%= render partial: "website/partials/funds"%>
+				<div class="funds">
+					<%= render partial: "website/partials/funds"%>
+				</div>
 			</div>
 		</div>
 	</div>
-
 </div>
