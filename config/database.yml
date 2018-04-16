@@ -24,5 +24,4 @@ test:
 
 production:
   <<: *default
-  template: template1
   database: web_production

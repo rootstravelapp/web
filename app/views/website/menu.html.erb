@@ -1,42 +1,68 @@
 <%= stylesheet_link_tag "menu" %>
-<link href="https://fonts.googleapis.com/css?family=Aladin|Alegreya+Sans|Roboto+Slab" rel="stylesheet">
-
 
 <div class="menu-card-wrapper">
 	<div class="menu-card-header-wrapper">
-		<!-- <div class="cover-image-wrapper"></div> -->
-		<div class="restaurant-name" style="font-family: 'Aladin', cursive;">
-			My Honey Cafe
+		<div class="cover-image-wrapper"></div>
+		<div class="restaurant-name">
+			<img src="/assets/svg/001-dish.svg" class="brand-icon"/>
+			AMRUT'S FARM HOUSE
 		</div>
+		<div class="restaurant-tagline">
+			Kudle Beach Road, Gokarna
+		</div>
+		<div class="brand-tagline">
+			Powered By Roots.ai for the Modern Day Hippie Traveller
+		</div>
+		
 	</div>
 	<div class="menu-content">
 		<div class="menu-panel">
 			<% @menu.each_with_index do |(key, value), index|%>
 				<h1><%= key.upcase %></h1>
 				<div class="category-wrapper">
-					
+					<div class="top-brand-asset" style="background-color:<%= WebsiteHelper.getColor(index)%>"></div>
 					<% value.each do |k2, v2|%>
-						<%= render partial: "website/partials/menu_items", locals: {items: v2} %>
+						<h2><%= k2.upcase %></h2>
+						<% v2.each do |k3, v3|%>
+							<% if k3 == :items %>
+								<%= render partial: "website/partials/menu_items", locals: {items: v3} %>
+							<% else %>
+								<% if k3 == :icon %>
+									<!-- <img src="/assets/svg/<%= v3 %>" class="food-icon"/> -->
+								<% elsif v3.class == Array %>
+									<h3><%= k3 %></h3>
+									<%= render partial: "website/partials/menu_items", locals: {items: v3} %>
+								<% elsif v3.class == Hash %>
+									<div class="header-with-icon">
+										<img src="/assets/svg/<%= v3[:icon] %>" class="food-icon"/>
+										<h3><%= k3 %></h3>
+									</div>
+									<%= render partial: "website/partials/menu_items", locals: {items: v3[:items]} %>
+								<% end %>
+							<% end %>
+						<% end %>
 					<% end %>
-					
+					<div class="brand-asset" style="background-color:<%= WebsiteHelper.getColor(index)%>">
+						<div>
+							<%= image_tag ("http://www.roots.ai/assets/logo-01c037ec0d49e2da9c55fe6800485fd7cd0e4f656fe034bb6c7d93418125807a.svg"), :class => "logo" %>
+						</div>
+						
+						<div class="brand-name">Roots</div>
+						<div class="brand-tagline">For the Modern Day hippie Traveller</div>
+						<div class="brand-message"><%= WebsiteHelper.getText(index)%></div>
+					</div>
 				</div>
 			<% end %>
 		</div>
 	</div>
 
 	<div class="menu-card-footer">
-		<br/>
-		<div class="restaurant-tagline" style="width: 100vw; font-family: 'Aladin', cursive; clear:both;padding-left: 100px;padding-right: 100px;">
-			<div style="float:left;text-align: left;">
-				<div>Powered By ROOTS</div>
-				<div>One stop solution for a Tourist in a new city</div>
-			</div>
-			<div style="float:right;">
-				<image src="https://miduapp.com/wp-content/themes/midu/assets/img/google-play.png"
-					style="width: 150px"}/>
-			</div>
-			
-		</div>
+		<div class="restaurant-tagline">Please allow us 20mins to prepare food.</div>
+		<div class="restaurant-tagline">Let us know if you have any suggestions. </div>
+		<div class="restaurant-tagline">Hope to serve you again! </div>
+		<div class="padder"></div>
+		<div class="brand-name">Roots, GOKARNA TRAVELLER'S APP</div>
+		<div class="brand-tagline">For the Modern Day hippie Traveller</div>
 		
 	</div>
 </div>

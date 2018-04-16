@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-	root "website#ico"
+	root "website#index"
 
 	get "/careers" => "career#index"
 	get "/careers/teams" => "career#teams"
@@ -16,5 +16,4 @@ Rails.application.routes.draw do
 	get "/press" => "website#press"
 	get '/businesses' => 'website#businesses'
 	get '/menu' => 'website#menu'
-	get '/dream' => 'website#ico'
 end

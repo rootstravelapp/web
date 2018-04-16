@@ -230,7 +230,7 @@ th {
     font-weight: 400;
     margin-bottom: 10px;
     color: #343434;
-    font-family: Heebo
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
 }
 
 @media only screen and (max-width: 800px) {
@@ -1079,7 +1079,7 @@ h5 {
 
 .m-header-light {
     font-weight: 100;
-    font-family: Heebo
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
 }
 
 .m-col-50 {
@@ -1103,7 +1103,7 @@ h5 {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 5px;
-    font-family: Heebo
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
 }
 
 .ti-blog {
@@ -1433,19 +1433,17 @@ h5 {
 }
 
 .red-headline {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    color: #616161;
     font-weight: 500;
     letter-spacing: 0.08rem;
     font-size: 2rem;
-    background: linear-gradient(216deg, #000, #673AB7, #03A9F4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .departments-subheadline {
     display: block;
     margin: 15px 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.9rem;
     font-weight: 400;
     letter-spacing: 0.01em;
@@ -1459,6 +1457,11 @@ h5 {
 #department li {
     cursor: pointer;
     list-style: none
+}
+
+#departments-page-container {
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    background: #FFFFFF
 }
 
 #departments-page-container h1,
@@ -1481,6 +1484,7 @@ h5 {
 }
 
 #departments-description {
+    background-color: #FFFFFF;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -1653,7 +1657,7 @@ h5 {
 
 #hero-department h1,
 #hero-department h4 {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     color: #FFF
 }
 
@@ -1710,7 +1714,7 @@ h5 {
 }
 
 .description-department h5 {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     color: #B3B3B3;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -1800,7 +1804,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job a {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     display: block;
     text-decoration: none
 }
@@ -1840,7 +1844,7 @@ h5 {
 }
 
 #listings-department #categories-listings-greenhouse p {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
@@ -1887,7 +1891,7 @@ h5 {
 }
 
 #listings-department #categories-department .category-pods {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     background-color: #FFF;
     color: #B3B3B3;
     border-radius: 8px;
@@ -2789,7 +2793,7 @@ body.s-navless .m-header {
 
 .m-jobs .wide-page {
     text-align: center;
-    border-top: 0;
+    border-top: 0
 }
 
 
@@ -2798,7 +2802,7 @@ body.s-navless .m-header {
     font-size: 40px;
     font-weight: 800;
     color: white;
-    font-family: lato;
+    font-family: helvetica;
     line-height: 55px;
 }
 
@@ -2806,18 +2810,21 @@ body.s-navless .m-header {
     font-size: 30px;
     font-weight: 300;
     color: white;
-    font-family: lato;
+    font-family: helvetica;
     line-height: 40px;
 }
 
 .m-jobs .wide-page h1,
 .m-jobs .wide-page h3,
 .m-jobs .wide-page p {
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
+    font-weight: 100;
     margin: 0
 }
 
 .m-jobs .wide-page p {
     font-size: 1.1rem;
+    color: #666
 }
 
 .m-jobs .wide-page strong {
@@ -2878,28 +2885,23 @@ body.s-navless .m-header {
     margin-left: 10px
 }
 
-#headline-bottom p,
-#departments-description p{
-    font-size: 2rem !important;
-    font-weight: 400 !important;
-    text-align: center !important;
-    font-family: "Montserrat" !important;
-    margin: 20px !important;
-    line-height: 3.4rem !important;
+.m-jobs #one-spark-description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    padding-bottom: 20px;
+    text-align: center
 }
 
 .m-jobs #headline-bottom h3,
 .m-jobs #footer-apply h3 {
     text-transform: none;
     letter-spacing: 0px;
-    font-size: 1.5rem;
-    color: #000;
-    font-family: lato;
-    margin: 20px;
-
+    font-size: 1.5rem
 }
 
 .m-jobs #footer-apply {
+    background: #FFFFFF;
     height: auto;
     padding-bottom: 30px
 }
@@ -2910,14 +2912,15 @@ body.s-navless .m-header {
     }
 }
 
-#company-info {
+.m-jobs #footer-apply #company-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 50px
 }
 
 @media only screen and (max-width: 800px) {
-    #company-info {
+    .m-jobs #footer-apply #company-info {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2935,16 +2938,17 @@ body.s-navless .m-header {
     }
 }
 
-#company-info .info-box {
+.m-jobs #footer-apply #company-info .info-box {
     text-align: center;
     background-color: #FFF;
     margin: 0 20px;
     box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
+    font-weight: bold
 }
 
 @media only screen and (min-width: 769px) {
-    #company-info .info-box {
+    .m-jobs #footer-apply #company-info .info-box {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1
@@ -2952,20 +2956,15 @@ body.s-navless .m-header {
 }
 
 @media only screen and (max-width: 800px) {
-    #company-info .info-box {
-        margin-bottom: 25px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .m-page section{
-        padding: 0px;
+    .m-jobs #footer-apply #company-info .info-box {
+        margin-bottom: 25px
     }
 }
 
-#company-info .info-box p {
+.m-jobs #footer-apply #company-info .info-box p {
     margin-top: 15px;
     font-size: 1rem;
+    text-align: center;
     font-weight: 400
 }
 
@@ -3005,7 +3004,7 @@ body.s-navless .m-header {
 }
 
 .jobs-nav a {
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     font-size: 1rem;
     letter-spacing: 0.07rem;
     margin: 0 1.5%;
@@ -3034,14 +3033,14 @@ body.s-navless .m-header {
 
 #hero-top,
 #hero-bottom {
-    min-height: 350px
+    height: 350px
 }
 
 #hero-top h1,
 #hero-top h3,
 #hero-bottom h1,
 #hero-bottom h3 {
-    font-family: lato, sans-serif;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     color: #FFF
 }
 
@@ -3067,6 +3066,7 @@ body.s-navless .m-header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    background-color: white;
     line-height: 40px;
     flex-direction: column
 }
@@ -3210,29 +3210,30 @@ body.redesign .ti-content {
 .nav-cont {
     position: fixed;
     width: 100%;
-    height: 46px;
     z-index: 3;
     background: #FFF;
-    box-shadow: 0 10px 20px 0 rgba(149,152,172,.1);
+    height: 66px;
+    padding: 10px;
+
     text-align: justify !important;
     -ms-text-justify: distribute-all-lines !important;
     text-justify: distribute-all-lines !important;
 }
 
 .nav-cont .block{
-    vertical-align: super;
+    vertical-align: top;
     display: inline-block !important;
-    display: inline;
+    *display: inline;
+    width: 33%;
     text-align: center;
-    color: #8ac34a;
+    color: #616161;
+    font-family: helvetica;
     font-weight: bold;
-    font-size: 16px;
-    padding: 10px;
 }
 
 
 .nav-cont .logo{
-    font-family: lato;
+    font-family: helvetica;
     color: #616161;
     display: inline;
     font-weight: 800;
@@ -3251,10 +3252,13 @@ body.redesign .ti-content {
 
 @media only screen and (min-width: 769px) {
     .nav-cont {
-        display: inline;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        height: 96px
     }
 
 
@@ -3456,7 +3460,7 @@ body.redesign .ti-content {
     font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     text-transform: uppercase
 }
 
@@ -4184,7 +4188,7 @@ body.redesign .ti-content {
 .m-page h1,
 .m-page h2 {
     color: #343434;
-    font-family: Heebo;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
     font-weight: 100;
     font-size: 35px;
     line-height: 35px
@@ -4287,8 +4291,7 @@ body.redesign .ti-content {
 }
 
 #job-page-stats-container .stat-caption {
-    color: #673AB7;
-    font-weight: bold;
+    color: #6C6C6C;
     letter-spacing: 0.02em
 }
 
@@ -4321,6 +4324,7 @@ body.redesign .ti-content {
     float: left;
     width: 192px;
     color: gray;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif
 }
 
 @media only screen and (max-width: 800px) {
@@ -4373,6 +4377,7 @@ body.redesign .ti-content {
 
 .job-page .stat {
     font-weight: 400;
+    font-family: "proxima-nova", "Helvetica Neue", helvetica, sans-serif;
 }
 
 @media only screen and (min-width: 769px) {
@@ -4422,8 +4427,10 @@ body.redesign .ti-content {
     }
 }
 
-.job-page .stat .stat-val .fa{
-    color: #673AB7;
+.job-page .stat .stat-val {
+    color: #701622;
+    font-size: 2rem;
+    line-height: 1em
 }
 
 @media only screen and (max-width: 800px) {
@@ -4433,14 +4440,14 @@ body.redesign .ti-content {
 }
 
 .job-page .stat .stat-caption {
-    color: #673AB7;
+    color: #C8C8C8;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.8rem
 }
 
 @media only screen and (max-width: 800px) {
     .job-page .stat .stat-caption {
-        font-size: 0.9rem;
+        font-size: 0.9rem
     }
 }
 
@@ -4705,47 +4712,34 @@ h2{
     color: white !important;
     font-size: 15px !important;
     font-weight: bold !important;
-    font-family: lato !important;
+    font-family: helvetica !important;
 }
 
 .about-me-wrapper{
-    margin-bottom: 10px;
-    border-bottom: 1px solid #E0E0E0;
-    border-top: 1px solid #E0E0E0;
-    display: flex;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    display: -webkit-inline-box;
 }
 
 .about-me{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    width: 300px;
+    width: 200px;
+}
+
+.people{
+    text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
-    .nav-cont .hide-block, .hide-block{
+    .nav-cont .hide-block{
         display: none !important;
     }
 
-    .nav-cont .block,
-    .about-me{
+    .nav-cont .block{
         width: 100% !important;
     }
-
-    .about-me-wrapper,
-    .mobile-wrapper{
-        display: block !important;
-    }
-
-    .mobile-feature{
-        margin: 10px !important;
-    }
-
-    .blocks{
-        width: 100% !important;
-        padding: 10px;
-    }
-
-
 }
 
 h4{
@@ -4757,10 +4751,4 @@ h6{
     color: #616161;
     font-weight: 200;
     letter-spacing: 4px;
-}
-
-#company-info h3{
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #333;
 }

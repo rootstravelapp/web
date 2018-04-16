@@ -8,7 +8,6 @@ class SeoContent
 		# They must be written differently for every page. Don’t mass replicate your title tags.
 		# Title tags must be written to be descriptive of the content on the page. (e.g., the About Page would be:
 		Brand = "Travel App | For the Modern Day Hippie Traveller | Explore Gokarna | Roots"
-		Ico = "RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers."
 		Careers = "Roots Beach Internship Program | Roots Careers"
 		Blog = "Official Blog of Roots, App for the Modern Day Hippie Traveller"
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller"
@@ -32,9 +31,8 @@ class SeoContent
 		# It should contain the focus keyword.
 		# The meta description should be unique.
 		Brand = "Download the Hippie's Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
-		Ico = "RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers."
 		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
-		Blog = "Official Blog of RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers.."
+		Blog = "Official Blog of Roots | App for the Modern Day Hippie Traveller."
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller."
 		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller."
 		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller."
@@ -50,7 +48,6 @@ class SeoContent
 
 	module Image
 		Brand = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
-		Ico = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Careers = "http://www.roots.ai/assets/careers-5f979ce008c704be005217b2d8008b0387ecadd35582040e2dc538ad0c885026.jpg"
 		Blog = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
 		Privacy = "http://roots.ai/assets/beta-launch-cover-d670a3e0ea7fe8177f44b25f6ae1910d2a600e5ac87a75e955d6749f9d8ab383.jpg"
