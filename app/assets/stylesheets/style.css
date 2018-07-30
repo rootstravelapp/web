@@ -276,6 +276,14 @@ header {
     .img-holder {
         padding-bottom: 100%;
     }
+    .cities_wrapper{
+        display: block !important;
+    }
+    .item1-wrapper, 
+    .item2-wrapper, 
+    .item3-wrapper{
+        width: 100% !important;
+    }
 }
 
 
