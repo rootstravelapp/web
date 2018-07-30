@@ -75,7 +75,7 @@ mark {
 }
 
 small {
-    font-size: 80%
+    font-size: 65%
 }
 
 sub,
@@ -4709,8 +4709,7 @@ body.redesign .ti-content {
 }
 
 h2{
-    color: white !important;
-    font-size: 15px !important;
+    font-size: 15px;
     font-weight: bold !important;
     font-family: helvetica !important;
 }
