@@ -56,13 +56,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #00796B;
+    color: #333;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #00796B;
+    color: #333;
     font-size: 33px;
     font-weight: 500;
 }
@@ -70,27 +70,27 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #00796B;
+    color: #333;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #00796B;
+    color: #333;
     margin-bottom: 0.7rem;
 }
 
 p {
-    color: #959094;
+    color: #333;
 }
 
 p.lead {
-    color: #26A69A;
+    color: #333;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #C8E6C9 !important;
+    color: #FFF !important;
 }
 
 .light-font {
@@ -106,7 +106,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #8CC152;
+    color: #333;
 }
 
 .btn-primary {
@@ -151,7 +151,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #dcedc854;
+    background-color: #F5F5F5;
 }
 
 .section {
@@ -187,11 +187,12 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient( 135deg, #007382 0%, #86f501 100%);
-    background: -webkit-linear-gradient( 135deg, #007382 0%, #86f501 100%);
-    background: -ms-linear-gradient( 135deg, #007382 0%, #86f501 100%);
-    background: linear-gradient( 135deg, #007382 0%, #86f501 100%);
+    /*background-color: rgb(74, 13, 143);*/
+    /*background: -moz-linear-gradient( 135deg, #007382 0%, #86f501 100%);*/
+    /*background: -webkit-linear-gradient( 135deg, #007382 0%, #86f501 100%);*/
+    /*background: -ms-linear-gradient( 135deg, #007382 0%, #86f501 100%);*/
+    /*background: linear-gradient( 135deg, #007382 0%, #86f501 100%);*/
+    background-color: #FFFFFF;
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -213,7 +214,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #DCEDC8;
+        border-bottom: 2px solid #333;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -251,7 +252,7 @@ header {
 .tagline {
     font-size: 18px;
     font-weight: 600;
-    color: #C8E6C9;
+    color: #333;
     max-width: 800px;
     margin: 0 auto;
     letter-spacing: 6px;
@@ -439,7 +440,7 @@ header {
     border-color: #faf6fb #faf6fb #FFF;
     font-size: 19px;
     color: #8BC34A;
-    background: #b8de8c54;
+    background: #E0E0E0;
 }
 
 .nav-tabs .nav-link.active {
@@ -608,7 +609,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #C8E6C9;
+    color: #FFF;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -755,4 +756,19 @@ header {
     font-size: 12px;
     color: white;
     padding: 0px 20px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #333;
+}
+
+.nav-link,
+.navbar-brand,
+.btn-outline-light{
+    color: #333 !important;
+}
+
+.btn-outline-light{
+    border-color: #333;
 }
